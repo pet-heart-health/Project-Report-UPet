@@ -1,6 +1,6 @@
 # INFORME DEL TRABAJO FINAL
 
-![alt text](assets/img/upc.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo"/>
 
 ### UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
