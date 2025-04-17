@@ -1113,3 +1113,15 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
             </tr>
       </tbody>
 </table>
+
+## 3.3. Impact Mapping.
+
+En esta sección, se presenta el Impact Mapping para cada segmento objetivo. Esta técnica permite visualizar cómo las características del producto contribuyen a los objetivos de negocio y cómo se alinean con las necesidades de los usuarios.
+
+### Segmento 1: Veterinaria
+
+![Impact Mapping Veterinaria](../assets/impact-mapping-veterinaria.png)
+
+### Segmento 2: Propietario de mascota
+
+![Impact Mapping Propietario de mascota](../assets/impact-mapping-propietario.png)
