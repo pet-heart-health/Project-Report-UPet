@@ -831,7 +831,16 @@ Entrevistas: Veterinarias
 
 ### 2.3.3. User Journey Mapping.
 
-
+<ul>
+    <li><strong>Segmento 1: </strong> Propietarios de mascotas</li>
+        <div>
+            <img src="https://i.postimg.cc/5tm35SrP/propietario-mascota-journey-map.png" alt="owner journey map"/>
+        </div>
+    <li><strong>Segmento 2: </strong> Veterinarios</li>
+    <div>
+            <img src="https://i.ibb.co/3TSrghQ/journey-vets.png" alt="vet journey map"/>
+        </div>
+</ul>
 
 ### 2.3.4. Empathy Mapping.
 
