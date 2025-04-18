@@ -353,19 +353,358 @@
 
 ## 2.2. Entrevistas.
 
-
+<p>
+Para recopilar la información más detallada para la implementación de nuestro producto, se realizarán entrevistas con los segmentos objetivo. Las preguntas se estructurarán de manera organizada y clara para asegurar la efectividad de la recopilación de datos. A continuación, se detalla el formato de las preguntas que se emplearán en estas entrevistas:
+</p>
 
 ### 2.2.1. Diseño de entrevistas.
 
-
+<ul>
+    <li>
+        <div><strong>Preguntas generales</strong></div>
+        <div>
+            <ul>
+                <li>¿Cuál es su nombre?</li>
+                <li>¿Cuál es su edad?</li>
+                <li>¿En dónde vive?</li>
+                <li>¿Cuál es su profesión o actividad principal?</li>
+                <li>¿Tiene una mascota o ha tenido alguna en el pasado?</li>
+                <li>Con qué frecuencia usa aplicaciones móviles o en línea para buscar servicios relacionados con mascotas?</li>
+                <li>¿Ha utilizado alguna vez una aplicación o plataforma similar para encontrar una veterinaria? Si es así, ¿cuál fue su experiencia?</li>
+                <li>¿Ha utilizado alguna vez una aplicación o plataforma similar para encontrar una veterinaria? Si es así, ¿cuál fue su experiencia?</li>
+                <li>¿Le gustaría recibir notificaciones sobre ofertas y promociones de veterinarias en su área a través de la plataforma?</li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <div><strong>Preguntas complementarias</strong></div>
+        <strong>Segmento 1: </strong><i>Propietarios de mascotas</i>
+        <div>
+            <ul>
+                <li>Después de un diagnóstico veterinario, ¿qué información le gustaría seguir monitoreando sobre la salud de su mascota?</li>
+                <li>¿Cómo maneja actualmente el seguimiento de la salud de su mascota después de una consulta veterinaria?</li>
+                <li>¿Está familiarizado/a con los collares inteligentes u otros dispositivos IoT para mascotas? ¿Los ha utilizado antes?</li>
+                <li>¿Cómo cree que los collares inteligentes pueden ayudarle a seguir las recomendaciones del veterinario después de un diagnóstico?</li>
+                <li>¿Qué beneficios específicos espera obtener al usar un collar inteligente para el monitoreo continuo de su mascota?</li>
+                <li>¿Cómo cree que los datos recopilados por un dispositivo IoT podrían mejorar su capacidad para gestionar el bienestar de su mascota?</li>
+                <li>¿Qué preocupaciones tiene sobre la integración de la tecnología IoT en el seguimiento de la salud de su mascota? (por ejemplo, privacidad, precisión, costo)</li>
+                <li>¿Qué desafíos anticipa al implementar un dispositivo IoT en la rutina de cuidado de su mascota?</li>
+                <li>¿Cómo le gustaría recibir actualizaciones y alertas sobre el estado de salud de su mascota desde el dispositivo IoT? (por ejemplo, Gmail, Wathsapp, desde la misma app, etc)</li>
+                <li>¿Has tenido alguna vez una experiencia en la que te has preocupado por la pérdida de tu mascota? ¿Puedes describirla?</li>
+                <li>¿Cuán importante es para ti la capacidad de rastrear la ubicación de tu mascota en tiempo real?</li>
+            </ul>
+        </div>
+        <br/>
+        <strong>Segmento 2: </strong><i>Veterinarios</i>
+        <div>
+            <ul>
+                <li>¿Cómo considera que la integración de dispositivos IoT, como collares inteligentes, podría facilitar el seguimiento post-diagnóstico de sus pacientes a través de una aplicación móvil o web?</li>
+                <li>¿Qué tipo de datos de los dispositivos IoT le gustaría que estuvieran disponibles para usted a través de una aplicación móvil o web para ayudar en el monitoreo continuo de la salud de las mascotas?</li>
+                <li>¿Qué beneficios anticipa al tener acceso a datos en tiempo real sobre la salud de las mascotas a través de una aplicación móvil o web?</li>
+                <li>¿Qué funciones le gustaría en una aplicación móvil o web que gestione los datos recopilados por el dispositivo IoT</li>
+                <li>¿Crees que al conocer la ubicación de la mascota y tener acceso a los datos de salud en tiempo real, podrías ofrecer recomendaciones más precisas y efectivas?¿De qué manera?</li>
+                <li>¿Qué tipo de información o informes generados por la aplicación le gustaría compartir con los propietarios de mascotas para mantenerlos informados y comprometidos con el cuidado de su animal?</li>
+                <li>¿Qué tipo de capacitación o soporte necesitaría para utilizar eficazmente una aplicación móvil o web que gestione los datos de dispositivos IoT en su práctica?</li>
+                <li>
+            </ul>
+        </div>
+    </li>
+</ul>
 
 ### 2.2.2. Registro de entrevistas.
 
+Entrevistas: Propietarios de mascotas
 
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Adrián Carrión</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Juliana Yauricasa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad del entrevistado</td>
+                <td>21 </td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Santa Anita</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.postimg.cc/13nQ540K/image.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                    El entrevistado, quien actualmente tiene una mascota, comentó que anteriormente ha utilizado Google Maps para buscar servicios veterinarios, aunque su uso fue limitado a situaciones de emergencia. Para el seguimiento de la salud de su mascota, se basa en el carnet proporcionado por la veterinaria, donde registra las vacunas, fechas, y otros detalles relacionados con la salud de su mascota, como los tratamientos antiparasitarios.
+                    Sin embargo, reconoce que le resulta difícil detectar señales tempranas de enfermedad en su mascota, salvo cuando presenta síntomas visibles como vómitos o letargo. Mencionó que le gustaría tener más información sobre el estado de salud de su mascota, especialmente cuando sale de paseo o en situaciones donde es difícil percibir su bienestar.
+                    En cuanto a la tecnología IoT, su experiencia se limita al uso de teléfonos inteligentes y smartwatches, y aunque no está muy familiarizado con otros dispositivos, cree que la solución presentada le sería útil, especialmente para conocer el estado de salud de su mascota en tiempo real y llevarla al veterinario en caso de emergencia. También valoraría la función de GPS, ya que le daría mayor tranquilidad al poder rastrear a su mascota cuando la suelta en el parque, especialmente después de una experiencia en la que su perro se perdió brevemente tras una pelea con otro perro.
+                    Una de sus preocupaciones respecto al collar IoT es el costo del dispositivo. Además, mencionó que sería importante que el collar fuera resistente al agua y a las rasgaduras, y que los datos proporcionados por el dispositivo fueran precisos y bien calibrados. En cuanto a las notificaciones, le gustaría recibir alertas a través de una alarma o notificaciones en la aplicación, pero también consideraría útil recibir mensajes por WhatsApp en caso de emergencia. En general, considera que la posibilidad de rastrear a su mascota es una funcionalidad muy necesaria.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 10:58 minutos</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b782_upc_edu_pe/ETEUEO35bJNMv9Rx-VTkzC0Bh-1NSiHKcDWy4nLdCWz8qw?e=fb6y9L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Link de la entrevista</a> </td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Jorge Nakasato</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Enzo Trujillo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Carabayllo</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.ibb.co/5T5WZ5x/imagen-2024-09-06-005207237.png" alt="imagen-2024-09-06-005207237"></td>
+                <td><strong>Resumen:</strong><br>
+                Naka mencionó que un collar inteligente sería una solución muy beneficiosa, ya que en el pasado perdió a su perro y le hubiera gustado contar con un dispositivo con GPS para localizarlo cuando se extravió. Además, considera importante que el collar pueda monitorear el estado de salud del perro, como sus latidos y respiración, y que envíe alertas o notificaciones en caso de detectar alguna variación inusual en esos parámetros.         
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 9:13 </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120379_upc_edu_pe/EaBa_l24xzVKpLNLGy6gaT8BLzctqu3SaK4FBmR06DJ2Yg?e=rGln3X&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Entrevista_Jorge_Nakasato</a></td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 3</th>
+                <th>Luisa Manrique</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Josehp Herrera</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad del entrevistado</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Ate</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.postimg.cc/3x7jCf94/image.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                   Luisa nos menciona que nunca ha utilizado una aplicación móvil o web para monitorear a su mascota, pero está interesada en hacerlo. Considera muy importante poder seguir el ritmo cardíaco, la temperatura y la ubicación de su mascota, ya que ha tenido experiencias previas en las que se le perdió. Además, cree que recibir recomendaciones de un veterinario basadas en estos datos sería muy beneficioso, ya que le permitiría evitar visitas frecuentes al veterinario para el control de salud posterior a un diagnóstico, ahorrando así tiempo y dinero.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>8:02 minutos</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="https://drive.google.com/file/d/1_7_7xOQnU_-BfIGQwGQS8nfCd9mgjw35/view?usp=sharing">Link de la entrevista</a> </td>
+            </tr>
+        </tbody>
+</table>
+
+Entrevistas: Veterinarias
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Diego Cantoral</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Daniel Valverde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad del entrevistado</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Pueblo Libre</td>
+            </tr>
+            <tr>
+                <td>
+                    <img width="300" src="https://i.postimg.cc/yYhcdXBV/image.png" alt="foto entrevista pl">
+                </td>
+                <td><strong>Resumen:</strong><br>
+                   Diego, un estudiante de 20 años de la carrera de Medicina Veterinaria, actualmente realiza prácticas en una clínica de mascotas. Al responder las preguntas, fue enfático en la importancia de la tecnología, tanto en sistemas de software como en equipos médicos, para optimizar los procesos de atención y recuperación de los pacientes. Con respecto a la propuesta del collar inteligente, destacó la relevancia de incluir la recolección de signos vitales como la temperatura, saturación y ritmo cardíaco. Estos datos serían fundamentales para tener un mejor entendimiento del estado de salud de los pacientes. Diego prefiere que la información se presente en formato de reporte, lo que le permitiría interpretar mejor los datos para realizar los análisis y diagnósticos necesarios.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td>5:27 minutos</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="https://drive.google.com/file/d/1MT3amJ6t8C4Wv4TXp4tE0n8OyhNpaRqz/view?usp=sharing">Link de la entrevista</a> </td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Pablo Navarro</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Enzo Trujillo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>51</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Comas</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.postimg.cc/hGg8b1Tj/Pablo-Navarro-entrevista.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                Pablo Navarro, veterinario de 51 años en el distrito de Comas, señaló que el principal problema en el país es la falta de un identificador único para cada mascota, lo que facilita el abandono y la falta de consecuencias. Comentó que algunas veterinarias manejan historiales clínicos a través de software, pero estos no se comparten entre establecimientos, lo que obliga a los dueños a repetir la información en cada visita y genera la falta de historial en emergencias. Destacó la importancia de implantar chips con GPS para mejorar la identificación y seguridad de las mascotas, así como concientizar a los dueños sobre una alimentación adecuada, ya que muchos proporcionan alimentos inapropiados. También mencionó la creciente demanda de baños medicados en las veterinarias, llegando a atender hasta 20 por día, y sugirió que un chip con GPS que almacene la información de la mascota podría integrarse en un collar.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 18:43 </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120379_upc_edu_pe/EZWh6omasLBEtiApOliq6jUBgDH9KccOEhWHKd43eL8-Wg?e=1iZcxS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Entrevista_Pablo_Navarro</a></td>
+            </tr>
+        </tbody>
+</table>
 
 ### 2.2.3. Análisis de entrevistas. 
 
+**Análisis de entrevistas a propietarios de mascotas**
+<table>
+        <thead>
+            <tr>
+                <th>Pregunta</th>
+                <th>Respuesta</th>
+            </tr>
+        </thead>
+        <tbody>
+       <tr>
+        <td>Después de un diagnóstico veterinario, ¿qué información le gustaría seguir monitoreando sobre la salud de su mascota?</td>
+        <td>A los entrevistados les gustaría seguir monitoreando el ritmo cardíaco, la temperatura y la ubicación de su mascota. Consideran que esta información es crucial para detectar problemas de salud de manera temprana y para recibir recomendaciones precisas del veterinario.</td>
+    </tr>
+    <tr>
+        <td>¿Cómo maneja actualmente el seguimiento de la salud de su mascota después de una consulta veterinaria?</td>
+        <td>Actualmente, los entrevistados manejan el seguimiento de la salud de sus mascotas a través de los registros proporcionados por el veterinario, como el carnet de vacunación y los detalles de tratamientos. Sin embargo, encuentran difícil detectar señales tempranas de enfermedad sin síntomas visibles.</td>
+    </tr>
+    <tr>
+        <td>¿Está familiarizado/a con los collares inteligentes u otros dispositivos IoT para mascotas? ¿Los ha utilizado antes?</td>
+        <td> Los entrevistados tienen una experiencia limitada con la tecnología IoT, principalmente con teléfonos inteligentes y smartwatches. No han utilizado collares inteligentes para mascotas anteriormente, pero reconocen que podrían ser útiles para el monitoreo de salud y ubicación.</td>
+    </tr>
+    <tr>
+        <td>¿Cómo cree que los collares inteligentes pueden ayudarle a seguir las recomendaciones del veterinario después de un diagnóstico?</td>
+        <td>Los entrevistados creen que los collares inteligentes podrían ayudarles a seguir las recomendaciones del veterinario proporcionando datos en tiempo real sobre la salud de su mascota. Esto les permitiría ajustar tratamientos y evitar visitas frecuentes al veterinario, facilitando un cuidado más eficiente.</td>
+    </tr>
+    <tr>
+        <td>¿Qué beneficios específicos espera obtener al usar un collar inteligente para el monitoreo continuo de su mascota?</td>
+        <td>Los beneficios específicos que esperan obtener incluyen la capacidad de rastrear la ubicación de su mascota, monitorear parámetros de salud como el ritmo cardíaco y la temperatura, y recibir alertas y recomendaciones para actuar rápidamente en caso de anomalías.</td>
+    </tr>
+    <tr>
+        <td>¿Cómo cree que los datos recopilados por un dispositivo IoT podrían mejorar su capacidad para gestionar el bienestar de su mascota?</td>
+        <td>Los entrevistados creen que los datos recopilados por un dispositivo IoT podrían mejorar su capacidad para gestionar el bienestar de su mascota al ofrecer información precisa en tiempo real. Esto les permitiría detectar problemas antes de que se conviertan en emergencias y ajustar el cuidado según sea necesario.</td>
+    </tr>
+    <tr>
+        <td>¿Qué preocupaciones tiene sobre la integración de la tecnología IoT en el seguimiento de la salud de su mascota? (por ejemplo, privacidad, precisión, costo)</td>
+        <td>Las preocupaciones principales de los entrevistados incluyen el costo del dispositivo, la precisión de los datos proporcionados, y la resistencia del collar al agua y a las rasgaduras. También les preocupa la privacidad y la seguridad de los datos.</td>
+    </tr>
+    <tr>
+        <td>¿Qué desafíos anticipa al implementar un dispositivo IoT en la rutina de cuidado de su mascota?</td>
+        <td>Los entrevistados anticipan desafíos como el costo del dispositivo, la necesidad de que sea resistente y preciso, y la posible complejidad de integrarlo en su rutina de cuidado actual.</td>
+    </tr>
+    <tr>
+        <td>¿Cómo le gustaría recibir actualizaciones y alertas sobre el estado de salud de su mascota desde el dispositivo IoT? (por ejemplo, Gmail, WhatsApp, desde la misma app, etc)</td>
+        <td>Los entrevistados prefieren recibir actualizaciones y alertas a través de notificaciones en la aplicación del dispositivo. Sin embargo, también consideran útil recibir mensajes por WhatsApp en caso de emergencias</td>
+    </tr>
+    <tr>
+        <td>¿Has tenido alguna vez una experiencia en la que te has preocupado por la pérdida de tu mascota? ¿Puedes describirla?</td>
+        <td>Sí, algunos entrevistados han tenido experiencias en las que su mascota se perdió brevemente, lo que les causó gran preocupación. Les gustaría tener un dispositivo con GPS para evitar tales situaciones en el futuro.
+</td>
+    </tr>
+    <tr>
+        <td>¿Cuán importante es para ti la capacidad de rastrear la ubicación de tu mascota en tiempo real?</td>
+        <td>Para los entrevistados, es muy importante poder rastrear la ubicación de su mascota en tiempo real. Esto les proporcionaría tranquilidad y les permitiría actuar rápidamente si su mascota se extravía o se encuentra en una situación de riesgo
+        </tbody>
 
+</table>
+
+**Análisis de entrevistas a veterinarias**
+<table>
+        <thead>
+            <tr>
+                <th>Pregunta</th>
+                <th>Respuesta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>¿Cómo considera que la integración de dispositivos IoT, como collares inteligentes, podría facilitar el seguimiento post-diagnóstico de sus pacientes a través de una aplicación móvil o web?</td>
+                <td> Los entrevistados consideran que la integración de dispositivos IoT, como collares inteligentes, facilitaría el seguimiento post-diagnóstico al proporcionar datos en tiempo real sobre los signos vitales de las mascotas, como temperatura, saturación y ritmo cardíaco. Esto permitiría una monitorización continua y precisa, mejorando la capacidad para ajustar tratamientos y evaluar la recuperación de los pacientes.</td>
+        </tr>
+        <tr>
+            <td>¿Qué tipo de datos de los dispositivos IoT le gustaría que estuvieran disponibles para usted a través de una aplicación móvil o web para ayudar en el monitoreo continuo de la salud de las mascotas?</td>
+            <td>Los entrevistados expresaron que les gustaría tener acceso a datos sobre la temperatura, saturación de oxígeno y ritmo cardíaco de las mascotas a través de una aplicación móvil o web. Estos datos serían esenciales para obtener una visión detallada del estado de salud y facilitar el análisis y diagnóstico precisos.</td>
+        </tr>
+        <tr>
+            <td>¿Qué beneficios anticipa al tener acceso a datos en tiempo real sobre la salud de las mascotas a través de una aplicación móvil o web?</td>
+            <td>Los entrevistados anticipan beneficios como una mejor comprensión del estado de salud de las mascotas, la capacidad de intervenir rápidamente ante cualquier cambio significativo en los signos vitales, y una optimización en la toma de decisiones clínicas basada en datos precisos y actualizados</td>
+        </tr>
+        <tr>
+            <td>¿Qué funciones le gustaría en una aplicación móvil o web que gestione los datos recopilados por el dispositivo IoT?</td>
+            <td>Los entrevistados preferirían que la aplicación incluyera funciones para generar reportes detallados sobre los signos vitales, alertas automáticas para variaciones significativas en los datos, y herramientas para comparar datos históricos y actuales para un análisis más completo.</td>
+        </tr>
+        <tr>
+            <td>¿Crees que al conocer la ubicación de la mascota y tener acceso a los datos de salud en tiempo real, podrías ofrecer recomendaciones más precisas y efectivas? ¿De qué manera?</td>
+            <td>Sí, los entrevistados creen que tener acceso a la ubicación de la mascota y a los datos de salud en tiempo real les permitiría ofrecer recomendaciones más precisas y efectivas. Esto facilitaría el monitoreo y la evaluación continua del estado del paciente, permitiendo una intervención temprana ante problemas y la adaptación de los tratamientos según la evolución de la salud del animal.</td>
+        </tr>
+        <tr>
+            <td>¿Qué tipo de información o informes generados por la aplicación le gustaría compartir con los propietarios de mascotas para mantenerlos informados y comprometidos con el cuidado de su animal?</td>
+            <td>Los entrevistados les gustaría compartir informes detallados sobre los signos vitales de la mascota, alertas sobre cualquier anomalía detectada, y resúmenes de la evolución de la salud. Esta información ayudaría a los propietarios a estar bien informados y comprometidos con el cuidado continuo de sus mascotas.</td>
+        </tr>
+        <tr>
+            <td>¿Qué tipo de capacitación o soporte necesitaría para utilizar eficazmente una aplicación móvil o web que gestione los datos de dispositivos IoT en su práctica?</td>
+            <td>Consideran útil contar con soporte técnico para resolver dudas y problemas del sistema</td>
+        </tr>
+        </tbody>
+
+</table>
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
