@@ -720,7 +720,114 @@ Entrevistas: Veterinarias
 
 ### 2.3.2. User Task Matrix.
 
-
+<body>
+    <ul>
+        <li> <strong>User Task Matrix 1: </strong> Propietarios de mascotas</li>
+    </ul>
+    <table>
+        <tr>
+            <th rowspan="2">Tareas</th>
+            <th colspan="2">Marco Antonio</th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Buscar veterinarias cercanas</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Registrar y actualizar información de la mascota</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Consultar disponibilidad de citas</td>
+            <td>Often</td>
+            <td>Medium</td>
+        </tr>
+         <tr>
+            <td>Solicitar una cita</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Obtener información sobre la cita</td>
+            <td>Always</td>
+            <td>Medium</td>
+        </tr>
+         <tr>
+            <td>Monitorear la salud de la mascota a través del wearable inteligente junto al veterinario</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Recibir alertas y recomendaciones basadas en el wearable inteligente</td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Acceder a resultados de pruebas y exámenes </td>
+            <td>Often</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Revisar el historial de médico de la mascota</td>
+            <td>Usually</td>
+            <td>Medium</td>
+        </tr>
+    </table>
+     <ul>
+        <li> <strong>User Task Matrix 2: </strong> Veterinarios</li>
+    </ul>
+    <table>
+        <tr>
+            <th rowspan="2">Tareas</th>
+            <th colspan="2">Alexia Rodriguez</th>
+        </tr>
+        <tr>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+        <tr>
+            <td>Administrar el calendario de citas</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Confirmar o rechazar solicitudes de cita</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+          <tr>
+            <td>Acceder a datos del wearable inteligente</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+            <tr>
+            <td>Actualizar diágnostico en base a los datos del wearable inteligente</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+           <tr>
+            <td>Registrar resultados de exámentes y pruebas</td>
+            <td>Always</td>
+            <td>High</td>
+        </tr>
+          <tr>
+            <td>Actualizar el historial médico de las mascotas</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+         <tr>
+            <td>Notificar sobre la actualización del diagnóstico al propietario de la mascota</td>
+            <td>Sometimes</td>
+            <td>High</td>
+        </tr>
+    </table>
+</body>
 
 ### 2.3.3. User Journey Mapping.
 
