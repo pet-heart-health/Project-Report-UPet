@@ -869,3 +869,87 @@ Entrevistas: Veterinarias
 </ul>
 
 ## 2.4. Ubiquitous Language.
+
+Es un conjunto de términos y conceptos que se utilizarán de manera uniforme a lo largo de la documentación, las conversaciones y el desarrollo del proyecto. Su objetivo es mantener la coherencia y facilitar la comunicación efectiva dentro del equipo, asegurando que todos los miembros compartan una comprensión común del dominio del problema y del sistema.
+<table>
+    <thead>
+        <tr>
+            <th>Término</th>
+            <th>Definción</th>
+        </tr>
+    </thead>
+    <body>
+      <tr>
+            <td>Cita Veterinaria</td>
+            <td>Evento programado en el que un dueño de mascota lleva a su animal a una clínica veterinaria para recibir atención médica, diagnóstico o tratamiento. Las citas se agendan a través del sistema de gestión de citas.</td>
+        </tr>
+        <tr>
+            <td>Historial Médico</td>
+            <td> Registro completo y detallado de la salud de una mascota, que incluye diagnósticos previos, tratamientos recibidos, medicación administrada y cualquier otra información relevante sobre la salud del animal. Este historial es mantenido y actualizado en el sistema de gestión veterinaria.</td>
+        </tr>
+        <tr>
+            <td>Collar Inteligente</td>
+            <td>Dispositivo de monitoreo portátil que se coloca en el collar de una mascota para recolectar datos en tiempo real sobre su actividad, salud y ubicación. Los datos del collar inteligente se integran con el sistema para proporcionar información continua y precisa sobre el estado de la mascota.</td>
+        </tr>
+        <tr>
+            <td>Agenda de Citas</td>
+            <td>Funcionalidad del sistema que permite a los usuarios (dueños de mascotas y veterinarios) programar, visualizar y gestionar citas. Incluye la capacidad de verificar disponibilidad, reprogramar y cancelar citas.</td>
+        </tr>
+        <tr>
+            <td>Seguimiento Médico</td>
+            <td>Proceso de monitoreo continuo de la condición de una mascota después de un diagnóstico inicial. Incluye la evaluación del progreso del tratamiento y ajustes necesarios, basado en datos del historial médico y el monitoreo con el collar inteligente.</td>
+        </tr>
+        <tr>
+            <td>Integración de Datos</td>
+            <td>Proceso mediante el cual se combinan datos provenientes de diferentes fuentes, como historiales médicos y collares inteligentes, en un sistema unificado para ofrecer una visión completa y coherente de la salud de la mascota.</td>
+        </tr>
+        <tr>
+            <td>Registro de Tratamiento</td>
+            <td>Documento o entrada en el sistema que detalla el plan de tratamiento prescrito por el veterinario, incluyendo medicación, dosis, frecuencia y otras instrucciones relevantes para el cuidado de la mascota.</td>
+        </tr>
+        <tr>
+            <td>Notificación de Seguimiento</td>
+            <td>Alerta o recordatorio automático enviado a los dueños de mascotas para informarles sobre el estado de su cita, recordatorios de tratamiento, o la necesidad de realizar un seguimiento con el veterinario.</td>
+        </tr>
+        <tr>
+            <td>Consulta Virtual</td>
+            <td>Sesión remota entre un dueño de mascota y un veterinario, realizada a través del sistema de gestión, que permite la evaluación y discusión de la salud de la mascota sin necesidad de una visita física a la clínica.</td>
+        </tr>
+        <tr>
+            <td>Recordatorio de Medicación</td>
+            <td>Alerta enviada a los dueños de mascotas para recordarles sobre la administración de medicación según el plan de tratamiento prescrito por el veterinario.</td>
+        </tr>
+        <tr>
+            <td>Diagnóstico</td>
+            <td>Determinación de la condición médica de una mascota basada en la evaluación de síntomas, historia clínica y pruebas realizadas por el veterinario.</td>
+        </tr>
+        <tr>
+            <td>Tratamiento</td>
+            <td>Conjunto de intervenciones, medicamentos y cuidados recomendados por el veterinario para tratar una condición o enfermedad específica de la mascota.</td>
+        </tr>
+        <tr>
+            <td>Historial de Actividad</td>
+            <td>Registro de las actividades diarias de la mascota recopiladas por el collar inteligente, como el nivel de actividad física, patrones de sueño y comportamiento.</td>
+        </tr>
+        <tr>
+            <td>Evaluación de Tratamiento</td>
+            <td>Revisión y análisis del progreso de la mascota bajo el tratamiento prescrito, basada en los datos del historial médico y el monitoreo con el collar inteligente, para ajustar el plan según sea necesario.</td>
+        </tr>
+        <tr>
+            <td>Resumen de Consulta</td>
+            <td>Resumen escrito de una consulta veterinaria que incluye los hallazgos principales, el diagnóstico, el plan de tratamiento recomendado y las instrucciones para el cuidado posterior.</td>
+        </tr>
+        <tr>
+            <td>Cuidado Preventivo</td>
+            <td>Medidas y prácticas adoptadas para prevenir enfermedades y mantener la salud general de la mascota, como vacunaciones, desparasitaciones y chequeos regulares.</td>
+        </tr>
+        <tr>
+            <td>Cita de Seguimiento</td>
+            <td>Visita adicional programada con el veterinario para revisar el progreso de una mascota después de un diagnóstico o tratamiento, y hacer ajustes si es necesario.</td>
+        </tr>
+        <tr>
+            <td>Emergencia Veterinaria</td>
+            <td>Situación crítica que requiere atención inmediata de un veterinario debido a una condición grave o potencialmente mortal que afecta a la mascota.</td>
+        </tr>
+    </body>
+</table>
