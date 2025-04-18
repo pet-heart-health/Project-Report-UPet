@@ -857,6 +857,15 @@ Entrevistas: Veterinarias
 
 ### 2.3.5. As-Is Scenario Mapping.
 
-
+<ul>
+    <li><strong>Segmento 1: </strong> Propietarios de mascotas</li>
+        <div>
+            <img src="https://i.postimg.cc/zXDtGBdm/as-is-propietarios.jpg" alt="owner empathy map"/>
+        </div>
+    <li><strong>Segmento 2: </strong> Veterinarios</li>
+    <div>
+            <img src="https://i.postimg.cc/tRNvbPNt/as-is-veterinarios.jpg" alt="veterinario as-is scenario map"/>
+        </div>
+</ul>
 
 ## 2.4. Ubiquitous Language.
