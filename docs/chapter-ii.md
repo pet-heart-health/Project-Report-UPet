@@ -709,7 +709,14 @@ Entrevistas: Veterinarias
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 
-
+<ul>
+    <li><strong>User Persona 1: </strong><i>Propietarios de mascotas</i><br/>
+        <img src="https://i.postimg.cc/02CBMVVH/user-due-o-mascota.png" alt="dueños de mascotas"/>
+    </li>
+    <li><strong>User Persona 2: </strong><i>Veterinarios</i><br/>
+            <img src="https://i.postimg.cc/8PTyShTd/user-veterinario.png" alt="dueños de mascotas"/>
+            </li>
+</ul>
 
 ### 2.3.2. User Task Matrix.
 
