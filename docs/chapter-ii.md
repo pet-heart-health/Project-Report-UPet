@@ -844,7 +844,16 @@ Entrevistas: Veterinarias
 
 ### 2.3.4. Empathy Mapping.
 
-
+<ul>
+    <li><strong>Segmento 1: </strong> Propietarios de mascotas</li>
+        <div>
+            <img src="https://i.postimg.cc/yYk3vyDf/empathy-map-due-o.png" alt="owner empathy map"/>
+        </div>
+    <li><strong>Segmento 2: </strong> Veterinarios</li>
+    <div>
+            <img src="https://i.postimg.cc/zftVCLJm/veterinario-empathy-map.png" alt="veterinario empathy rney map"/>
+        </div>
+</ul>
 
 ### 2.3.5. As-Is Scenario Mapping.
 
