@@ -576,9 +576,24 @@ A continuación mostramos el diagrama de contexto de la arquitectura de software
 En esta sección se presenta el diagrama de contenedores de la solución propuesta. Este diagrama detalla los contenedores de software y sus interrelaciones, proporcionando una visión general de la estructura interna del sistema.
 
 
-![c4-context-diagram](https://i.postimg.cc/GtF4vvzy/containers-1.png)
+![c4-containers-diagram](https://i.postimg.cc/QMKNbVW8/containers-dise-oyexperimentos.png)
 
 ### 4.8.3. Software Architecture Components Diagrams
+
+En esta sección se presentan los diagramas de componentes correspondientes a cada contenedor identificado en la arquitectura. Estos diagramas descomponen los contenedores en sus componentes internos principales, como módulos, paquetes o capas, mostrando cómo se organizan y colaboran entre sí para cumplir con los requerimientos del sistema. Esta vista permite comprender en mayor detalle la estructura interna y responsabilidades de cada parte del software.
+
+**Appointments container**
+![info](https://i.postimg.cc/RhtGv783/image.png)
+**Auth container**
+![info](https://i.postimg.cc/0QFcgWtR/image.png)
+**HealtPet container**
+![info](https://i.postimg.cc/L8KB3gWD/image.png)
+**Notifications container**
+![info](https://i.postimg.cc/KcCsCzVk/image.png)
+**Profiles container**
+![info](https://i.postimg.cc/vTC7j4ZQ/image.png)
+
+
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
