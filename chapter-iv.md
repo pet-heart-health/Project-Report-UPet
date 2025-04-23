@@ -484,28 +484,28 @@ En dispositivos móviles, las notificaciones serán integradas en el sistema ope
 En esta sección, presentamos los wireframes de la landing page de Upet, una plataforma innovadora diseñada para conectar a dueños de mascotas con veterinarios de confianza. Los wireframes proporcionan una visión estructural de la página, destacando la disposición y funcionalidad de cada sección clave.
 
 *Sección Home*
-![Home](../assets/img/chapter-v/home_lp.png)
+![Home](./assets/img/chapter-v/home_lp.png)
 
 *Sección About*
-![About](../assets/img/chapter-v/proposito.png)
+![About](./assets/img/chapter-v/proposito.png)
 
 *Sección Dueños de mascotas*
-![Dueños de mascotas](../assets/img/chapter-v/seccion_pet.png)
+![Dueños de mascotas](./assets/img/chapter-v/seccion_pet.png)
 
 *Sección Veterinarios*
-![Veterinarios](../assets/img/chapter-v/seccion_vet.png)
+![Veterinarios](./assets/img/chapter-v/seccion_vet.png)
 
 *Sección Review*
-![Review](../assets/img/chapter-v/seccion_review.png)
+![Review](./assets/img/chapter-v/seccion_review.png)
 
 *Sección Download*
-![Download](../assets/img/chapter-v/seccion_download.png)
+![Download](./assets/img/chapter-v/seccion_download.png)
 
 *Sección Contact*
-![Contact](../assets/img/chapter-v/seccion_sendamessage.png)
+![Contact](./assets/img/chapter-v/seccion_sendamessage.png)
 
 *Sección Footer*
-![Footer](../assets/img/chapter-v/seccion_footer.png)
+![Footer](./assets/img/chapter-v/seccion_footer.png)
 
 Enlace: https://www.figma.com/design/1S78nWoDziNLXLZov0LHaO/IOT---LandingPage?node-id=0-1&t=TQJZTBEcEyWMmmIQ-1
 
@@ -514,28 +514,28 @@ Enlace: https://www.figma.com/design/1S78nWoDziNLXLZov0LHaO/IOT---LandingPage?no
 En esta sección, presentamos los mockups de la landing page de Upet, que ofrecen una representación visual detallada y estilizada de la interfaz final. Los mockups permiten visualizar el diseño estético y la experiencia de usuario, proporcionando una imagen clara de cómo se verá y funcionará la página.
 
 *Sección Home*
-![Home](../assets/img/chapter-v/home_mk.png)
+![Home](./assets/img/chapter-v/home_mk.png)
 
 *Sección About*
-![About](../assets/img/chapter-v/proposito_mk.png)
+![About](./assets/img/chapter-v/proposito_mk.png)
 
 *Sección Dueños de mascotas*
-![Dueños de mascotas](../assets/img/chapter-v/pet_mk.png)
+![Dueños de mascotas](./assets/img/chapter-v/pet_mk.png)
 
 *Sección Veterinarios*
-![Veterinarios](../assets/img/chapter-v/vet_mk.png)
+![Veterinarios](./assets/img/chapter-v/vet_mk.png)
 
 *Sección Review*
-![Review](../assets/img/chapter-v/review_mk.png)
+![Review](./assets/img/chapter-v/review_mk.png)
 
 *Sección Download*
-![Download](../assets/img/chapter-v/download_mk.png)
+![Download](./assets/img/chapter-v/download_mk.png)
 
 *Sección Contact*
-![Contact](../assets/img/chapter-v/sendamessage_mk.png)
+![Contact](./assets/img/chapter-v/sendamessage_mk.png)
 
 *Sección Footer*
-![Footer](../assets/img/chapter-v/footer_mk.png)
+![Footer](./assets/img/chapter-v/footer_mk.png)
 
 Enlace: https://www.figma.com/design/1S78nWoDziNLXLZov0LHaO/IOT---LandingPage?node-id=9-201&t=TQJZTBEcEyWMmmIQ-1
 
@@ -583,7 +583,7 @@ En esta sección se presenta el diagrama de contenedores de la solución propues
 En esta sección se presentan los diagramas de componentes correspondientes a cada contenedor identificado en la arquitectura. Estos diagramas descomponen los contenedores en sus componentes internos principales, como módulos, paquetes o capas, mostrando cómo se organizan y colaboran entre sí para cumplir con los requerimientos del sistema. Esta vista permite comprender en mayor detalle la estructura interna y responsabilidades de cada parte del software.
 
 **Appointments container**
-![info](https://i.postimg.cc/RhtGv783/image.png)
+![info](https://i.postimg.cc/4NJX7WfQ/components-diagram-dise-o-y-experimentos-appointments.png)
 **Auth container**
 ![info](https://i.postimg.cc/0QFcgWtR/image.png)
 **HealtPet container**
