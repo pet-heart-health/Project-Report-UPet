@@ -60,7 +60,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 **Entregable TB1**
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primera entrega. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
-[!](../assets/colaboration-report.png)
+![alt-text](assets/contribution-report.png)
 
 # Student Outcome
 
