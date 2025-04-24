@@ -1219,7 +1219,7 @@ Durante el sprint 1, el equipo trabajo activamente en el reporte. Como el trabaj
                                       Report
 ![alt text](../assets/contribution-report.png)
 
-## Capítulo VII: Conclusiones
+## Capítulo VI: Conclusiones
 
 1. **Optimización de la gestión de citas veterinarias:** El proyecto permitió digitalizar y simplificar el proceso de agendamiento, reprogramación y cancelación de citas, ofreciendo a los usuarios una forma más eficiente de gestionar el cuidado de sus mascotas.
 
@@ -1233,13 +1233,13 @@ Durante el sprint 1, el equipo trabajo activamente en el reporte. Como el trabaj
 El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando cómo herramientas avanzadas pueden integrarse de manera efectiva en la vida diaria para solucionar problemas prácticos.
 
 
-## Capítulo VIII: Bibliografía
+## Capítulo VII: Bibliografía
 
 1. **Tull Soriano, Luis Federico.** *Prototipo de monitor de signos vitales en pacientes veterinarios de especie canina utilizando IoT.* Universidad Nacional Pedro Henríquez Ureña, 2021. [https://repositorio.unphu.edu.do/handle/123456789/3485](https://repositorio.unphu.edu.do/handle/123456789/3485)
 
 2. **Grados Denegri, Felipe Alfredo, y Freddy Hernan Rodriguez Vega.** *Aplicativo móvil para la gestión de servicios clínicos veterinarios en Lima - Metropolitana.* Universidad Autónoma del Perú, 2021. [https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079](https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079)
 
-## Capítulo IX: Anexo
+## Capítulo VIII: Anexo
 
 - **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
 - **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
