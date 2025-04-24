@@ -39,11 +39,12 @@ Nuestra visión es ser líderes en el sector de tecnología para el cuidado de m
         <tr>
             <!-- DATOS del integrante 2-->
             <td > 
-            <img src="https://i.postimg.cc/fyQRmVnc/juliana-foto.jpg" height="100" alt=""> 
-            <br> Juliana Alexandra Yauricasa Seguil (U20201B782) 
+            <img src="../assets/Fabricio.jpg" height="100" alt=""> 
+            <br> Fabricio Apaza Morales (U201922146) 
             </td>
             <!-- DESCRIPCIÓN del integrante 2-->
-            <td > Soy Juliana Yauricasa, estudiante de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Con relación al trabajo en grupo, me considero una persona ordenada y responsable. Por ello, participaré activamente en las actividades grupales para culminar el proyecto de manera satisfactoria.</td>
+            <td > Soy Fabricio Apaza Morales, estudiante de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). 
+            Tengo conocimientos en Frontend como Backend, a su vez, me interesa el analisis de datos. Con relación al trabajo en grupo, me considero una persona responsable. Por ello, participaré activamente en las actividades grupales para culminar el proyecto de manera satisfactoria.</td>
             <!-- CONOCIMIENTOS del integrante 2-->
         </tr>
         <tr>
@@ -66,22 +67,14 @@ Nuestra visión es ser líderes en el sector de tecnología para el cuidado de m
             <td > Actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Poseo experiencia y habilidades en diversas tecnologías utilizadas en el desarrollo web, tanto en el frontend como en el backend. Me considero una persona apasionada por la tecnología, con una sólida base en programación y un enfoque orientado a resultados. Además, disfruto del trabajo en equipo y estoy constantemente buscando oportunidades para aprender y crecer profesionalmente en el campo de la ingeniería de software.</td>
             <!-- CONOCIMIENTOS del integrante 4-->
         </tr>
-        <tr>
-            <!-- DATOS del integrante 5-->
-            <td > 
-            <img src="https://i.postimg.cc/L4jXR3LN/randy-foto.jpg" height="100" alt=""> 
-            <br> Randy Becker Rengifo Mirabal (U20211d683)
-            </td>
-            <!-- DESCRIPCIÓN del integrante 5-->
-            <td > Actualmente estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuanto con conocimiento en programación web tanto en el frontend como en el backend, del mismo modo en la programación móvil con conocimientos básicos. Me considero una persona proactiva, perseverante, y sobre todo responsable. Mis pasatiempos favoritos son escuchar música, jugar videojuegos o algún deporte como el fútbol.</td>
-            <!-- CONOCIMIENTOS del integrante 5-->
-        </tr>
     </body>
 </table>
-## 1.2. Solution Profile
-Un "Solution Profile" es una presentación que describe en detalle una solución específica ofrecida por una empresa o startup. Este perfil está diseñado para comunicar claramente cómo una solución (ya sea un producto, servicio, o una combinación de ambos) aborda y resuelve un problema o necesidad particular de los clientes o del mercado.
-### 1.2.1. Antecedentes y problemática
 
+## 1.2. Solution Profile
+
+Un "Solution Profile" es una presentación que describe en detalle una solución específica ofrecida por una empresa o startup. Este perfil está diseñado para comunicar claramente cómo una solución (ya sea un producto, servicio, o una combinación de ambos) aborda y resuelve un problema o necesidad particular de los clientes o del mercado.
+
+### 1.2.1. Antecedentes y problemática
 ### Antecedentes
 
 En los últimos años, el número de hogares que adoptan mascotas ha aumentado significativamente, reflejando una tendencia global hacia el reconocimiento de los animales como miembros importantes de la familia. Con este crecimiento, también ha crecido la demanda por servicios que garanticen el bienestar de las mascotas. Sin embargo, muchos dueños de mascotas enfrentan desafíos para acceder a atención veterinaria de calidad, coordinar citas, y llevar un control adecuado de la salud de sus animales. Aunque existen aplicaciones móviles y plataformas web que ofrecen algunos de estos servicios, la mayoría carece de integración y personalización, lo que limita su efectividad y uso generalizado.
