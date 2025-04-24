@@ -673,17 +673,73 @@ Además, puede visualizar el historial médico de su mascota, historial de citas
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+
+**Registrar mascota**
+![w1](https://i.postimg.cc/TYTFC2Pv/image.png)
+**Registrar cita**
+![w2](https://i.postimg.cc/3Jrf2LLK/image.png)
+**Reprogramación de citas**
+![w3](https://i.postimg.cc/NjSNqQQM/image.png)
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
+**Registrar mascota**
+![img](https://i.postimg.cc/L5kz7MNJ/image.png)
+
+**Subir foto de la mascota**
+![img](https://i.postimg.cc/zXjCF8yM/image.png)
+
+**Editar información de la mascota**
+![img](https://i.postimg.cc/LsqjSPxK/image.png)
+
+**Agendar cita**
+![img](https://i.postimg.cc/G3PGbdx2/image.png)
+
+**Registrar sucesos médicos**
+![img](https://i.postimg.cc/9FWTMKLB/image.png)
+
 ### 4.6.3. Web Applications Mock-ups
+
+**Inicio de sesión y registro**
+![auth](https://i.postimg.cc/FR8WmmyG/image.png)
+
+**Otras funcionalidades**
+![img](https://i.postimg.cc/rppQrzgQ/image.png)
+![img](https://i.postimg.cc/c13TYpMy/image.png)
+![img](https://i.postimg.cc/RVzdTgX3/image.png)
+![img](https://i.postimg.cc/vZ0vbbM9/image.png)
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
+**Registrar mascota**
+![img](https://i.postimg.cc/4yng2JJ5/image.png)
+
+**Subir foto de la mascota**
+![img](https://i.postimg.cc/wMPdSSMd/image.png)
+
+**Editar información de la mascota**
+![img](https://i.postimg.cc/pXhvDXcV/image.png)
+
+**Agendar cita**
+![img](https://i.postimg.cc/Kv62QSCP/image.png)
+
+**Registrar sucesos médicos**
+![img](https://i.postimg.cc/Bn2GV7Gd/image.png)
+
 ## 4.7. Web Applications Prototyping
+![img](https://i.postimg.cc/bJVXtKQ2/image.png)
+[Enlace al prototipo](https://www.figma.com/proto/YLw0Ul43ixFzCgbO0J63md/IOT---Web-Application?page-id=2%3A2&node-id=363-14023&viewport=-2383%2C-2125%2C0.12&t=gtjSvrQJypkZYzGk-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=363%3A14019)
+
 
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
 A continuación mostramos el diagrama de contexto de la arquitectura de software de la solución propuesta. En este diagrama se presentan los actores externos que interactúan con el sistema y los sistemas externos con los que se comunica.
 
 ![c4-context-diagram](https://i.postimg.cc/gjDvmyvD/c4-upet-2.png)
+![c4-context-diagram](https://i.postimg.cc/gjDvmyvD/c4-upet-2.png)
+![c4-context-diagram](https://i.postimg.cc/gjDvmyvD/c4-upet-2.png)
+![c4-context-diagram](https://i.postimg.cc/gjDvmyvD/c4-upet-2.png)
+
 
 ### 4.8.2. Software Architecture Container Diagrams
 
