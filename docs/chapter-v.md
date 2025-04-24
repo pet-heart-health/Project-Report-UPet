@@ -439,7 +439,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">US018</td>
+    <td rowspan="3">US012</td>
     <td rowspan="3">Navegar en la página principal</td>
     <td>TA01</td>
     <td>Agregar Botón</td>
@@ -467,7 +467,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
    <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US021</td>
+    <td rowspan="2">US015</td>
     <td rowspan="2">Descargar la aplicación</td>
     <td>TA01</td>
    <td>Agregar Botones</td>
@@ -487,7 +487,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
  <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US019</td>
+    <td rowspan="2">US013</td>
     <td rowspan="2">Ver funcionalidades para propietarios de mascotas</td>
     <td>TA01</td>
    <td>Agregar sección</td>
@@ -507,7 +507,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
  <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US020</td>
+    <td rowspan="2">US014</td>
     <td rowspan="2">Ver funcionalidades para veterinarias</td>
     <td>TA01</td>
    <td>Agregar sección</td>
@@ -527,7 +527,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
  <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US017</td>
+    <td rowspan="2">US011</td>
     <td rowspan="2">Revisar reseñas de la aplicación</td>
    <td>TA01</td>
    <td>Agregar sección</td>
@@ -547,7 +547,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
  <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="1">US016</td>
+    <td rowspan="1">US010</td>
     <td rowspan="1">Ver información del footer</td>
     <td>TA01</td>
    <td>Agregar footer</td>
@@ -559,7 +559,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US022</td>
+    <td rowspan="2">US016</td>
     <td rowspan="2">Enviar un mensaje desde el sitio de web estático</td>
     <td>TA01</td>
    <td>Agregar sección</td>
@@ -607,7 +607,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">TS004</td>
+    <td rowspan="3">TS002</td>
     <td rowspan="3">Endpoint Pet</td>
     <td>TA01</td>
    <td>Crear Modelo</td>
@@ -683,7 +683,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">TS002</td>
+    <td rowspan="3">TS001</td>
     <td rowspan="3">Endpoint Medical History</td>
     <td>TA01</td>
    <td>Crear Modelo</td>
@@ -711,7 +711,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US015</td>
+    <td rowspan="2">US009</td>
     <td rowspan="2">Visualizar resumen del historial médico</td>
     <td>TA01</td>
    <td>Implementar diseño</td>
@@ -731,7 +731,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">US011</td>
+    <td rowspan="3">US005</td>
     <td rowspan="3">Registrar vacunas</td>
     <td>TA01</td>
    <td>Añadir botón</td>
@@ -759,7 +759,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">US012</td>
+    <td rowspan="3">US006</td>
     <td rowspan="3">Registrar resultados</td>
     <td>TA01</td>
    <td>Añadir botón</td>
@@ -787,7 +787,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">US013</td>
+    <td rowspan="3">US007</td>
     <td rowspan="3">Registrar cirugías</td>
     <td>TA01</td>
    <td>Añadir botón</td>
@@ -815,7 +815,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">US014</td>
+    <td rowspan="3">US008</td>
     <td rowspan="3">Registrar enfermedades</td>
     <td>TA01</td>
    <td>Añadir botón</td>
@@ -843,7 +843,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="3">TS006</td>
+    <td rowspan="3">TS004</td>
     <td rowspan="3">Endpoint Veterinary Clinic</td>
     <td>TA01</td>
    <td>Crear Modelo</td>
@@ -871,10 +871,58 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US007</td>
-    <td rowspan="2">Acceso de la veterinaria a la información de la mascota</td>
+    <td rowspan="3">US023</td>
+    <td rowspan="3">Añadir ubicación</td>
     <td>TA01</td>
-   <td>Implementar diseño</td>
+   <td>Añadir botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de ubicación</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Guardar información</td>
+    <td>Implementar guardado de datos.</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US017</td>
+    <td rowspan="2">Mostrar tu ubicación actual</td>
+    <td>TA01</td>
+   <td>Añadir botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar lectura de datos</td>
+    <td>Implementar lectura de datos de historial</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US018</td>
+    <td rowspan="2">Ver las valoraciones y comentarios de la veterinaria</td>
+    <td>TA01</td>
+    <td>Implementar diseño</td>
     <td>Implementar diseño de lista.</td>
     <td>1</td>
     <td>Marcelo Rentería</td>
@@ -883,7 +931,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <tr>
     <td>TA02</td>
     <td>Implementar lectura de datos</td>
-    <td>Implementar lectura de datos de mascota</td>
+    <td>Implementar lectura de datos de comentarios</td>
     <td>3</td>
     <td>Marcelo Rentería</td>
     <td>Done</td>
@@ -891,7 +939,35 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US029</td>
+    <td rowspan="3">US019</td>
+    <td rowspan="3">Añadir valoraciones y comentarios</td>
+    <td>TA01</td>
+   <td>Añadir botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de valoración</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Guardar información</td>
+    <td>Implementar guardado de datos.</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US022</td>
     <td rowspan="2">Entrar al perfil de cada veterinaria</td>
     <td>TA01</td>
    <td>Implementar diseño</td>
@@ -911,7 +987,7 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
   <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US027</td>
+    <td rowspan="2">US020</td>
     <td rowspan="2">Ver detalles de cada veterinaria</td>
     <td>TA01</td>
    <td>Implementar diseño</td>
@@ -924,6 +1000,26 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
     <td>TA02</td>
     <td>Implementar lectura de datos</td>
     <td>Implementar lectura de datos de veterinaria</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US021</td>
+    <td rowspan="2">Ver reseñas y evaluación</td>
+    <td>TA01</td>
+    <td>Implementar diseño</td>
+    <td>Implementar diseño de lista.</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar lectura de datos</td>
+    <td>Implementar lectura de datos de reseña</td>
     <td>3</td>
     <td>Marcelo Rentería</td>
     <td>Done</td>
@@ -948,6 +1044,86 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
     <td>Marcelo Rentería</td>
     <td>Done</td>
   </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">TS003</td>
+    <td rowspan="3">Endpoint User</td>
+    <td>TA01</td>
+   <td>Crear Modelo</td>
+    <td>Crear Modelo User</td>
+    <td>2</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Crear Schema</td>
+    <td>Crear Schema User</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Crear Servicio</td>
+    <td>Crear Servicio Endpoint User</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US024</td>
+    <td rowspan="2">Registro de cuenta</td>
+    <td>TA01</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de cuenta</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar guardado de datos</td>
+    <td>Implementar guardado de datos de imagen</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US025</td>
+    <td rowspan="2">Iniciar sesión</td>
+    <td>TA01</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de cuenta</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar lectura de datos</td>
+    <td>Implementar lectura de datos de cuenta</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US026</td>
+    <td rowspan="2">Cerrar Sesión</td>
+    <td>TA01</td>
+    <td>Añadir botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
 </table>
 
 
@@ -966,9 +1142,21 @@ Para la entrega de este Sprint, se completó con éxito el despliegue de la Land
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue del Frontend.
+**Frontend desplegado:** https://frontend-app-upet.netlify.app/ 
+![frontend-picture](../assets/frontend-picture1.png)
+![frontend-picture](../assets/frontend-picture2.png)
+![frontend-picture](../assets/frontend-picture3.png)
+![frontend-picture](../assets/frontend-picture4.png)
+![frontend-picture](../assets/frontend-picture5.png)
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue del Mobile App.
+
+![mobile-picture](../assets/mobile-picture1.jpeg)
+![mobile-picture](../assets/mobile-picture2.jpeg)
+![mobile-picture](../assets/mobile-picture3.jpeg)
+![mobile-picture](../assets/mobile-picture4.jpeg)
+![mobile-picture](../assets/mobile-picture5.jpeg)
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue del Backend.
@@ -1054,7 +1242,7 @@ El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando 
 ## Capítulo IX: Anexo
 
 - **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
-- **Web Frontend:** [Enlace al proyecto web](https://devpaw-upet.web.app/auth/login)
+- **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
 - **Aplicación Móvil:** [Enlace al proyecto móvil](URL_DEL_MOBILE)
 - **Backend:** [Enlace al backend](https://upetbackendapi.onrender.com/docs#/)
 - **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
