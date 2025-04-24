@@ -838,7 +838,7 @@ Entrevistas: Veterinarias
         </div>
     <li><strong>Segmento 2: </strong> Veterinarios</li>
     <div>
-            <img src="https://i.ibb.co/3TSrghQ/journey-vets.png" alt="vet journey map"/>
+            <img src="../assets/dueño-journey.jpeg" alt="vet journey map"/>
         </div>
 </ul>
 
