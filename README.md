@@ -15,10 +15,10 @@ Nombre del StartUp: Pet-Heart-Health
 Nombre del Producto: UPet
 Relación de Integrantes:
 
-* Josehp Piero Herrera del Pino - U20211E098
-* Fabricio Apaza Morales - U201922146
-* Rentería Puga, Héctor Marcelo - U202216558
-* Flores Avalos, Diego - U20221B394
+- Josehp Piero Herrera del Pino - U20211E098
+- Fabricio Apaza Morales - U201922146
+- Rentería Puga, Héctor Marcelo - U202216558
+- Flores Avalos, Diego - U20221B394
 
 Abril, 2025.
 
@@ -26,14 +26,11 @@ Abril, 2025.
 
 <table>
 <tr>
-
     <th colspan="3">Version</th>
     <th colspan="3">Fecha</th>
     <th colspan="10">Autores</td>
     <th colspan="5">Descripción de Modificaciones</td>
-
   <tr>
-
     <td colspan="3">1era</td>
     <td colspan="3">10/4/2024</td>
     <td colspan="10">Héctor Marcelo Rentería Puga, Josehp Piero Herrera del Pino, Fabricio Apaza Morales, Diego Flores Avalos.</td>
@@ -41,7 +38,6 @@ Abril, 2025.
      - Primera versión<br>
      - Creación del informe<br>
      - Capítulo 1 al 5<br>
-
   </table>
 
 ## Project Report Collaboration Insights
@@ -52,14 +48,14 @@ A continuación, se detalla el proceso de elaboración del informe para cada ent
 
 Se divieron las siguientes ramas para la colaboración en el proyecto:
 
-* master
-* develop
-* chapter-i
-* chapter-ii
-* chapter-iii
-* chapter-iv
-* chapter-v
-* chapter-vi
+- master
+- develop
+- chapter-i
+- chapter-ii
+- chapter-iii
+- chapter-iv
+- chapter-v
+- chapter-vi
 
 **Entregable TB1**
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primera entrega. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
