@@ -96,17 +96,20 @@ Cercano/Positivo: "¡Recuerda! Hoy es la cita de Luna con el Dr. Pérez a las 4:
 Informativo/Profesional: "La cita con el veterinario fue registrada exitosamente. El historial médico de Max ha sido actualizado."
 
 ### 4.1.2. Web Style Guidelines
+En general, para los lineamientos de estilo web, utilizaremos la fuente seleccionada los lineamientos generales: la fuente Poppins. Esta fuente se destaca por su legibilidad y estilo moderno, lo que la hace ideal para proyectos web. Además, se presenta la selección de colores para nuestra landing page y aplicación web, junto con el logotipo característico de nuestro producto, el cual no tendrá muchas variantes. También se muestran los diferentes formatos de botones que utilizaremos, así como la selección del estilo de tarjeta que aplicaremos en algunas secciones de nuestra landing page. Por último, se presenta la selección de íconos que servirán para la navegación.
 
 
+![android-guidelines](./assets/img/chapter-v/web-guidelines-final.png)
 
 ### 4.1.3. Mobile Style Guidelines
 
 La interfaz de la aplicación móvil para Upet está diseñada para maximizar la usabilidad en pantallas pequeñas, optimizando las interacciones y ofreciendo una experiencia centrada en el usuario que es tanto funcional como atractiva.
 
-#### 4.1.3.1. iOS Mobile Style Guidelines
+#### 4.1.3.1. Android Mobile Style Guidelines
 
-#### 4.1.3.2. Android Mobile Style Guidelines
+![android-guidelines](./assets/img/chapter-v/andorid-guidelines.png)
 
+**Material design 3**
 
 
 ## 4.2. Information Architecture
@@ -313,11 +316,6 @@ En la aplicación web, se integrará una barra de búsqueda global accesible des
 
 Para ayudar a los usuarios a encontrar la información correcta entre grandes volúmenes de datos, se incluirán filtros contextuales específicos según la sección donde se esté realizando la búsqueda.
 
-- Filtros de Salud y Monitoreo IoT:
-
-1. Métricas de salud: Los usuarios podrán filtrar los datos de salud por signos vitales específicos, como temperatura corporal, frecuencia cardíaca, o nivel de actividad.
-2. Rango de fechas: Se podrá seleccionar un rango de fechas para buscar eventos de salud específicos o alertas generadas por el collar IoT.
-
 - Filtros de Citas:
 
 1. Estado de la cita: Los usuarios podrán filtrar citas programadas, completadas o canceladas.
@@ -332,25 +330,19 @@ Para ayudar a los usuarios a encontrar la información correcta entre grandes vo
 
 Una vez realizada la búsqueda, los resultados se mostrarán en una vista clara y estructurada, dependiendo de la sección donde se realice la búsqueda:
 
-- Salud de la Mascota: Los resultados incluirán tarjetas de resumen con las métricas de salud (frecuencia cardíaca, temperatura, actividad) y su estado actual. Si se buscan alertas, estas se mostrarán en una lista ordenada cronológicamente.
 - Citas: Los resultados mostrarán una lista de citas en un formato de tarjeta, donde cada cita incluye la fecha, veterinario, y estado (completada, cancelada, pendiente). Habrá botones de acción para editar o cancelar citas directamente desde los resultados.
 - Historial Médico: Se presentarán listas cronológicas de eventos médicos, incluyendo tratamientos, diagnósticos y vacunaciones. Cada entrada tendrá un enlace para ver detalles completos del evento.
 
 ### **Búsqueda en la Aplicación Móvil**
 **Barra de búsqueda en la App Móvil**
 
-En la aplicación móvil, la barra de búsqueda será prominente en las principales secciones como Citas, Historial de Salud y Monitoreo IoT. Dado el espacio limitado en pantallas móviles, la barra de búsqueda estará ubicada en la parte superior de cada pantalla de estas secciones, accesible con un simple toque.
+En la aplicación móvil, la barra de búsqueda será prominente en las principales secciones como Citas e Historial de Salud. Dado el espacio limitado en pantallas móviles, la barra de búsqueda estará ubicada en la parte superior de cada pantalla de estas secciones, accesible con un simple toque.
 
 - Sugerencias predictivas: Conforme el usuario escribe en la barra de búsqueda, la aplicación móvil ofrecerá sugerencias basadas en entradas previas o búsquedas comunes, reduciendo el tiempo necesario para encontrar la información correcta.
 
 **Filtros de búsqueda en la App Móvil**
 
 Al igual que en la versión web, los filtros son fundamentales para ayudar a los usuarios móviles a encontrar datos de manera eficiente.
-
-- Filtros en monitoreo IoT:
-
-1. Parámetros de salud: Los usuarios podrán filtrar por parámetros como frecuencia cardíaca, nivel de actividad o temperatura corporal.
-2. Fechas recientes: El filtro de fechas recientes estará disponible en formato de calendario desplegable para seleccionar rangos de fechas específicas.
 
 - Filtros en citas:
 
@@ -365,8 +357,6 @@ Al igual que en la versión web, los filtros son fundamentales para ayudar a los
 **Presentación de resultados en Móvil**
 
 En la aplicación móvil, los resultados de búsqueda se presentan de forma clara y optimizada para pantallas pequeñas:
-
-- Resultados de salud IoT: Los resultados se mostrarán en un formato de tarjetas simplificado, mostrando el dato principal (temperatura, frecuencia cardíaca, etc.) en letras grandes, con un código de color que indica normalidad (verde), advertencia (amarillo) o alerta (rojo).
 
 - Resultados de citas: Se mostrarán como una lista vertical de tarjetas de cita, donde el usuario puede ver el veterinario, la fecha, y la opción para reprogramar o cancelar la cita directamente.
 
@@ -405,7 +395,7 @@ En la Landing Page, la navegación global será un menú principal visible en to
 
 *Secciones principales del menú:*
 - Inicio: Llamado a la acción inmediato para descargar la aplicación o registrarse.
-- Funcionalidades: Resumen de las características principales de Upet, como monitoreo de salud, GPS, y gestión de citas.
+- Funcionalidades: Resumen de las características principales de Upet,gestión de citas y manejos de historiales médicos.
 - Veterinarios: Información dirigida a los veterinarios que usan la plataforma, mostrando beneficios y herramientas específicas.
 - Testimonios: Sección de reseñas y experiencias de otros usuarios.
 - Contacto: Enlace a una página que permite a los usuarios ponerse en contacto con el equipo de Upet.
@@ -431,18 +421,16 @@ La Landing Page está estructurada de manera vertical con un diseño de desplaza
 En la aplicación web, los usuarios accederán a través de una barra de navegación fija en la parte superior o lateral de la pantalla, que les permitirá moverse entre las principales funcionalidades sin perder el contexto de donde están. Esta barra será accesible en todo momento, lo que garantiza una navegación rápida y fluida.
 
 *Secciones de la Barra de Navegación:*
-- Dashboard: Pantalla principal con un resumen de la salud y el estado de la mascota.
-- Salud: Sección donde los usuarios pueden revisar la información de los signos vitales en tiempo real proporcionada por el collar IoT.
+- Inicio: Pantalla principal con un la lista de sus mascotas y clinicas veterinarias cercanas.
 - Citas: Vista para gestionar citas veterinarias, incluyendo el agendamiento, cancelación y recordatorios.
-- Ubicación: Funcionalidad de rastreo GPS, donde los propietarios pueden ver la ubicación actual de su mascota.
 - Historial: Acceso al historial médico de la mascota, incluyendo consultas anteriores y registros de salud.
 - Ajustes: Configuración de cuenta y preferencias de notificaciones y alertas.
 
 *Navegación por Filtros*
 
-Para facilitar el acceso a información específica, la aplicación web de Upet permitirá a los usuarios filtrar datos de salud y citas. Estos filtros estarán ubicados en la parte superior de las secciones respectivas y permitirán a los usuarios clasificar la información por fecha, tipo de consulta o métricas de salud (frecuencia cardíaca, temperatura, actividad física).
+Para facilitar el acceso a información específica, la aplicación web de Upet permitirá a los usuarios filtrar datos de salud y citas. Estos filtros estarán ubicados en la parte superior de las secciones respectivas y permitirán a los usuarios clasificar la información por fecha.
 
-- Filtros en el Historial de Salud: Los usuarios podrán filtrar los registros de salud de su mascota según fechas (más recientes o más antiguos), o métricas específicas como temperatura corporal o frecuencia cardíaca.
+- Filtros en el Historial de Salud: Los usuarios podrán filtrar los registros de salud de su mascota según fechas (más recientes o más antiguos).
 
 **Interacciones Contextuales**
 
@@ -459,25 +447,19 @@ En la aplicación móvil, la navegación principal se organizará mediante una b
 
 *Tabs Principales:*
 
-- Inicio: Resumen del estado actual de la mascota, incluyendo salud y ubicación.
-- Salud: Sección dedicada a los datos médicos y las alertas de salud.
+- Inicio: Lista de mascotas y clinicas veterinarias cercanas.
+- Mascotas: Sección dedicada a los datos de las mascotas.
 - Citas: Gestión de citas veterinarias, con botones claros para agendar o cancelar.
-- GPS: Rastreo en tiempo real de la mascota.
 - Perfil: Ajustes de cuenta y preferencias.
 
 **Navegación por Gestos (Gesture-Based Navigation)**
 
 Para mejorar la experiencia móvil, se implementarán interacciones mediante gestos que simplifiquen la navegación y permitan a los usuarios acceder rápidamente a diferentes funcionalidades.
 
-- Deslizar para Ver Detalles: Los usuarios podrán deslizar a la derecha o izquierda para navegar entre diferentes métricas de salud o secciones del historial.
+- Deslizar para Ver Detalles: Los usuarios podrán deslizar a la derecha o izquierda para navegar entre  secciones del historial.
 - Tocar para Expandir: Al tocar cualquier dato médico o información de salud, el contenido se expandirá para mostrar más detalles sin necesidad de abrir una nueva pantalla.
 - Deslizar para Agendar: En la sección de citas, los usuarios podrán deslizar una tarjeta de cita para ver opciones rápidas como reprogramar o cancelar.
 
-**Notificaciones y Acciones Rápidas**
-
-En dispositivos móviles, las notificaciones serán integradas en el sistema operativo para permitir a los usuarios actuar directamente desde la notificación. Por ejemplo, si se recibe una alerta de salud crítica, el usuario podrá acceder a la información directamente desde la notificación sin necesidad de abrir la aplicación.
-
-- Acciones Rápidas: Las notificaciones de alerta permitirán opciones como "Ver Salud" o "Contactar Veterinario" directamente desde la pantalla de notificaciones.
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
@@ -542,20 +524,152 @@ Enlace: https://www.figma.com/design/1S78nWoDziNLXLZov0LHaO/IOT---LandingPage?no
 ## 4.4. Mobile Applications UX/UI Design
 ### 4.4.1. Mobile Applications Wireframes
 
-<div style="text-align: center;">
+**Autenticación**
+![img](./assets/img/chapter-v/wrf-mb-1.png)
+![img](./assets/img/chapter-v/wrf-mb-2.png)
 
-  ![Create Account](https://i.postimg.cc/90JBy9B6/image.png)  
-  [Enlace de los wireframes](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=10-723&t=UXfnAD20vDHaldKx-1)
+**Menu Dueños de mascotas**
+![img](./assets/img/chapter-v/wrf-mb-3.png)
 
-</div>
+**Perfil de mascotas**
+![img](./assets/img/chapter-v/wrf-mb-5.png)
+
+**Agendar cita**
+![img](./assets/img/chapter-v/wrf-mb-6.png)
+![img](./assets/img/chapter-v/wrf-mb-7.png)
+![img](./assets/img/chapter-v/wrf-mb-8.png)
+
+**Información médica de las mascotas**
+![img](./assets/img/chapter-v/wrf-mb-9.png)
+![img](./assets/img/chapter-v/wrf-mb-10.png)
+
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+**User goal 1:** Veterinaria o dueño de mascota se autentica en la plataforma, ingresa su 
+información de identificación, revisa sus datos y cierra la sesión. 
+
+![w-mb-1](./assets/img/chapter-v/wireflow-mobile-1.png)
+
+
+Descripción: Al acceder a la aplicación, el usuario tiene la posibilidad de iniciar sesión con su 
+cuenta de correo electrónico. También puede crear una nueva cuenta o recuperar sus 
+credenciales si las olvida. Mientras complete su registro en el sistema puede establecer por 
+defecto la cuenta asociada a veterinarias o dueños de mascotas.
+
+**User goal 2:** Acceso a la información de veterinarias y agendado de citas para la mascota 
+
+![w-mb-2](./assets/img/chapter-v/wireflow-mobile-2.png)
+![w-mb-3](./assets/img/chapter-v/wireflow-mobile-3.png)
+![w-mb-4](./assets/img/chapter-v/wireflow-mobile-4.png)
+
+Descripción: El usuario dispone en su menú principal de una lista de veterinarias 
+recomendadas, según sus preferencias puede elegir la opción la cual le convenga. Una vez 
+seleccionada la opción el usuario podrá ver detalles de la veterinaria, el médico principal y 
+recomendaciones por parte de otros usuarios.  
+Asimismo, dispone de una opción para elegir el horario de la cita y detallar los motivos de la 
+consulta, una vez completada la operación se muestra una notificación de confirmación.  
+El usuario tiene la posibilidad de ver las citas que tiene pendientes, cancelarlas o modificar el 
+horario seleccionado. 
+
+
+**User goal 3:** Acceso al menú principal del usuario y administración de sus mascotas  
+
+![w-mb-5](./assets/img/chapter-v/wireflow-mobile-5.png)
+![w-mb-5](./assets/img/chapter-v/wireflow-mobile-6.png)
+
+Descripción: El usuario puede agregar más mascotas, debe completar un formulario con la 
+información nueva y una vez completado con las validaciones necesarias se mostrará una 
+notificación de confirmación. También dispone de un listado de sus mascotas, puede eliminar 
+registros si así lo desee. 
+
+**User goal 4:** Acceso al menú de opciones para la mascota y visualización de los detalles de su 
+información médica  
+
+![w-mb-4](./assets/img/chapter-v/wireflow-mobile-7.png)
+
+El usuario puede revisar la información médica de su mascota la seleccionarla, se 
+muestran los datos generales y debajo una lista de opciones con información más detallada. 
+Además, puede visualizar el historial médico de su mascota, historial de citas y vacunas.
+
 ### 4.4.3. Mobile Applications Mock-ups
+**Login y register**
+![img](./assets/img/mk-mb-1.png)
+
+**Recuperar contraseña**
+![img](./assets/img/mk-mb-2.png)
+
+**Menú dueños de mascotas**
+![img](./assets/img/mk-mb-3.jpg)
+
+**Perfil de mascotas**
+![img](./assets/img/mk-mb-5.jpg)
+
+**Añadir y eliminar mascota**
+![img](./assets/img/mk-mb-6.png)
+
+**Buscar veterinaria**
+![img](./assets/img/mk-mb-7.jpg)
+
+**Agendar cita**
+![img](./assets/img/mk-mb-8.png)
+![img](./assets/img/mk-mb-9.png)
+![img](./assets/img/mk-mb-10.png)
+
+**Agregar un registro**
+![img](./assets/img/mk-mb-11.jpg)
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+**User goal 1:** Veterinaria o dueño de mascota se autentica en la plataforma, ingresa su 
+información de identificación, revisa sus datos y cierra la sesión. 
+
+![w-mb-1](https://i.postimg.cc/j2Lq7qNN/image.png)
+
+
+Descripción: Al acceder a la aplicación, el usuario tiene la posibilidad de iniciar sesión con su 
+cuenta de correo electrónico. También puede crear una nueva cuenta o recuperar sus 
+credenciales si las olvida. Mientras complete su registro en el sistema puede establecer por 
+defecto la cuenta asociada a veterinarias o dueños de mascotas.
+
+**User goal 2:** Acceso a la información de veterinarias y agendado de citas para la mascota 
+
+![w-mb-2](https://i.postimg.cc/yxMK3m74/image.png)
+
+Descripción: El usuario dispone en su menú principal de una lista de veterinarias 
+recomendadas, según sus preferencias puede elegir la opción la cual le convenga. Una vez 
+seleccionada la opción el usuario podrá ver detalles de la veterinaria, el médico principal y 
+recomendaciones por parte de otros usuarios.  
+Asimismo, dispone de una opción para elegir el horario de la cita y detallar los motivos de la 
+consulta, una vez completada la operación se muestra una notificación de confirmación.  
+El usuario tiene la posibilidad de ver las citas que tiene pendientes, cancelarlas o modificar el 
+horario seleccionado. 
+
+
+**User goal 3:** Acceso al menú principal del usuario y administración de sus mascotas  
+
+![w-mb-5](https://i.postimg.cc/V6TQ2qrr/image.png)
+
+Descripción: El usuario puede agregar más mascotas, debe completar un formulario con la 
+información nueva y una vez completado con las validaciones necesarias se mostrará una 
+notificación de confirmación. También dispone de un listado de sus mascotas, puede eliminar 
+registros si así lo desee. 
+
+**User goal 4:** Acceso al menú de opciones para la mascota y visualización de los detalles de su 
+información médica  
+
+![w-mb-4](https://i.postimg.cc/25sgwzPh/image.png)
+
+El usuario puede revisar la información médica de su mascota la seleccionarla, se 
+muestran los datos generales y debajo una lista de opciones con información más detallada. 
+Además, puede visualizar el historial médico de su mascota, historial de citas y vacunas.
 
 ## 4.5. Mobile Applications Prototyping
 ### 4.5.1. Android Mobile Applications Prototyping
-### 4.5.2. iOS Mobile Applications Prototyping
+
+![Prototipo](./assets/img/prototipo%20mobile.png)
+
+[Enlace al prototipo](https://www.figma.com/proto/Lcl9MXzRgLPScvUb4WX4ay/mobile-design?page-id=0%3A1&node-id=1-18893&p=f&viewport=-5863%2C-1652%2C0.29&t=QcfMB3ZcKWywLBFi-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A16648)
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
