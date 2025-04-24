@@ -1,4 +1,4 @@
-# Capítulo VI: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
 En esta sección del informe se detallan las decisiones y principios fundamentales que guiarán al equipo en la preservación de la coherencia y estabilidad del proyecto durante todo el proceso de desarrollo de la solución.
