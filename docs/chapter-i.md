@@ -29,11 +29,11 @@ Nuestra visión es ser líderes en el sector de tecnología para el cuidado de m
         <tr>
             <!-- DATOS del integrante 1-->
             <td > 
-            <img src="https://i.postimg.cc/MH0KDzqh/josue-foto.jpg" height="100" alt="">
-            <br> Josue Daniel Valverde Lopez (U202121440)
+            <img src="../assets/marcelo.png" height="100" alt="">
+            <br> Héctor Marcelo Rentería Puga (U202216558)
             </td>
             <!-- DESCRIPCIÓN del integrante 1-->
-            <td > Mi nombre es Daniel, soy estudiante del septimo ciclo de ingeniería de software. Antes de llevar la carrera tenía interés por la materia, aprendí conceptos básicos de programación. Además, me considero una persona responsable y empática, por esa razón tengo facilidad para desarrollar trabajos en grupo.</td>
+            <td > Mi nombre es Marcelo, soy estudiante del septimo ciclo de ingeniería de software. Tengo conocimientos técnicos en los lenguajes de C++, Python, Kotlin, Dart, SQL, MongoDB, JavaScript y TypeScript. Mis principales habilidades son la resolución de problemas, el trabajo en equipo, el inglés, y diseño.</td>
             <!-- CONOCIMIENTOS del integrante 1-->
         </tr>
         <tr>
