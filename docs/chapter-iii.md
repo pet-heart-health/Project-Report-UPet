@@ -149,17 +149,6 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>-</td>
             </tr>
             <tr>
-                <td>EPIC-12</td>
-                <td>Gestión de dispositivos IoT</td>
-                <td>
-                    <strong>Como</strong> desarrollador, 
-                    <strong>quiero</strong> implementar la gestión de dispositivos IoT
-                    <strong>para</strong> integrar dispositivos IoT en la aplicación. 
-                </td>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-            <tr>
                   <td>US-001</td>
                   <td>Registrar Mascota</td>
                   <td>
@@ -265,162 +254,6 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
             </tr>
             <tr>
                 <td>US-005</td>
-                <td>Agendar una cita</td>
-                <td>
-                    <strong>Como</strong> propietario de una mascota,
-                    <strong>quiero</strong> poder agendar una cita en la clínica veterinaria a través de la aplicación,
-                    <strong>para</strong> asegurar la atención médica oportuna para mi mascota.
-                </td>
-                <td>
-                    <h5>Escenario 01: Elección del veterinario</h5>
-                    <strong>Dado</strong> el propietario de la mascota se encuentra en el perfil de una clínica veterinaria,
-                    <strong>cuando</strong> presiona la opción de agendar cita,
-                    <strong>Entonces</strong> le muestra un formulario para elegir la fecha y hora.
-                    <br>
-                    <h5>Escenario 02: Agendar una cita con éxito</h5>
-                    <strong>Dado</strong> el propietario de la mascota se encuentra en el formulario para agendar una cita,
-                    <strong>cuando</strong> elige una fecha y hora disponibles, selecciona el tipo de servicio necesario para su mascota y confirma la cita,
-                    <strong>Entonces</strong> la cita se agenda correctamente y se muestra un mensaje de confirmación.
-                    <br>
-                    <h5>Escenario 03: Selección de fecha y hora no disponible</h5>
-                    <strong>Dado</strong> el propietario de una mascota se encuentra en la sección de citas,
-                    <strong>cuando</strong> intenta agendar una cita en una fecha que no está disponible,
-                    <strong>Entonces</strong> se muestra un mensaje indicando que no hay horarios disponibles en esa fecha y se le sugiere seleccionar una fecha alternativa.
-                </td>
-                <td>EPIC-03</td>
-            </tr>
-            <tr>
-                <td>US-006</td>
-                <td>Activar recordatorio</td>
-                <td>
-                    <strong>Como</strong> propietario de una mascota con una cita veterinaria programada,
-                    <strong>quiero</strong> poder activar un recordatorio en la aplicación,
-                    <strong>para</strong> recibir una notificación en la fecha y hora de la cita y asegurarme de no olvidarla.
-                </td>
-                <td>
-                    <h5>Escenario 01: Recordatorio activado con éxito</h5>
-                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
-                    <strong>cuando</strong> activa el recordatorio seleccionando la opción correspondiente en la aplicación,
-                    <strong>Entonces</strong> la aplicación programa el recordatorio y muestra una confirmación al usuario.
-                    <br>
-                    <h5>Escenario 02: Error al activar el recordatorio</h5>
-                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
-                    <strong>cuando</strong> intenta activar el recordatorio, pero la aplicación no puede programarlo debido a un error técnico,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al usuario intentarlo más tarde o contactar con soporte técnico.
-                    <br>
-                    <h5>Escenario 03: Fecha u hora incorrecta al activar el recordatorio</h5>
-                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
-                    <strong>cuando</strong> el usuario activa el recordatorio pero selecciona una fecha o hora incorrecta,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje indicando que la fecha u hora seleccionada no son válidas y solicita al usuario que corrija la configuración del recordatorio.
-                </td>
-                <td>EPIC-04</td>
-            </tr>
-            <tr>
-                <td>US-007</td>
-                <td>Acceso de la veterinaria a la información de la mascota</td>
-                <td>
-                    <strong>Como</strong> veterinario,
-                    <strong>quiero</strong> poder acceder a la información completa de una mascota, incluyendo su historial médico, vacunas y tratamientos previos,
-                    <strong>para</strong> brindar una atención adecuada durante una consulta veterinaria.
-                </td>
-                <td>
-                    <h5>Escenario 01: Acceso exitoso a la información de la mascota</h5>
-                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
-                    <strong>cuando</strong> ingresa al perfil de la mascota en la aplicación,
-                    <strong>Entonces</strong> la aplicación muestra la información completa de la mascota, incluyendo su historial médico, vacunas, tratamientos previos y cualquier otra información relevante.
-                    <br>
-                    <h5>Escenario 02: Error al acceder a la información de la mascota</h5>
-                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
-                    <strong>cuando</strong> intenta acceder a la información pero la aplicación no puede cargarla debido a un error técnico,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al veterinario intentarlo más tarde o contactar con soporte técnico.
-                    <br>
-                    <h5>Escenario 03: Información incompleta de la mascota</h5>
-                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
-                    <strong>cuando</strong> accede a la información de la mascota pero encuentra que algunos datos importantes están incompletos o faltantes,
-                    <strong>Entonces</strong> la aplicación muestra una alerta al veterinario indicando que la información de la mascota está incompleta y sugiere completarla lo antes posible para garantizar una atención adecuada.
-                </td>
-                <td>EPIC-05</td>
-            </tr>
-            <tr>
-                <td>US-008</td>
-                <td>Ver historial de citas</td>
-                <td>
-                    <strong>Como</strong> propietario de una mascota,
-                    <strong>quiero</strong> poder ver el historial completo de citas veterinarias de mi mascota, incluyendo fechas, horarios y propósito de la visita,
-                    <strong>para</strong> tener un registro completo de la atención recibida.
-                </td>
-                <td>
-                    <h5>Escenario 01: Consulta de historial de citas exitosa</h5>
-                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
-                    <strong>cuando</strong> selecciona la opción de ver historial de citas,
-                    <strong>Entonces</strong> la aplicación muestra una lista completa de todas las citas veterinarias anteriores de la mascota, incluyendo fechas, horarios, propósito de la visita y cualquier otra información relevante.
-                    <br>
-                    <h5>Escenario 02: Sin citas anteriores registradas</h5>
-                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
-                    <strong>cuando</strong> no tiene citas anteriores registradas,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje indicando que no hay citas anteriores registradas para la mascota.
-                    <br>
-                    <h5>Escenario 03: Error al cargar historial de citas</h5>
-                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
-                    <strong>cuando</strong> la aplicación intenta cargar el historial de citas pero se produce un error técnico,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al propietario intentarlo más tarde o contactar con soporte técnico.
-                </td>
-                <td>EPIC-03</td>
-            </tr>
-            <tr>
-                <td>US-009</td>
-                <td>Confirmar cita</td>
-                <td>
-                    <strong>Como</strong> propietario de mascota,
-                    <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
-                    <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
-                </td>
-                <td>
-                    <h5>Escenario 01: Confirmación de cita exitosa</h5>
-                    <strong>Dado</strong> el propietario recibe una notificación de recordatorio de la cita,
-                    <strong>cuando</strong> selecciona la opción de confirmar cita en la notificación,
-                    <strong>Entonces</strong> la aplicación registra la confirmación de la cita y muestra un mensaje de confirmación al propietario.
-                    <br>
-                    <h5>Escenario 02: Cancelación de cita después de confirmación</h5>
-                    <strong>Dado</strong> el propietario ha confirmado la cita,
-                    <strong>cuando</strong> decide cancelar la cita,
-                    <strong>Entonces</strong> la aplicación cancela la cita y muestra un mensaje de confirmación al propietario.
-                    <br>
-                    <h5>Escenario 03: Error al confirmar cita</h5>
-                    <strong>Dado</strong> el propietario recibe una notificación de recordatorio de la cita,
-                    <strong>cuando</strong> intenta confirmar la cita pero la aplicación no puede procesar la solicitud debido a un error técnico,
-                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al propietario intentarlo más tarde o contactar con soporte técnico.
-                </td>
-                <td>EPIC-04</td>
-            </tr>
-            <tr>
-                <td>US-010</td>
-                <td>Recordatorio de cita</td>
-                <td>
-                    <strong>Como</strong> propietario de mascota,
-                    <strong>quiero</strong> recibir recordatorios de las citas veterinarias previamente agendadas,
-                    <strong>para</strong> no olvidar la cita y organizarme mejor.
-                </td>
-                <td>
-                    <h5>Escenario 01: Recepción de recordatorio de cita</h5>
-                    <strong>Dado</strong> el propietario tiene la función de recibir recordatorios activada,
-                    <strong>cuando</strong> se acerca la fecha y hora de la cita veterinaria,
-                    <strong>Entonces</strong> la aplicación envía un recordatorio con la fecha, hora y lugar de la cita.
-                    <br>
-                    <h5>Escenario 02: Configuración de preferencias de recordatorio</h5>
-                    <strong>Dado</strong> el propietario tiene la función de recibir recordatorios activada,
-                    <strong>cuando</strong> desea configurar el tiempo antes de la cita en que desea recibir el recordatorio,
-                    <strong>Entonces</strong> la aplicación permite al propietario configurar sus preferencias.
-                    <br>
-                    <h5>Escenario 03: No interés en recibir recordatorios de cita</h5>
-                    <strong>Dado</strong> el propietario tiene la función de recibir recordatorios activada,
-                    <strong>cuando</strong> decide desactivar la función de recibir recordatorios,
-                    <strong>Entonces</strong> la aplicación deja de enviar recordatorios sobre citas al propietario.
-                </td>
-                <td>EPIC-04</td>
-            </tr>
-            <tr>
-                <td>US-011</td>
                 <td>Registrar vacunas</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -446,7 +279,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-05</td>
             </tr>
             <tr>
-                <td>US-012</td>
+                <td>US-006</td>
                 <td>Registrar resultados</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -472,7 +305,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-05</td>
             </tr>
             <tr>
-                <td>US-013</td>
+                <td>US-007</td>
                 <td>Registrar cirugías</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -498,7 +331,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-05</td>
             </tr>
             <tr>
-                <td>US-014</td>
+                <td>US-008</td>
                 <td>Registrar enfermedades</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -524,7 +357,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-05</td>
             </tr>
             <tr>
-                <td>US-015</td>
+                <td>US-009</td>
                 <td>Visualizar resumen del historial médico</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -550,33 +383,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-05</td>
             </tr>
             <tr>
-                <td>US-016</td>
-                <td>Enviar un mensaje a soporte</td>
-                <td>
-                    <strong>Como</strong> usuario de la aplicación,
-                    <strong>quiero</strong> poder enviar un mensaje a soporte técnico,
-                    <strong>para</strong> resolver problemas o consultas sobre el uso de la aplicación.
-                </td>
-                <td>
-                    <h5>Escenario 01: Envío de mensaje a soporte exitoso</h5>
-                    <strong>Dado</strong> que el usuario tiene una consulta o problema,
-                    <strong>cuando</strong> ingresa a la sección de contacto y completa el formulario de mensaje,
-                    <strong>Entonces</strong> el sistema envía el mensaje al equipo de soporte.
-                    <br>
-                    <h5>Escenario 02: Confirmación del envío de mensaje</h5>
-                    <strong>Dado</strong> que el usuario ha enviado un mensaje a soporte,
-                    <strong>cuando</strong> el mensaje es enviado con éxito,
-                    <strong>Entonces</strong> el sistema muestra un mensaje de confirmación indicando que su solicitud fue recibida.
-                    <br>
-                    <h5>Escenario 03: Error al enviar mensaje a soporte</h5>
-                    <strong>Dado</strong> que el usuario intenta enviar un mensaje a soporte,
-                    <strong>cuando</strong> ocurre un error técnico durante el envío,
-                    <strong>Entonces</strong> el sistema muestra un mensaje de error y sugiere intentar más tarde o contactar de otra manera.
-                </td>
-                <td>EPIC-11</td>
-            </tr>
-            <tr>
-                <td>US-017</td>
+                <td>US-010</td>
                 <td>Ver información del footer</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -602,7 +409,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-018</td>
+                <td>US-011</td>
                 <td>Revisar reseñas de la aplicación</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -623,7 +430,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-019</td>
+                <td>US-012</td>
                 <td>Navegar en la página principal</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -649,7 +456,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-020</td>
+                <td>US-013</td>
                 <td>Ver funcionalidades para propietarios de mascotas</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -675,7 +482,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-021</td>
+                <td>US-014</td>
                 <td>Ver funcionalidades para veterinarias</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -701,7 +508,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-022</td>
+                <td>US-015</td>
                 <td>Descargar la aplicación</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -727,7 +534,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-023</td>
+                <td>US-016</td>
                 <td>Enviar un mensaje desde el sitio de web estático</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -753,7 +560,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-11</td>
             </tr>
             <tr>
-                <td>US-024</td>
+                <td>US-017</td>
                 <td>Mostrar tu ubicación actual</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -776,7 +583,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-07</td>
             </tr>
             <tr>
-                <td>US-025</td>
+                <td>US-018</td>
                 <td>Mostrar veterinarias cercanas</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -798,7 +605,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-07</td>
             </tr>
             <tr>
-                <td>US-026</td>
+                <td>US-019</td>
                 <td>Ver las valoraciones y comentarios de la veterinaria</td>
                 <td>
                     <strong>Como</strong> veterinario/a o personal autorizado de la clínica veterinaria, 
@@ -820,7 +627,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-07</td>
             </tr>
             <tr>
-                <td>US-027</td>
+                <td>US-020</td>
                 <td>Añadir valoraciones y comentarios</td>
                 <td>
                     <strong>Como</strong> propietario/a de mascota autenticado y suscrito a un plan, 
@@ -846,7 +653,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-028</td>
+                <td>US-021</td>
                 <td>Ver detalles de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -867,7 +674,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-029</td>
+                <td>US-022</td>
                 <td>Ver reseñas y evaluación</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -888,7 +695,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-030</td>
+                <td>US-023</td>
                 <td>Entrar al perfil de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -909,7 +716,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-031</td>
+                <td>US-024</td>
                 <td>Añadir ubicación</td>
                 <td>
                     <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria, 
@@ -934,55 +741,81 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 </td>
                 <td>EPIC-09</td>
             </tr>
+<tr>
+                <td>US-025</td>
+                <td>Registro de cuenta</td>
+                <!-- Descripción -->
+                <td> 
+                <strong>Como</strong> veterinario o propietario de una mascota
+                <strong>quiero</strong> registrarme en la aplicación 
+                <strong>para</strong> acceder a sus funcionalidades.
+                </td>
+                <!-- ---------- -->
+                <!-- Criterios de Aceptación -->
+                <td> 
+                <h5>Escenario 01: Registro Exitoso</h5>
+                <strong>Dado</strong> el usuario está en la pantalla de registro
+                <strong>cuando</strong> complete los campos requeridos,
+                <strong>Entonces</strong> la cuenta se crea exitosamente y se redirige a la pantalla de inicio de sesión. 
+                <br>
+                <h5>Escenario 02: Datos Incompletos en el Registro</h5>
+                <strong>Dado</strong> el usuario está en la pantalla de registro,
+                <strong>cuando</strong> intenta registrarse con datos incompletos,
+                <strong>Entonces</strong> se muestra un mensaje de error y se le pide que complete los campos vacíos.
+                <br>
+                <h5>Escenario 03:  Correo Electrónico en Uso</h5>
+                <strong>Dado</strong> el usuario está en la pantalla de registro,
+                <strong>cuando</strong> intenta registrarse con un correo electrónico que está en uso,
+                <strong>Entonces</strong> se muestra un mensaje de error que indica que el correo ya está registrado en la aplicación.
+                </td>   
+                <br>
+                <!-- ---------- -->
+                <td>EPIC-01</td>
+            </tr>
             <tr>
-                <td>US-032</td>
-                <td>Añadir servicios ofrecidos</td>
+                <td>US-026</td>
+                <td>Iniciar Sesión</td>
                 <td>
-                    <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria, 
-                    <strong>quiero</strong> añadir la información de los servicios que ofrece mi veterinaria,
-                    <strong>para</strong> informar a mis clientes que tipo de atención brindamos.
+                    <strong>Como</strong> veterinario o propietario de una mascota 
+                    <strong>quiero</strong> poder iniciar sesión en la aplicación utilizando mis credenciales 
+                    <strong>para</strong> acceder a las funcionalidades y gestionar la información ingresada.
                 </td>
                 <td>
-                    <h5>Escenario 01: Registro de la información de servicios</h5>
-                    <strong>Dado</strong> el usuario está autenticado en la aplicación como veterinario/a o personal autorizado.
-                    <strong>Cuando</strong> selecciona la opción para añadir información sobre los servicios ofrecidos por su veterinaria.
-                    <strong>Entonces</strong> la aplicación proporciona un formulario donde el usuario puede ingresar la información detallada sobre sus servicios.
+                    <h5>Escenario 01: Inicio de Sesión Exitoso</h5>
+                    <strong>Dado</strong> el usuario está en la pantalla de inicio de sesión, 
+                    <strong>cuando</strong> ingresa su correo electrónico y contraseña, 
+                    <strong>Entonces</strong> accede exitosamente a su cuenta y se redirige a la pantalla de inicio.
                     <br>
-                    <h5>Escenario 02: Actualización de servicios existentes</h5>
-                    <strong>Dado</strong> el usuario es una veterinaria o personal autorizado y ya no cuenta con una cuenta en la aplicación.
-                    <strong>Cuando</strong> necesita actualizar información sobre los servicios ofrecidos debido a cambios en sus servicios 
-                    <strong>Entonces</strong> la aplicación permite al usuario editar la información existente sobre los servicios ofrecidos y guardar los cambios realizados.
+                    <h5>Escenario 02: Datos Incorrectos en el Inicio de Sesión</h5>
+                    <strong>Dado</strong> el usuario está en la pantalla de inicio de sesión, 
+                    <strong>cuando</strong> ingresa un correo electrónico o una contraseña incorrecta, 
+                    <strong>Entonces</strong> se muestra un mensaje de error indicando que el correo electrónico o la contraseña están incorrectos.
+                    <br>
+                    <h5>Escenario 03: Correo no Registrado en el Inicio de Sesión</h5>
+                    <strong>Dado</strong> el usuario está en la pantalla de inicio de sesión, 
+                    <strong>cuando</strong> intenta iniciar sesión con un correo que no está registrado, 
+                    <strong>Entonces</strong> se muestra un mensaje de error indicando que el correo no está registrado.
                 </td>
-                <td>EPIC-09</td>
+                <td>EPIC-01</td>
+            </tr>
+            <tr>
+                <td>US-027</td>
+                    <td>Cerrar Sesión</td>
+                    <td>
+                        <strong>Como</strong> veterinario o propietario de una mascota 
+                        <strong>quiero</strong> tener la capacidad de cerrar sesión en la aplicación 
+                        <strong>para</strong> garantizar la seguridad de mi información y proteger mi privacidad.
+                  </td>
+                  <td>
+                      <h5>Escenario 01: Cierre de Sesión Exitoso</h5>
+                      <strong>Dado</strong> el usuario está autenticado en la aplicación, 
+                      <strong>cuando</strong> selecciona la opción “Cerrar sesión” desde la pantalla de inicio, 
+                      <strong>Entonces</strong> se cierra exitosamente la sesión del usuario y se redirige a la pantalla de inicio de sesión.
+                  </td>
+                  <td>EPIC-01</td>
             </tr>
             <tr>
                 <td>TS-001</td>
-                <td>Endpoint Appointment</td>
-                <td>
-                    <strong>Como</strong> desarrollador front-end, 
-                    <strong>quiero</strong> asegurarme de que el registro de historia médica funcione correctamente en la interfaz de usuario
-                    <strong>para</strong> que los usuarios puedan ingresar la información de manera adecuada.
-                </td>
-                <td>
-                    <h5>Escenario 01: Crear una nueva cita con éxito</h5>
-                    <strong>Dado</strong> que el usuario tiene acceso a la API de gestión de citas y cuenta con los permisos necesarios para crear una cita.
-                    <strong>Cuando</strong> el usuario envía una solicitud POST con los detalles de la nueva cita, incluyendo la fecha, hora, ID de la mascota y ID del veterinario.
-                    <strong>Entonces</strong> el sistema procesa la solicitud y crea una nueva cita en la base de datos. El sistema responde con un código de estado 201 (Created) y devuelve los detalles de la cita recién creada en el cuerpo de la respuesta.
-                    <br>
-                    <h5>Escenario 02: Crear una nueva cita con formato de fecha y hora inválidos</h5>
-                    <strong>Dado</strong> que el usuario tiene acceso a la API de gestión de citas.
-                    <strong>Cuando</strong> el usuario envía una solicitud POST con detalles de cita que incluyen un formato de fecha y hora incorrecto.
-                    <strong>Entonces</strong> el sistema devuelve un código de estado 400 (Bad Request) con un mensaje de error indicando que el formato de fecha y hora es inválido.
-                    <br>
-                    <h5>Escenario 03: Crear una nueva cita con ID de mascota inexistente</h5>
-                    <strong>Dado</strong> que el usuario tiene acceso a la API de gestión de citas.
-                    <strong>Cuando</strong> el usuario intenta crear una nueva cita con un ID de mascota que no existe en la base de datos.
-                    <strong>Entonces</strong> el sistema devuelve un código de estado 404 (Not Found) con un mensaje de error indicando que la mascota no existe.
-                </td>
-                <td>EPIC-10</td>
-            </tr>
-            <tr>
-                <td>TS-002</td>
                 <td>Endpoint Medical History</td>
                 <td>
                     <strong>Como</strong> desarrollador front-end, 
@@ -1008,33 +841,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-10</td>
             </tr>
             <tr>
-                <td>TS-003</td>
-                <td>Endpoint Notification</td>
-                <td>
-                    <strong>Como</strong> desarrollador front-end, 
-                    <strong>quiero</strong> tener un endpoint para gestionar notificaciones de usuarios
-                    <strong>para</strong> crear nuevas notificaciones y obtener las notificaciones existentes.
-                </td>
-                <td>
-                    <h5>Escenario 01: Crear una nueva notificación</h5>
-                    <strong>Dado</strong> acceso a la API de notificaciones.
-                    <strong>Cuando</strong> se envía una solicitud POST con los detalles de la nueva notificación, incluyendo el ID del propietario de la mascota.
-                    <strong>Entonces</strong> el sistema crea la notificación y responde con un código 201 si es exitoso. Si el propietario de la mascota no existe, devuelve un código 404 con un mensaje de error.
-                    <br>
-                    <h5>Escenario 02: Obtener todas las notificaciones</h5>
-                    <strong>Dado</strong> acceso a la API de notificaciones.
-                    <strong>Cuando</strong> se envía una solicitud GET.
-                    <strong>Entonces</strong> el sistema devuelve una lista con todas las notificaciones existentes en el sistema. Responde con un código 200. Si no hay notificaciones disponibles, devuelve una lista vacía.
-                    <br>
-                    <h5>Escenario 03: Obtener notificaciones por ID de propietario de mascota</h5>
-                    <strong>Dado</strong> acceso a la API de notificaciones.
-                    <strong>Cuando</strong> se envía una solicitud GET con el ID del propietario de la mascota.
-                    <strong>Entonces</strong> el sistema devuelve una lista con todas las notificaciones dirigidas al propietario de mascota especificado. Responde con un código 200. Si el propietario de mascota no existe o no tiene notificaciones, devuelve un código 404 con un mensaje de error.
-                </td>
-                <td>EPIC-10</td>
-            </tr>
-            <tr>
-                <td>TS-004</td>
+                <td>TS-002</td>
                 <td>Endpoint Pet</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend, 
@@ -1060,7 +867,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-10</td>
             </tr>
             <tr>
-                <td>TS-005</td>
+                <td>TS-003</td>
                 <td>Endpoint User</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend, 
@@ -1086,7 +893,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-10</td>
             </tr>
             <tr>
-                <td>TS-006</td>
+                <td>TS-004</td>
                 <td>Endpoint Veterinary Clinic</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend, 
@@ -1143,7 +950,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
         <tbody>
             <tr>
                 <td>1</td>
-                <td>US-018</td>
+                <td>US-012</td>
                 <td>Navegar en la página principal </td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1154,7 +961,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>2</td>
-                <td>US-021</td>
+                <td>US-015</td>
                 <td>Descargar la aplicación</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1165,7 +972,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>3</td>
-                <td>US-019</td>
+                <td>US-013</td>
                 <td>Ver funcionalidades para propietarios de mascotas</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1176,7 +983,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>4</td>
-                <td>US-020</td>
+                <td>US-014</td>
                 <td>Ver funcionalidades para veterinarias</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1187,7 +994,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>5</td>
-                <td>US-017</td>
+                <td>US-011</td>
                 <td>Revisar reseñas de la aplicación</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1198,7 +1005,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>6</td>
-                <td>US-016</td>
+                <td>US-010</td>
                 <td>Ver información del footer</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1209,7 +1016,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>7</td>
-                <td>US-022</td>
+                <td>US-016</td>
                 <td>Enviar un mensaje desde el sitio de web estático</td>
                 <td>
                     <strong>Como</strong> visitante,
@@ -1220,28 +1027,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>8</td>
-                <td>US-005</td>
-                <td>Agendar una cita</td>
-                <td>
-                    <strong>Como</strong> propietario de una mascota,
-                    <strong>quiero</strong> poder agendar una cita en la clínica veterinaria a través de la aplicación,
-                    <strong>para</strong> asegurar la atención médica oportuna para mi mascota.
-                </td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>TS-001</td>
-                <td>Endpoint Appointment</td>
-                <td>
-                    <strong>Como</strong> desarrollador front-end,
-                    <strong>quiero</strong> asegurarme de que el registro de historia médica funcione correctamente en la interfaz de usuario,
-                    <strong>para</strong> que los usuarios puedan ingresar la información de manera adecuada.
-                </td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>10</td>
                 <td>US-001</td>
                 <td>Registrar Mascota</td>
                 <td>
@@ -1252,8 +1037,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>11</td>
-                <td>TS-004</td>
+                <td>9</td>
+                <td>TS-002</td>
                 <td>Endpoint Pet</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend,
@@ -1263,8 +1048,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>12</td>
-                <td>TS-002</td>
+                <td>10</td>
+                <td>TS-001</td>
                 <td>Endpoint Medical History</td>
                 <td>
                     <strong>Como</strong> desarrollador front-end,
@@ -1274,8 +1059,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>13</td>
-                <td>US-015</td>
+                <td>11</td>
+                <td>US-009</td>
                 <td>Visualizar resumen del historial médico</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -1285,8 +1070,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>14</td>
-                <td>TS-006</td>
+                <td>12</td>
+                <td>TS-004</td>
                 <td>Endpoint Veterinary Clinic</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend,
@@ -1296,8 +1081,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>15</td>
-                <td>US-023</td>
+                <td>13</td>
+                <td>US-017</td>
                 <td>Mostrar tu ubicación actual</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1307,8 +1092,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>16</td>
-                <td>US-030</td>
+                <td>14</td>
+                <td>US-024</td>
                 <td>Añadir ubicación</td>
                 <td>
                     <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria,
@@ -1318,8 +1103,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>17</td>
-                <td>US-024</td>
+                <td>15</td>
+                <td>US-018</td>
                 <td>Mostrar veterinarias cercanas</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1329,8 +1114,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>18</td>
-                <td>TS-005</td>
+                <td>16</td>
+                <td>TS-003</td>
                 <td>Endpoint User</td>
                 <td>
                     <strong>Como</strong> desarrollador frontend,
@@ -1340,19 +1125,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>19</td>
-                <td>US-031</td>
-                <td>Añadir servicios ofrecidos</td>
-                <td>
-                    <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria,
-                    <strong>quiero</strong> añadir la información de los servicios que ofrece mi veterinaria,
-                    <strong>para</strong> informar a mis clientes que tipo de atención brindamos.
-                </td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>20</td>
-                <td>US-011</td>
+                <td>17</td>
+                <td>US-005</td>
                 <td>Registrar vacunas</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -1362,8 +1136,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>21</td>
-                <td>US-012</td>
+                <td>18</td>
+                <td>US-006</td>
                 <td>Registrar resultados</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -1373,8 +1147,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>22</td>
-                <td>US-013</td>
+                <td>19</td>
+                <td>US-007</td>
                 <td>Registrar cirugías</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -1384,8 +1158,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>23</td>
-                <td>US-014</td>
+                <td>20</td>
+                <td>US-008</td>
                 <td>Registrar enfermedades</td>
                 <td>
                     <strong>Como</strong> veterinario o personal autorizado,
@@ -1395,8 +1169,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>24</td>
-                <td>US-027</td>
+                <td>21</td>
+                <td>US-015</td>
                 <td>Ver detalles de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1406,8 +1180,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>25</td>
-                <td>US-029</td>
+                <td>22</td>
+                <td>US-023</td>
                 <td>Entrar al perfil de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1417,40 +1191,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>26</td>
-                <td>US-009</td>
-                <td>Confirmar cita</td>
-                <td>
-                    <strong>Como</strong> propietario de mascota,
-                    <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
-                    <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
-                </td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>27</td>
-                <td>US-007</td>
-                <td>Acceso de la veterinaria a la información de la mascota</td>
-                <td>
-                    <strong>Como</strong> veterinario,
-                    <strong>quiero</strong> poder acceder a la información completa de una mascota, incluyendo su historial médico, vacunas y tratamientos previos,
-                    <strong>para</strong> brindar una atención adecuada durante una consulta veterinaria.
-                </td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>28</td>
-                <td>US-008</td>
-                <td>Ver historial de citas</td>
-                <td>
-                    <strong>Como</strong> propietario de una mascota,
-                    <strong>quiero</strong> poder ver el historial completo de citas veterinarias de mi mascota, incluyendo fechas, horarios y propósito de la visita,
-                    <strong>para</strong> tener un registro completo de la atención recibida.
-                </td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>29</td>
+                <td>23</td>
                 <td>US-002</td>
                 <td>Subir foto de la mascota</td>
                 <td>
@@ -1461,7 +1202,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>30</td>
+                <td>24</td>
                 <td>US-003</td>
                 <td>Ver listado de mis mascotas</td>
                 <td>
@@ -1472,7 +1213,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>31</td>
+                <td>25</td>
                 <td>US-004</td>
                 <td>Editar información de la mascota</td>
                 <td>
@@ -1483,8 +1224,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>32</td>
-                <td>US-025</td>
+                <td>26</td>
+                <td>US-019</td>
                 <td>Ver las valoraciones y comentarios de la veterinaria</td>
                 <td>
                     <strong>Como</strong> veterinario/a o personal autorizado de la clínica veterinaria,
@@ -1494,8 +1235,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>33</td>
-                <td>US-028</td>
+                <td>27</td>
+                <td>US-022</td>
                 <td>Ver reseñas y evaluación</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1505,8 +1246,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>34</td>
-                <td>US-026</td>
+                <td>28</td>
+                <td>US-020</td>
                 <td>Añadir valoraciones y comentarios</td>
                 <td>
                     <strong>Como</strong> propietario/a de mascota autenticado y suscrito a un plan,
@@ -1515,47 +1256,36 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 </td>
                 <td>2</td>
             </tr>
-            <tr>
-                <td>35</td>
-                <td>US-010</td>
-                <td>Recordatorio de cita</td>
+<tr>
+                <td>29</td>
+                <td>US-025</td>
+                <td>Registro de cuenta</td>
                 <td>
-                    <strong>Como</strong> propietario de mascota,
-                    <strong>quiero</strong> recibir recordatorios de las citas veterinarias previamente agendadas,
-                    <strong>para</strong> no olvidar la cita y organizarme mejor.
+                    <strong>Como</strong> veterinario o propietario de una mascota
+                <strong>quiero</strong> registrarme en la aplicación 
+                <strong>para</strong> acceder a sus funcionalidades.
                 </td>
                 <td>2</td>
             </tr>
             <tr>
-                <td>36</td>
-                <td>US-006</td>
-                <td>Activar recordatorio</td>
+                <td>30</td>
+                <td>US-026</td>
+                <td>Iniciar Sesión</td>
                 <td>
-                    <strong>Como</strong> propietario de una mascota con una cita veterinaria programada,
-                    <strong>quiero</strong> poder activar un recordatorio en la aplicación,
-                    <strong>para</strong> recibir una notificación en la fecha y hora de la cita y asegurarme de no olvidarla.
+                    <strong>Como</strong> veterinario o propietario de una mascota 
+                    <strong>quiero</strong> poder iniciar sesión en la aplicación utilizando mis credenciales 
+                    <strong>para</strong> acceder a las funcionalidades y gestionar la información ingresada.
                 </td>
                 <td>2</td>
             </tr>
             <tr>
-                <td>37</td>
-                <td>TS-003</td>
-                <td>Endpoint Notification</td>
+                <td>31</td>
+                <td>US-027</td>
+                <td>Cerrar Sesión</td>
                 <td>
-                    <strong>Como</strong> desarrollador front-end,
-                    <strong>quiero</strong> tener un endpoint para gestionar notificaciones de usuarios,
-                    <strong>para</strong> crear nuevas notificaciones y obtener las notificaciones existentes.
-                </td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>38</td>
-                <td>US-015</td>
-                <td>Enviar un mensaje a soporte</td>
-                <td>
-                    <strong>Como</strong> usuario de la aplicación,
-                    <strong>quiero</strong> poder enviar un mensaje a soporte técnico,
-                    <strong>para</strong> resolver problemas o consultas sobre el uso de la aplicación.
+                    <strong>Como</strong> veterinario o propietario de una mascota 
+                        <strong>quiero</strong> tener la capacidad de cerrar sesión en la aplicación 
+                        <strong>para</strong> garantizar la seguridad de mi información y proteger mi privacidad.
                 </td>
                 <td>2</td>
             </tr>
