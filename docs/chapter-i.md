@@ -50,11 +50,11 @@ Nuestra visión es ser líderes en el sector de tecnología para el cuidado de m
         <tr>
             <!-- DATOS del integrante 3-->
             <td > 
-            <img src="https://i.postimg.cc/8C35kyZn/enzo-foto.jpg" height="100" alt=""> 
-            <br> Enzo Paolo Trujillo Acosta (U202120379)
+            <img src="../assets/diego-cacharro.jpeg" height="100" alt=""> 
+            <br> Diego Flores Avalos (u20221b394)
             </td>
             <!-- DESCRIPCIÓN del integrante 3-->
-            <td > Soy Enzo Trujillo, un apasionado por analizar y resolver problemas mediante la lógica. Me comprometo a apoyar a mi equipo en la organización y en cada tarea que se nos asigne. Estoy constantemente dispuesto a aprender y crecer en mi carrera de ingeniería de software.</td>
+            <td > Soy Diego Flores Avalos, un apasionado por analizar y resolver problemas mediante la lógica. Tengo conocimientos técnicos en los lenguajes de C++, Python, Kotlin, C# .NET, SQL, MongoDB, JavaScript, TypeScript y PSeint. Me comprometo a apoyar a mi equipo en la organización y en cada tarea que se nos asigne. Estoy constantemente dispuesto a aprender y crecer en mi carrera de ingeniería de software.</td>
             <!-- CONOCIMIENTOS del integrante 3-->
         </tr>
         <tr>
