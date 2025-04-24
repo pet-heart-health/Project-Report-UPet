@@ -584,28 +584,6 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
             </tr>
             <tr>
                 <td>US-018</td>
-                <td>Mostrar veterinarias cercanas</td>
-                <td>
-                    <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
-                    <strong>quiero</strong> visualizar las veterinarias alrededor de mi zona,
-                    <strong>para</strong> elegir una y atender a mi mascota
-                </td>
-                <td>
-                    <h5>Escenario 01: Mostrar lista de veterinarias cercanas con éxito</h5>
-                    <strong>Dado</strong> el usuario está autenticado, suscrito a un plan, tiene la ubicación activada en su dispositivo y hay veterinarias registradas en la zona del usuario.
-                    <strong>cuando</strong> abre la aplicación y selecciona la opción “Mostrar veterinarias cercanas”
-                    <strong>Entonces</strong> la aplicación muestra una lista de veterinarias cercanas a la ubicación del usuario.
-                    <br>
-                    <h5>Escenario 02: No se encuentran veterinarias cercanas</h5>
-                    <strong>Dado</strong> el usuario está autenticado y suscrito a un plan, tiene la ubicación activada en su dispositivo y no hay veterinarias registradas en la zona del usuario.
-                    <strong>cuando</strong> intenta acceder a la opción "Mostrar veterinarias cercanas”
-                    <strong>Entonces</strong> la aplicación muestra un mensaje de error indicando que no encuentra veterinarias cercanas.
-                    <br>
-                </td>
-                <td>EPIC-07</td>
-            </tr>
-            <tr>
-                <td>US-019</td>
                 <td>Ver las valoraciones y comentarios de la veterinaria</td>
                 <td>
                     <strong>Como</strong> veterinario/a o personal autorizado de la clínica veterinaria, 
@@ -627,7 +605,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-07</td>
             </tr>
             <tr>
-                <td>US-020</td>
+                <td>US-019</td>
                 <td>Añadir valoraciones y comentarios</td>
                 <td>
                     <strong>Como</strong> propietario/a de mascota autenticado y suscrito a un plan, 
@@ -653,7 +631,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-021</td>
+                <td>US-020</td>
                 <td>Ver detalles de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -674,7 +652,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-022</td>
+                <td>US-021</td>
                 <td>Ver reseñas y evaluación</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -695,7 +673,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-023</td>
+                <td>US-022</td>
                 <td>Entrar al perfil de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan, 
@@ -716,7 +694,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-08</td>
             </tr>
             <tr>
-                <td>US-024</td>
+                <td>US-023</td>
                 <td>Añadir ubicación</td>
                 <td>
                     <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria, 
@@ -742,7 +720,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-09</td>
             </tr>
 <tr>
-                <td>US-025</td>
+                <td>US-024</td>
                 <td>Registro de cuenta</td>
                 <!-- Descripción -->
                 <td> 
@@ -773,7 +751,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-01</td>
             </tr>
             <tr>
-                <td>US-026</td>
+                <td>US-025</td>
                 <td>Iniciar Sesión</td>
                 <td>
                     <strong>Como</strong> veterinario o propietario de una mascota 
@@ -799,7 +777,7 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-01</td>
             </tr>
             <tr>
-                <td>US-027</td>
+                <td>US-026</td>
                     <td>Cerrar Sesión</td>
                     <td>
                         <strong>Como</strong> veterinario o propietario de una mascota 
@@ -1093,7 +1071,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>14</td>
-                <td>US-024</td>
+                <td>US-023</td>
                 <td>Añadir ubicación</td>
                 <td>
                     <strong>Como</strong> veterinaria o personal autorizado de la clínica veterinaria,
@@ -1104,17 +1082,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
             </tr>
             <tr>
                 <td>15</td>
-                <td>US-018</td>
-                <td>Mostrar veterinarias cercanas</td>
-                <td>
-                    <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
-                    <strong>quiero</strong> visualizar las veterinarias alrededor de mi zona,
-                    <strong>para</strong> elegir una y atender a mi mascota.
-                </td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>16</td>
                 <td>TS-003</td>
                 <td>Endpoint User</td>
                 <td>
@@ -1125,7 +1092,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>5</td>
             </tr>
             <tr>
-                <td>17</td>
+                <td>16</td>
                 <td>US-005</td>
                 <td>Registrar vacunas</td>
                 <td>
@@ -1136,7 +1103,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>18</td>
+                <td>17</td>
                 <td>US-006</td>
                 <td>Registrar resultados</td>
                 <td>
@@ -1147,7 +1114,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>19</td>
+                <td>18</td>
                 <td>US-007</td>
                 <td>Registrar cirugías</td>
                 <td>
@@ -1158,7 +1125,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>3</td>
             </tr>
             <tr>
-                <td>20</td>
+                <td>19</td>
                 <td>US-008</td>
                 <td>Registrar enfermedades</td>
                 <td>
@@ -1169,7 +1136,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>21</td>
+                <td>20</td>
                 <td>US-015</td>
                 <td>Ver detalles de cada veterinaria</td>
                 <td>
@@ -1180,8 +1147,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>22</td>
-                <td>US-023</td>
+                <td>21</td>
+                <td>US-022</td>
                 <td>Entrar al perfil de cada veterinaria</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1191,7 +1158,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>23</td>
+                <td>22</td>
                 <td>US-002</td>
                 <td>Subir foto de la mascota</td>
                 <td>
@@ -1202,7 +1169,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>24</td>
+                <td>23</td>
                 <td>US-003</td>
                 <td>Ver listado de mis mascotas</td>
                 <td>
@@ -1213,7 +1180,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>25</td>
+                <td>24</td>
                 <td>US-004</td>
                 <td>Editar información de la mascota</td>
                 <td>
@@ -1224,8 +1191,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>26</td>
-                <td>US-019</td>
+                <td>25</td>
+                <td>US-018</td>
                 <td>Ver las valoraciones y comentarios de la veterinaria</td>
                 <td>
                     <strong>Como</strong> veterinario/a o personal autorizado de la clínica veterinaria,
@@ -1235,8 +1202,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>27</td>
-                <td>US-022</td>
+                <td>26</td>
+                <td>US-021</td>
                 <td>Ver reseñas y evaluación</td>
                 <td>
                     <strong>Como</strong> propietario/a o autenticado y suscrito a un plan,
@@ -1246,8 +1213,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>28</td>
-                <td>US-020</td>
+                <td>27</td>
+                <td>US-019</td>
                 <td>Añadir valoraciones y comentarios</td>
                 <td>
                     <strong>Como</strong> propietario/a de mascota autenticado y suscrito a un plan,
@@ -1257,8 +1224,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
 <tr>
-                <td>29</td>
-                <td>US-025</td>
+                <td>28</td>
+                <td>US-024</td>
                 <td>Registro de cuenta</td>
                 <td>
                     <strong>Como</strong> veterinario o propietario de una mascota
@@ -1268,8 +1235,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>30</td>
-                <td>US-026</td>
+                <td>29</td>
+                <td>US-025</td>
                 <td>Iniciar Sesión</td>
                 <td>
                     <strong>Como</strong> veterinario o propietario de una mascota 
@@ -1279,8 +1246,8 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 <td>2</td>
             </tr>
             <tr>
-                <td>31</td>
-                <td>US-027</td>
+                <td>30</td>
+                <td>US-026</td>
                 <td>Cerrar Sesión</td>
                 <td>
                     <strong>Como</strong> veterinario o propietario de una mascota 
