@@ -793,6 +793,110 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                   <td>EPIC-01</td>
             </tr>
             <tr>
+                <td>US-027</td>
+                    <td>Agendar una cita</td>
+                    <td>
+                        <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder agendar una cita en la clínica veterinaria a través de la aplicación,
+                    <strong>para</strong> asegurar la atención médica oportuna para mi mascota.
+                  </td>
+                  <td>
+                      <h5>Escenario 01: Elección del veterinario</h5>
+                    <strong>Dado</strong> el propietario de la mascota se encuentra en el perfil de una clínica veterinaria,
+                    <strong>cuando</strong> presiona la opción de agendar cita,
+                    <strong>Entonces</strong> le muestra un formulario para elegir la fecha y hora.
+                    <br>
+                    <h5>Escenario 02: Agendar una cita con éxito</h5>
+                    <strong>Dado</strong> el propietario de la mascota se encuentra en el formulario para agendar una cita,
+                    <strong>cuando</strong> elige una fecha y hora disponibles, selecciona el tipo de servicio necesario para su mascota y confirma la cita,
+                    <strong>Entonces</strong> la cita se agenda correctamente y se muestra un mensaje de confirmación.
+                    <br>
+                    <h5>Escenario 03: Selección de fecha y hora no disponible</h5>
+                    <strong>Dado</strong> el propietario de una mascota se encuentra en la sección de citas,
+                    <strong>cuando</strong> intenta agendar una cita en una fecha que no está disponible,
+                    <strong>Entonces</strong> se muestra un mensaje indicando que no hay horarios disponibles en esa fecha y se le sugiere seleccionar una fecha alternativa.
+                </td>
+                  <td>EPIC-03</td>
+            </tr>
+            <tr>
+                <td>US-028</td>
+                <td>Acceso de la veterinaria a la información de la mascota</td>
+                <td>
+                    <strong>Como</strong> veterinario,
+                    <strong>quiero</strong> poder acceder a la información completa de una mascota, incluyendo su historial médico, vacunas y tratamientos previos,
+                    <strong>para</strong> brindar una atención adecuada durante una consulta veterinaria.
+                </td>
+                <td>
+                    <h5>Escenario 01: Acceso exitoso a la información de la mascota</h5>
+                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
+                    <strong>cuando</strong> ingresa al perfil de la mascota en la aplicación,
+                    <strong>Entonces</strong> la aplicación muestra la información completa de la mascota, incluyendo su historial médico, vacunas, tratamientos previos y cualquier otra información relevante.
+                    <br>
+                    <h5>Escenario 02: Error al acceder a la información de la mascota</h5>
+                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
+                    <strong>cuando</strong> intenta acceder a la información pero la aplicación no puede cargarla debido a un error técnico,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al veterinario intentarlo más tarde o contactar con soporte técnico.
+                    <br>
+                    <h5>Escenario 03: Información incompleta de la mascota</h5>
+                    <strong>Dado</strong> el veterinario está en la consulta de la mascota y necesita acceder a su información,
+                    <strong>cuando</strong> accede a la información de la mascota pero encuentra que algunos datos importantes están incompletos o faltantes,
+                    <strong>Entonces</strong> la aplicación muestra una alerta al veterinario indicando que la información de la mascota está incompleta y sugiere completarla lo antes posible para garantizar una atención adecuada.
+                </td>
+                <td>EPIC-05</td>
+            </tr>
+            <tr>
+                <td>US-029</td>
+                <td>Ver historial de citas</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder ver el historial completo de citas veterinarias de mi mascota, incluyendo fechas, horarios y propósito de la visita,
+                    <strong>para</strong> tener un registro completo de la atención recibida.
+                </td>
+                <td>
+                    <h5>Escenario 01: Consulta de historial de citas exitosa</h5>
+                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
+                    <strong>cuando</strong> selecciona la opción de ver historial de citas,
+                    <strong>Entonces</strong> la aplicación muestra una lista completa de todas las citas veterinarias anteriores de la mascota, incluyendo fechas, horarios, propósito de la visita y cualquier otra información relevante.
+                    <br>
+                    <h5>Escenario 02: Sin citas anteriores registradas</h5>
+                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
+                    <strong>cuando</strong> no tiene citas anteriores registradas,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje indicando que no hay citas anteriores registradas para la mascota.
+                    <br>
+                    <h5>Escenario 03: Error al cargar historial de citas</h5>
+                    <strong>Dado</strong> el propietario está en la pantalla de historial de citas de la mascota,
+                    <strong>cuando</strong> la aplicación intenta cargar el historial de citas pero se produce un error técnico,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al propietario intentarlo más tarde o contactar con soporte técnico.
+                </td>
+                <td>EPIC-03</td>
+            </tr>
+            <tr>
+                <td>US-030</td>
+                <td>Confirmar cita</td>
+                <td>
+                    <strong>Como</strong> propietario de mascota,
+                    <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
+                    <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
+                </td>
+                <td>
+                    <h5>Escenario 01: Confirmación de cita exitosa</h5>
+                    <strong>Dado</strong> el propietario recibe una notificación de recordatorio de la cita,
+                    <strong>cuando</strong> selecciona la opción de confirmar cita en la notificación,
+                    <strong>Entonces</strong> la aplicación registra la confirmación de la cita y muestra un mensaje de confirmación al propietario.
+                    <br>
+                    <h5>Escenario 02: Cancelación de cita después de confirmación</h5>
+                    <strong>Dado</strong> el propietario ha confirmado la cita,
+                    <strong>cuando</strong> decide cancelar la cita,
+                    <strong>Entonces</strong> la aplicación cancela la cita y muestra un mensaje de confirmación al propietario.
+                    <br>
+                    <h5>Escenario 03: Error al confirmar cita</h5>
+                    <strong>Dado</strong> el propietario recibe una notificación de recordatorio de la cita,
+                    <strong>cuando</strong> intenta confirmar la cita pero la aplicación no puede procesar la solicitud debido a un error técnico,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al propietario intentarlo más tarde o contactar con soporte técnico.
+                </td>
+                <td>EPIC-04</td>
+            </tr>
+            <tr>
                 <td>TS-001</td>
                 <td>Endpoint Medical History</td>
                 <td>
