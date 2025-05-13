@@ -1360,5 +1360,49 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                 </td>
                 <td>2</td>
             </tr>
+               <tr>
+                <td>31</td>
+                <td>US-027</td>
+                <td>Agendar una cita</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota, 
+                        <strong>quiero</strong> poder agendar una cita en la clínica veterinaria a través de la aplicación, 
+                        <strong>para</strong> asegurar la atención médica oportuna para mi mascota.
+                </td>
+                <td>5</td>
+            </tr>
+              <tr>
+                <td>32</td>
+                 <td>US-028</td>
+                <td>Acceso de la veterinaria a la información de la mascota</td>
+                <td>
+                    <strong>Como</strong> veterinario,
+                    <strong>quiero</strong> poder acceder a la información completa de una mascota, incluyendo su historial médico, vacunas y tratamientos previos,
+                    <strong>para</strong> brindar una atención adecuada durante una consulta veterinaria.
+                </td>
+                <td>2</td>
+            </tr>
+               <tr>
+                <td>33</td>
+                <td>US-029</td>
+                <td>Ver historial de citas</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder ver el historial completo de citas veterinarias de mi mascota, incluyendo fechas, horarios y propósito de la visita,
+                    <strong>para</strong> tener un registro completo de la atención recibida.
+                </td>
+                <td>2</td>
+            </tr>
+              <tr>
+                <td>34</td>
+                 <td>US-030</td>
+                <td>Confirmar cita</td>
+                <td>
+                    <strong>Como</strong> propietario de mascota,
+                    <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
+                    <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
+                </td>
+                <td>2</td>
+            </tr>
         </tbody>
 </table>
