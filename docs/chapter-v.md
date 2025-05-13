@@ -1126,6 +1126,146 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   </tr>
 </table>
 
+#### 5.2.1.2. Sprint Backlog 2.
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">US027</td>
+    <td rowspan="3">Agendar una cita</td>
+    <td>TA01</td>
+    <td>Añadir Botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de mascota.</td>
+    <td>3</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Guardar información</td>
+    <td>Implementar guardado de datos.</td>
+    <td>3</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+   <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US028</td>
+    <td rowspan="2">Acceso de la veterinaria a la información de la mascota</td>
+    <td>TA01</td>
+   <td>Agregar Botón</td>
+    <td>Agregar botón de perfil de mascota</td>
+    <td>1</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+     <td>Agregar enrutamiento</td>
+    <td>Conectar rutas</td>
+    <td>1</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+ <!---------------------------------------------------------------------- -->
+   <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US029</td>
+    <td rowspan="2">Ver historial de citas</td>
+    <td>TA01</td>
+   <td>Implementar diseño</td>
+    <td>Implementar diseño de lista.</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+     <td>Implementar lectura de datos</td>
+    <td>Implementar lectura de datos de mascota</td>
+    <td>3</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+ <!---------------------------------------------------------------------- -->
+  <!---------------------------------------------------------------------- -->
+   <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">US030</td>
+    <td rowspan="2">Confirmar cita</td>
+     <td>TA01</td>
+    <td>Añadir Botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Marcelo Renteria</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Implementar formulario</td>
+    <td>Implementar formulario de datos de mascota.</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Guardar información</td>
+    <td>Implementar guardado de datos.</td>
+    <td>3</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+ <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="2">TS005</td>
+    <td rowspan="2">Implementar Seguridad al Iniciar Sesión</td>
+    <td>TA01</td>
+   <td>Implementar diseño</td>
+    <td>Implementar diseño de pregunta.</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+     <td>Validar respuesta</td>
+    <td>Implementar validación de respuesta</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+ <!---------------------------------------------------------------------- -->
+</table>
 
 #### 5.2.2. Implemented Landing Page Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue de la Landing page.
@@ -1218,32 +1358,3 @@ Durante el sprint 1, el equipo trabajo activamente en el reporte. Como el trabaj
 
                                       Report
 ![alt text](../assets/contribution-report.png)
-
-## Capítulo VI: Conclusiones
-
-1. **Optimización de la gestión de citas veterinarias:** El proyecto permitió digitalizar y simplificar el proceso de agendamiento, reprogramación y cancelación de citas, ofreciendo a los usuarios una forma más eficiente de gestionar el cuidado de sus mascotas.
-
-2. **Innovación en el monitoreo de mascotas:** La integración de collares inteligentes destacó como un avance significativo, brindando herramientas para el monitoreo continuo de la salud de las mascotas, lo que facilita un cuidado preventivo y mejora la comunicación entre veterinarios y propietarios.
-
-3. **Impacto en la calidad del cuidado de mascotas:** La combinación de dispositivos IoT con la plataforma desarrollada promueve un cuidado más informado y personalizado, lo que contribuye al bienestar general de las mascotas y reduce riesgos asociados con la falta de seguimiento veterinario.
-
-4. **Desarrollo de una solución escalable:** La plataforma establece una base tecnológica sólida que puede evolucionar, incorporando nuevas funcionalidades y dispositivos IoT para responder a futuras necesidades del mercado y mejorar la experiencia de los usuarios.
-
-5. **Promoción de la adopción tecnológica:** 
-El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando cómo herramientas avanzadas pueden integrarse de manera efectiva en la vida diaria para solucionar problemas prácticos.
-
-
-## Capítulo VII: Bibliografía
-
-1. **Tull Soriano, Luis Federico.** *Prototipo de monitor de signos vitales en pacientes veterinarios de especie canina utilizando IoT.* Universidad Nacional Pedro Henríquez Ureña, 2021. [https://repositorio.unphu.edu.do/handle/123456789/3485](https://repositorio.unphu.edu.do/handle/123456789/3485)
-
-2. **Grados Denegri, Felipe Alfredo, y Freddy Hernan Rodriguez Vega.** *Aplicativo móvil para la gestión de servicios clínicos veterinarios en Lima - Metropolitana.* Universidad Autónoma del Perú, 2021. [https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079](https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079)
-
-## Capítulo VIII: Anexo
-
-- **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
-- **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
-- **Aplicación Móvil:** [Enlace al proyecto móvil](URL_DEL_MOBILE)
-- **Backend:** [Enlace al backend](https://upetbackendapi.onrender.com/docs#/)
-- **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
-- **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
