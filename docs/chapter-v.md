@@ -1219,8 +1219,8 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
   <!---------------------------------------------------------------------- -->
    <tr>
     <!--rowspan="number of rows for the tasks (2)" -->
-    <td rowspan="2">US030</td>
-    <td rowspan="2">Confirmar cita</td>
+    <td rowspan="3">US030</td>
+    <td rowspan="3">Confirmar cita</td>
      <td>TA01</td>
     <td>Añadir Botón</td>
     <td>Agregar botón al Frontend.</td>
