@@ -1000,6 +1000,29 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 </td>
                 <td>EPIC-10</td>
             </tr>
+            <tr>
+                <td>TS-005</td>
+                <td>Implementar Seguridad al Iniciar Sesión</td>
+                <td>
+                    <strong>Como</strong> desarrollador frontend, 
+                    <strong>quiero</strong> una capa de seguridad al iniciar sesión
+                    <strong>para</strong> evitar que usuarios maliciosos entren a la aplicación.
+                </td>
+                <td>
+                    <h5>Escenario 01: Pregunta exitosa</h5>
+                    <strong>Dado</strong> un usuario desea iniciar sesión.
+                    <strong>Cuando</strong> responde la pregunta de seguridad.
+                      <strong>Y</strong> es correcto.
+                    <strong>Entonces</strong> el sistema lo deja acceder.
+                    <br>
+                    <h5>Escenario 02: Pregunta exitosa</h5>
+                    <strong>Dado</strong> un usuario desea iniciar sesión.
+                    <strong>Cuando</strong> responde la pregunta de seguridad.
+                      <strong>Y</strong> está mal.
+                    <strong>Entonces</strong> el sistema no lo deja acceder.
+                </td>
+                <td>EPIC-10</td>
+            </tr>
       </tbody>
 </table>
 
@@ -1401,6 +1424,17 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                     <strong>Como</strong> propietario de mascota,
                     <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
                     <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
+                </td>
+                <td>2</td>
+            </tr>
+              <tr>
+                <td>35</td>
+                 <td>TS-005</td>
+                <td>Implementar Seguridad al Iniciar Sesión</td>
+                <td>
+                    <strong>Como</strong> desarrollador frontend, 
+                    <strong>quiero</strong> una capa de seguridad al iniciar sesión
+                    <strong>para</strong> evitar que usuarios maliciosos entren a la aplicación.
                 </td>
                 <td>2</td>
             </tr>
