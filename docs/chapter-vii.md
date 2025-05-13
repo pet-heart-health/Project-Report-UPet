@@ -136,4 +136,32 @@ En esta sección, se detallan los componentes que forman parte del pipeline de d
 
 4. **Invalidación de Caché**: Firebase invalida automáticamente la caché, asegurando que los usuarios reciban siempre la versión más reciente de la aplicación.
 
+## Capítulo VIII: Conclusiones
+
+1. **Optimización de la gestión de citas veterinarias:** El proyecto permitió digitalizar y simplificar el proceso de agendamiento, reprogramación y cancelación de citas, ofreciendo a los usuarios una forma más eficiente de gestionar el cuidado de sus mascotas.
+
+2. **Innovación en el monitoreo de mascotas:** La integración de collares inteligentes destacó como un avance significativo, brindando herramientas para el monitoreo continuo de la salud de las mascotas, lo que facilita un cuidado preventivo y mejora la comunicación entre veterinarios y propietarios.
+
+3. **Impacto en la calidad del cuidado de mascotas:** La combinación de dispositivos IoT con la plataforma desarrollada promueve un cuidado más informado y personalizado, lo que contribuye al bienestar general de las mascotas y reduce riesgos asociados con la falta de seguimiento veterinario.
+
+4. **Desarrollo de una solución escalable:** La plataforma establece una base tecnológica sólida que puede evolucionar, incorporando nuevas funcionalidades y dispositivos IoT para responder a futuras necesidades del mercado y mejorar la experiencia de los usuarios.
+
+5. **Promoción de la adopción tecnológica:** 
+El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando cómo herramientas avanzadas pueden integrarse de manera efectiva en la vida diaria para solucionar problemas prácticos.
+
+
+## Capítulo IX: Bibliografía
+
+1. **Tull Soriano, Luis Federico.** *Prototipo de monitor de signos vitales en pacientes veterinarios de especie canina utilizando IoT.* Universidad Nacional Pedro Henríquez Ureña, 2021. [https://repositorio.unphu.edu.do/handle/123456789/3485](https://repositorio.unphu.edu.do/handle/123456789/3485)
+
+2. **Grados Denegri, Felipe Alfredo, y Freddy Hernan Rodriguez Vega.** *Aplicativo móvil para la gestión de servicios clínicos veterinarios en Lima - Metropolitana.* Universidad Autónoma del Perú, 2021. [https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079](https://repositorio.autonoma.edu.pe/handle/20.500.13067/1079)
+
+## Capítulo X: Anexo
+
+- **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
+- **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
+- **Aplicación Móvil:** [Enlace al proyecto móvil](URL_DEL_MOBILE)
+- **Backend:** [Enlace al backend](https://upetbackendapi.onrender.com/docs#/)
+- **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
+- **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
 
