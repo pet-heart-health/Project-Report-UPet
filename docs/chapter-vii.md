@@ -160,7 +160,7 @@ El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando 
 - **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
 - **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
 - **Aplicación Móvil:** [Enlace al proyecto móvil](URL_DEL_MOBILE)
-- **Backend:** [Enlace al backend](https://upetbackendapi.onrender.com/docs#/)
+- **Backend:** [Enlace al backend](https://backend-app-upet-production.up.railway.app/docs#)
 - **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
 - **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
 - **Vídeo TP:** [Enlace al vídeo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216558_upc_edu_pe/Eazd8BrgjJNBkK0j-dDMHiYBwBIH0VsMdtIp7s9Gd1zaLQ?e=h2Gugv)
