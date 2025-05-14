@@ -16,7 +16,8 @@ El uso combinado de estas metodologías, junto con herramientas especializadas, 
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
-<!-- TODO: Se debe agregar imágenes de los archivos de test --> 
+![mTest](../assets/UserServiceTest.png)
+![Test](../assets/AppointmentService.png)
 
 ## 7.2. Continuous Delivery
 El objetivo de la **Entrega Continua** es automatizar la integración y pruebas del código, asegurando que siempre esté listo para ser desplegado cuando se necesite, pero sin realizar el despliegue de forma automática.
@@ -98,9 +99,7 @@ El objetivo del Despliegue Continuo es automatizar por completo todo el flujo de
 - **Monitoreo continuo y retroalimentación**: Tras cada despliegue, herramientas de monitoreo evalúan el rendimiento, los errores y la experiencia del usuario. Esta información alimenta el ciclo de mejora continua, permitiendo iteraciones rápidas y enfocadas en el usuario.
 
 
-### 7.3.2. Production Deployment Pipeline Components
-
-## 7.3.2. Componentes del Pipeline de Despliegue a Producción
+### 7.3.2. Componentes del Pipeline de Despliegue a Producción
 
 En esta sección, se detallan los componentes que forman parte del pipeline de despliegue a producción, enfocados en la base de datos, el backend y el frontend, y cómo se integran para automatizar todo el proceso de despliegue.
 
@@ -164,4 +163,4 @@ El proyecto fomenta el uso de tecnología en un contexto cotidiano, demostrando 
 - **Backend:** [Enlace al backend](https://upetbackendapi.onrender.com/docs#/)
 - **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
 - **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
-
+- **Vídeo TP:** [Enlace al vídeo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216558_upc_edu_pe/Eazd8BrgjJNBkK0j-dDMHiYBwBIH0VsMdtIp7s9Gd1zaLQ?e=h2Gugv)
