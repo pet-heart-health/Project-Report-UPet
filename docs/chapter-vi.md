@@ -39,6 +39,10 @@ Para la elaboración de los principales tests del Backend de nuestro proyecto, h
 ![Veterinary Clinic Service](../assets/VeterinaryclinicServiceTest.png)
 
 ### 6.1.2. Core Integration Tests.
+
+**OTP**
+![OTP](../assets/it-1.png)
+
 ### 6.1.3. Core Behavior-Driven Development
 **Features**
 
