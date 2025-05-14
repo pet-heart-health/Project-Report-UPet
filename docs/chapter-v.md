@@ -1289,7 +1289,68 @@ Para la entrega de este Sprint, se completó con éxito el despliegue del Fronte
 ![frontend-picture](../assets/frontend-picture4.png)
 ![frontend-picture](../assets/frontend-picture5.png)
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence.
+#### 5.2.4. Acuerdo de Servicio - SaaA
+TÉRMINOS Y CONDICIONES DE USO DE LA PLATAFORMA UPet
+Última actualización: 11/05/2025
+Bienvenido a UPet, una plataforma desarrollada por UPet, una startup con domicilio en Perú, orientada a transformar el cuidado de las mascotas mediante la tecnología. A través de nuestras aplicaciones web y móvil (disponible en Android), ofrecemos a nuestros usuarios herramientas que les permiten agendar citas con veterinarios, localizar clínicas cercanas, recibir recordatorios personalizados y gestionar pagos de manera segura.
+Al acceder, registrarte y/o hacer uso de los servicios de UPet, estás aceptando los presentes Términos y Condiciones de uso. Si no estás de acuerdo con ellos, te recomendamos no utilizar nuestros servicios.
+________________________________________
+1. Aceptación de los Términos
+El uso de UPet implica tu aceptación expresa, libre, previa e informada de estos Términos y Condiciones, así como de la Política de Privacidad que forma parte integral de los mismos. Esta aceptación tiene efectos contractuales y es vinculante para ti como usuario de la plataforma.
+________________________________________
+2. Descripción del Servicio
+UPet pone a disposición de sus usuarios una plataforma digital para la gestión integral del cuidado de mascotas. A través de ella, los usuarios pueden:
+•	Buscar clínicas veterinarias cercanas a su ubicación.
+•	Agendar y gestionar citas con profesionales veterinarios.
+•	Recibir recordatorios sobre visitas, vacunaciones u otros cuidados.
+•	Realizar pagos por servicios dentro de la plataforma.
+•	Compartir opiniones y valoraciones sobre clínicas veterinarias.
+El servicio se encuentra disponible en versión web y como aplicación móvil para dispositivos con sistema operativo Android.
+________________________________________
+3. Registro de Usuario
+Para acceder a las funcionalidades principales de la plataforma, es necesario registrarse como usuario, ya sea en calidad de cliente (dueño de mascota) o de veterinario.
+Durante el registro, solicitamos información básica como nombre, apellido, correo electrónico y una contraseña segura. El usuario se compromete a proporcionar información veraz, actualizada y completa, así como a mantener la confidencialidad de sus credenciales de acceso.
+UPet no se hace responsable del uso no autorizado de cuentas. El usuario acepta que cualquier actividad realizada desde su cuenta será su responsabilidad.
+________________________________________
+4. Uso Autorizado de la Plataforma
+Como usuario de UPet, te comprometes a utilizar la plataforma exclusivamente para los fines permitidos y de conformidad con la legislación vigente. Está estrictamente prohibido:
+•	Usar la plataforma para fines ilegales, fraudulentos o contrarios a la moral y buenas costumbres.
+•	Interferir, interrumpir o intentar vulnerar la seguridad del sistema o de otros usuarios.
+•	Publicar o difundir contenido difamatorio, ofensivo, discriminatorio o contrario a la ley.
+•	Hacerse pasar por otra persona o entidad.
+UPet se reserva el derecho de suspender o cancelar cuentas que infrinjan estos principios, sin perjuicio de las acciones legales correspondientes.
+________________________________________
+5. Contenido Generado por el Usuario
+Los usuarios pueden publicar opiniones, valoraciones y comentarios relacionados con las clínicas veterinarias y profesionales del rubro.
+Al publicar contenido en UPet, concedes a la empresa una licencia no exclusiva, mundial, gratuita y transferible para usar, reproducir, modificar y mostrar dicho contenido con fines relacionados a la operación de la plataforma. No se permite la publicación de contenido ofensivo, difamatorio o que infrinja derechos de terceros.
+Nos reservamos el derecho de revisar, editar o eliminar contenido que consideremos inapropiado o que no cumpla con estos términos.
+________________________________________
+6. Servicios de Terceros
+UPet puede incorporar servicios de terceros, como Google Maps, para ofrecer funcionalidades como la geolocalización de clínicas. Al utilizar nuestra plataforma, también aceptas los términos y condiciones de dichos servicios externos. UPet no se responsabiliza por el funcionamiento, cambios o interrupciones en los servicios de terceros.
+________________________________________
+7. Pagos y Transacciones
+La plataforma permite realizar pagos por servicios ofrecidos por clínicas veterinarias o profesionales registrados. Estas transacciones son gestionadas mediante servicios externos de pago seguros y confiables.
+UPet no almacena información bancaria o de tarjetas de crédito. En caso de reclamos o devoluciones, el usuario deberá comunicarse directamente con el proveedor del servicio correspondiente (clínica o veterinario).
+________________________________________
+8. Propiedad Intelectual
+Todos los derechos de propiedad intelectual sobre el diseño, código, marca, logotipo, base de datos, contenidos y funcionalidades de UPet pertenecen exclusivamente a la empresa desarrolladora, salvo indicación contraria.
+El uso de la plataforma no otorga al usuario ningún derecho de propiedad sobre los elementos protegidos. Está prohibida la reproducción, distribución, transformación o explotación no autorizada de cualquier contenido, salvo permiso expreso y por escrito de UPet.
+________________________________________
+9. Modificaciones de los Términos
+UPet se reserva el derecho de modificar en cualquier momento los presentes Términos y Condiciones. Las modificaciones entrarán en vigencia una vez publicadas en la plataforma. Recomendamos revisar este documento periódicamente. El uso continuado de la plataforma luego de la publicación de cambios se considerará como aceptación tácita de los mismos.
+________________________________________
+10. Limitación de Responsabilidad
+UPet actúa como intermediario tecnológico entre usuarios y clínicas veterinarias. No se hace responsable por el cumplimiento, calidad o resultados de los servicios brindados por terceros.
+Asimismo, no garantizamos que la plataforma esté libre de errores o interrupciones, ni somos responsables por daños directos o indirectos que puedan derivarse del uso del servicio.
+________________________________________
+11. Legislación Aplicable y Jurisdicción
+Los presentes Términos y Condiciones se rigen por la legislación vigente de la República del Perú. En caso de controversia, las partes se someten a la jurisdicción de los tribunales competentes del país.
+________________________________________
+12. Contacto
+Para consultas, dudas o reclamos sobre estos Términos y Condiciones, puedes escribirnos a:
+📧 upet@gmail.com
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue del Mobile App.
 
 ![mobile-picture](../assets/mobile-picture1.jpeg)
@@ -1298,9 +1359,9 @@ Para la entrega de este Sprint, se completó con éxito el despliegue del Mobile
 ![mobile-picture](../assets/mobile-picture4.jpeg)
 ![mobile-picture](../assets/mobile-picture5.jpeg)
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence.
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue del Backend.
-**Backend desplegado** https://upetbackendapi.onrender.com/docs#/  
+**Backend desplegado** https://backend-app-upet-production.up.railway.app/docs#
 
 ![backend-picture](https://i.postimg.cc/sfSxwtzg/backend-picture1.png)
 ![backend-picture](https://i.postimg.cc/Mpspnw7d/backend-picture2.png)
@@ -1308,7 +1369,7 @@ Para la entrega de este Sprint, se completó con éxito el despliegue del Backen
 ![backend-picture](https://i.postimg.cc/j5fx3JGF/backend-picture4.png)
 ![backend-picture](https://i.postimg.cc/d0pQ99SC/backend-picture5.png)
 
-#### 5.2.6. RESTful API documentation
+#### 5.2.7. RESTful API documentation
 Se documentaron endpoints esenciales para UPet. Esto implicó detallar y especificar las rutas y funcionalidades de la API que permitirán la comunicación e intercambio de datos entre el frontend y el backend de la aplicación. Además de documentar estos endpoints cruciales, el equipo realizó confirmaciones (commits) en el repositorio del proyecto para registrar los cambios y avances realizados en el código fuente. A continuación, se muestra los endpoints documentados y los commits: 
 
 | Endpoint                                        | Verbo HTTP | Parámetros        | Ejemplo de Llamada                           |
@@ -1344,7 +1405,7 @@ Se documentaron endpoints esenciales para UPet. Esto implicó detallar y especif
 | /api/v1/vaccinations                           | GET        | -                 | /api/v1/vaccinations                        |
 | /api/v1/vaccinations                           | POST       | -                 | /api/v1/vaccinations                        |
 
-#### 5.2.7. Team Collaboration Insights.
+#### 5.2.8. Team Collaboration Insights.
 Durante el sprint 1, el equipo trabajo activamente en el reporte. Como el trabajo del Frontend, Backend y Mobile Applications ya estaba realizado previamente, el Team Leader lo subió a los repositorios correspondientes.
 
                                       App Web
