@@ -38,6 +38,16 @@ Abril, 2025.
      - Primera versión<br>
      - Creación del informe<br>
      - Capítulo 1 al 5<br>
+  </tr>
+    <tr>
+        <td colspan="3">2da</td>
+    <td colspan="3">13/5/2024</td>
+    <td colspan="10">Héctor Marcelo Rentería Puga, Josehp Piero Herrera del Pino, Fabricio Apaza Morales, Diego Flores Avalos.</td>
+    <td colspan="5">
+     - Segunda versión<br>
+     - Pruebas<br>
+     - Capítulo 5 al 7<br>
+    </tr>
   </table>
 
 ## Project Report Collaboration Insights
@@ -56,12 +66,25 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 - chapter-iv
 - chapter-v
 - chapter-vi
+- chapter-vii
 
-**Entregable TB1**
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primera entrega. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
 ![alt-text](assets/contribution-report.png)
+![alt-text](assets/contribution-report2.png)
 
 # Student Outcome
 
-<table> <tr> <th colspan="2">Criterio Específico</th> <th colspan="10">Acciones Realizadas</th> <th colspan="2">Conclusiones</th> </tr> <tr> <td colspan="2">Capacidad para explorar de manera exhaustiva problemas, idea o eventos para formular conclusiones u opiniones sólidamente justificadas.</td> <td colspan="10"><b>Héctor Marcelo Rentería Puga</b> <br>TB1: Manejé los User Stories y el sprint.<br><b>Josehp Piero Herrera del Pino</b><br>TB1: Me encargué de realizar los diagramas de arquitectura c4 considerando todos nuestros requisitos funcionales y también elaboré el diseño de nuestros sistemas en el lado del frontend<br><b>Diego Flores Avalos</b><br>TB1: Colaboré en correción del Front y Backend con respecto a lo solicitado. A su vez, elaboré el capitulo I. <br><b>Fabricio Apaza Morales</b> <br>TB1: Realicé el capitulo II del informe, más algunas correcciones de información y estilos. <br></td> <td colspan="2">.</td> </tr> <tr> <td colspan="2">Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales.</td> <td colspan="10"><b>Héctor Marcelo Rentería Puga</b> <br>TB1: Controlé el estado de la iteración, asegurando que los productos funcionen cómo deberían al ser mostrados al cliente.<br><b>Josehp Piero Herrera del Pino</b><br>TB1: Verifiqué la correcta estructura de los diagramas arquitéctonicos para que esten alineados con nuestros objetivos<br><b>Diego Flores Avalos</b><br>TB1: Colaboré en correción del Front y Backend con respecto a lo solicitado. A su vez, elaboré el capitulo I. <br><b>Fabricio Apaza Morales</b> <br>TB1: Realicé el capitulo II del informe, más algunas correcciones de información y estilos. <br></td> <td colspan="2">.</td> </tr> </table>
+<table> <tr> <th colspan="2">Criterio Específico</th> <th colspan="10">Acciones Realizadas</th> <th colspan="2">Conclusiones</th> </tr>
+    <tr> <td colspan="2">Capacidad para explorar de manera exhaustiva problemas, idea o eventos para formular conclusiones u opiniones sólidamente justificadas.</td> <td colspan="10">
+        <b>Héctor Marcelo Rentería Puga</b> <br>TB1: Manejé los User Stories y el sprint.<br>TB2: Manejé el Sprint Backlog, y la integración de la solución.<br>
+        <b>Josehp Piero Herrera del Pino</b><br>TB1: Me encargué de realizar los diagramas de arquitectura c4 considerando todos nuestros requisitos funcionales y también elaboré el diseño de nuestros sistemas en el lado del frontend<br>TB2: Investigué y documenté la implementación de DevOps Practices.<br>
+        <b>Diego Flores Avalos</b><br>TB1: Colaboré en correción del Front y Backend con respecto a lo solicitado. A su vez, elaboré el capitulo I. <br>TB2: Agregué prácticas de seguridad a la plataforma.<br>
+        <b>Fabricio Apaza Morales</b> <br>TB1: Realicé el capitulo II del informe, más algunas correcciones de información y estilos. <br>TB2: Realicé los Términos y Servicios de la plataforma..<br></td>
+        <td colspan="2">.</td>
+    </tr> <tr> <td colspan="2">Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales.</td> <td colspan="10">
+        <b>Héctor Marcelo Rentería Puga</b> <br>TB1: Controlé el estado de la iteración, asegurando que los productos funcionen cómo deberían al ser mostrados al cliente.<br>TB2: Realicé pruebas funcionales, asegurando que la solución cumpla lo planteado.<br>
+        <b>Josehp Piero Herrera del Pino</b><br>TB1: Verifiqué la correcta estructura de los diagramas arquitéctonicos para que esten alineados con nuestros objetivos<br><br>TB2: Realicé pruebas integrales, asegurando que la solución cumpla lo planteado.<br>
+        <b>Diego Flores Avalos</b><br>TB1: Colaboré en correción del Front y Backend con respecto a lo solicitado. A su vez, elaboré el capitulo I. <br><br>TB2: Realicé pruebas de comportamiento, asegurando que la solución cumpla lo planteado.<br>
+        <b>Fabricio Apaza Morales</b> <br>TB1: Realicé el capitulo II del informe, más algunas correcciones de información y estilos. <br>TB2: Realicé pruebas unitarias, asegurando que la solución cumpla lo planteado.<br></td>
+        <td colspan="2">.</td> </tr> </table>
