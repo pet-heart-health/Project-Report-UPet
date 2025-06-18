@@ -9,21 +9,29 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 **Assumptions:**
 - *Modo Oscuro*: Se asume que los usuarios valoran que el diseño de la interfaz se acomode a sus preferencias visuales.
 
+- *Olvido de vacunación*: Se asume que muchos dueños de mascotas olvidan las fechas de vacunación si no cuentan con recordatorios automáticos.
+
 **Knowledge Gaps:**
 - *Preferencias de Interfaz*: Falta información sobre las preferencias que tienen los usuarios respecto al diseño de la interfaz.
+
+- *Frecuencia del olvido*: No se tiene información precisa sobre cuántos usuarios han olvidado citas o vacunas importantes para sus mascotas.
 
 **Ideas:**
 - *Entrevistas*: Realizar entrevistas a los usuarios, en los que preguntamos y recolectamos información sobre sus preferencias.
 
+- *Funcionalidad de recordatorios*: Implementar una funcionalidad que envíe notificaciones automáticas antes de las fechas de vacunación, y medir su impacto con encuestas o métricas de cumplimiento.
+
 **Claims:**
 - *Experiencia más cómoda*: Se afirma que el Modo Oscuro proporcionará una experiencia más cómoda a los usuarios.
+
+- *Mejora de cumplimiento*: Se afirma que al incluir recordatorios automáticos de vacunación, se mejora la salud preventiva de las mascotas y se reduce el riesgo de enfermedades comunes.
 
 ### 8.1.3. Experiment-Ready Questions
 
 | Question | Confidence | Risk | Impact | Interest | Total Score |
 |----------|------------|------|--------|----------|--|
 | ¿Un Modo Oscuro mejoraría la experiencia? | 8 - Varias aplicaciones lo tienen, y el porcentaje de uso es notable. | 2 - Bajo riesgo, ya que es una funcionalidad sencilla de colores | 5 - Mejora la experiencia, pero no es esencial. | 5 - Interés moderado en los usuarios. | 20 |
-|  |  |  |  |  |  |
+| ¿La implementación de recordatorios de vacunación aumentará el cumplimiento del calendario de salud de las mascotas? | 7 – Es una práctica común en apps de salud y organización, pero no tenemos datos específicos de nuestros usuarios aún. | 3 – Riesgo bajo-moderado: requiere integración con historial médico y sistema de notificaciones. | 8 – Tiene alto impacto en la salud de las mascotas y fidelización de usuarios. | 7 – Alta probabilidad de interés: dueños responsables valoran el cuidado preventivo. | 25 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -33,7 +41,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Prioridad | Pregunta |
 |-----------|----------|
 | 1 | ¿Un Modo Oscuro mejoraría la experiencia? |
-|  |  |
+| 2 | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas? |
 |  |  |
 |  |  |
 |  |  |
@@ -46,6 +54,12 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | What | Implementar un botón que cambie entre ambos modos de color. |
 | Hypothesis | Se espera que, al añadir el modo oscuro, el tiempo de uso de la aplicación por parte del 50% de los usuarios aumente en un 30%. |
 
+| Question | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas? |
+|----------|-----------|
+| Why | Porque muchos usuarios no llevan un control estricto del calendario de vacunación de sus mascotas, lo que puede afectar su salud. Un recordatorio automático podría ayudarles a no olvidar fechas importantes. |
+| What | Implementar una funcionalidad que permita registrar fechas de vacunación y enviar notificaciones previas al usuario (por ejemplo, 3 días antes, 1 día antes y el mismo día). |
+| Hypothesis | Se espera que, con los recordatorios activos, al menos el 60% de los usuarios registrados con mascotas vacunadas cumplan sus citas a tiempo durante el primer mes. |
+
 # 8.2. Experiment Design
 ### 8.2.1. Experiment Cards
 
@@ -56,11 +70,22 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Hypothesis | Se espera que, al añadir el modo oscuro, el tiempo de uso de la aplicación por parte del 50% de los usuarios aumente en un 30%. |
 | Null Hypothesis | Al añadir el modo oscuro, el tiempo de uso de la aplicación por parte del 50% de los usuarios no se verá afectada en gran medida. |
 
+|  | Hypothesis |
+|--|-----------|
+| Question | ¿Los recordatorios automáticos ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas? |
+| Belief | Muchos usuarios olvidan las fechas de vacunación de sus mascotas. Al ofrecer recordatorios automáticos, facilitamos el cumplimiento del calendario de salud preventiva. |
+| Hypothesis | Se espera que, al implementar los recordatorios, al menos el 60% de los usuarios con mascotas registradas completen sus vacunas programadas en la fecha estimada durante el primer mes. |
+| Null Hypothesis | La implementación de recordatorios no generará un cambio significativo en el cumplimiento de las fechas de vacunación programadas por los usuarios.|
+
 ### 8.2.2. Measures
 
 | Question | ¿Un Modo Oscuro mejoraría la experiencia? |
 |----------|-----------|
 | Measure | Medir el tiempo de uso de los usuarios, registrando los tiempos de inicio de sesión, y su cierre correspondiente. Sacando un promedio de la mitad de los usuarios, se evaluará su impacto. |
+
+| Question | ¿Los recordatorios automáticos ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?  |
+|----------|-----------|
+| Measure | Medir la cantidad de vacunas registradas como "cumplidas a tiempo", comparando el comportamiento de los usuarios antes y después de habilitar los recordatorios. También se pueden usar encuestas de percepción sobre la utilidad del sistema.|
 
 ### 8.2.3. Conditions
 
@@ -68,6 +93,11 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 |----------|-----------|
 | Condición Experimental | El tiempo de uso aumentará en un 30%, medido a través de registros de tiempo de sesión. |
 | Condición de Control | No habrá un aumento significativo del tiempo de uso por parte de los usuarios. |
+
+| Question | 	¿Los recordatorios automáticos ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas de sus animales? |
+|----------|-----------|
+| Condición Experimental | 	El porcentaje de cumplimiento de vacunas a tiempo será igual o mayor al 60% entre los usuarios que recibieron recordatorios. |
+| Condición de Control | 	El porcentaje de cumplimiento de vacunas a tiempo se mantendrá igual o por debajo del comportamiento base (< 40%) en usuarios sin recordatorios. |
 
 ### 8.2.4. Scale Calculations and Decisions.
 <table>
