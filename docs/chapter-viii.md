@@ -69,6 +69,47 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Condición Experimental | El tiempo de uso aumentará en un 30%, medido a través de registros de tiempo de sesión. |
 | Condición de Control | No habrá un aumento significativo del tiempo de uso por parte de los usuarios. |
 
+### 8.2.4. Scale Calculations and Decisions.
+<table>
+  <tr>
+    <td rowspan="2"><strong>Scale Calculation</strong></td>
+    <td rowspan="2"><strong>Decision</strong></td>
+    <td colspan="4"><strong>Factor</strong></td>
+  </tr>
+  <tr>
+    <td>Desfavorable</td>
+    <td>Aceptable</td>
+    <td>Ideal</td>
+    <td>Excelente</td>
+  </tr>
+  <tr>
+    <td>Creemos que, al añadir el modo oscuro, la comodidad visual de los usuarios aumentará en un 30%. Sabremos que esto es cierto cuando el tiempo de uso de la aplicación por parte del 50% de los usuarios aumente en un 30%.</td>
+    <td>Implementaremos un botón en el menú lateral de la aplicación que, al presionarse, intercambiaré entre modos de color.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>X</td>
+  </tr>
+</table>
+### 8.2.5. Methods Selection.
+
+| Herramienta | Google Analytics | Catchpoint | Amazon Redline13 | Lighthouse |
+|-------------|------------------|------------|------------------|------------|
+| Precio | Plan gratis, y plan de pago en base a uso. |  |  |  |
+| Análisis | Análisis de tráfico y uso de usuarios. |  |  |  |
+| Facilidad de Uso | Interfaz detallada, pero manejable. |  |  |  |
+| Ventajas | Amplia integración con otros servicios, y gran capacidad de generación de reportes. |  |  |  |
+
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación UPet para evaluar su desempeño y optimizar la experiencia de usuario:
+
+### 8.2.7. Web and Mobile Tracking Plan.
+
+Como se busca una optimización y mejora continua de la plataforma UPet, se monitorearán una serie de datos importantes durante el uso de la aplicación Web y aplicación Móvil por parte de los usuarios. Para eso, establecemos un plan compuesto por los siguientes pasos:
+
+1. 
+
 ## Capítulo IX: Bibliografía
 
 1. **Tull Soriano, Luis Federico.** *Prototipo de monitor de signos vitales en pacientes veterinarios de especie canina utilizando IoT.* Universidad Nacional Pedro Henríquez Ureña, 2021. [https://repositorio.unphu.edu.do/handle/123456789/3485](https://repositorio.unphu.edu.do/handle/123456789/3485)
