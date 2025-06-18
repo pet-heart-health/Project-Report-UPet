@@ -11,20 +11,29 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 
 - *Olvido de vacunación*: Se asume que muchos dueños de mascotas olvidan las fechas de vacunación si no cuentan con recordatorios automáticos.
 
+- *Clínicas veterinarias favoritas*: Se asume que los usuarios querrán guardar como favoritas las clínicas que ya conocen o en las que confían, para encontrarlas más rápido en el futuro.
+
+
 **Knowledge Gaps:**
 - *Preferencias de Interfaz*: Falta información sobre las preferencias que tienen los usuarios respecto al diseño de la interfaz.
 
 - *Frecuencia del olvido*: No se tiene información precisa sobre cuántos usuarios han olvidado citas o vacunas importantes para sus mascotas.
+
+- *Frecuencia de citas en la misma clínica*: No se sabe cuántos usuarios repiten de clínica veterinaria en sus citas, ni si realmente necesitan una opción de “favoritos”
 
 **Ideas:**
 - *Entrevistas*: Realizar entrevistas a los usuarios, en los que preguntamos y recolectamos información sobre sus preferencias.
 
 - *Funcionalidad de recordatorios*: Implementar una funcionalidad que envíe notificaciones automáticas antes de las fechas de vacunación, y medir su impacto con encuestas o métricas de cumplimiento.
 
+- *Botón de guardar como favorita*: Agregar un botón de “guardar como favorita” en el perfil de cada clínica, y luego analizar cuántas veces es usado y con qué frecuencia se agenda con esas clínicas favoritas.
+
 **Claims:**
 - *Experiencia más cómoda*: Se afirma que el Modo Oscuro proporcionará una experiencia más cómoda a los usuarios.
 
 - *Mejora de cumplimiento*: Se afirma que al incluir recordatorios automáticos de vacunación, se mejora la salud preventiva de las mascotas y se reduce el riesgo de enfermedades comunes.
+
+- *Eficiencia al agendar citas*: Se afirma que permitir guardar veterinarias favoritas mejora la rapidez al agendar citas y refuerza el vínculo con clínicas confiables.
 
 ### 8.1.3. Experiment-Ready Questions
 
@@ -32,7 +41,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 |----------|------------|------|--------|----------|--|
 | ¿Un Modo Oscuro mejoraría la experiencia? | 8 - Varias aplicaciones lo tienen, y el porcentaje de uso es notable. | 2 - Bajo riesgo, ya que es una funcionalidad sencilla de colores | 5 - Mejora la experiencia, pero no es esencial. | 5 - Interés moderado en los usuarios. | 20 |
 | ¿La implementación de recordatorios de vacunación aumentará el cumplimiento del calendario de salud de las mascotas? | 7 – Es una práctica común en apps de salud y organización, pero no tenemos datos específicos de nuestros usuarios aún. | 3 – Riesgo bajo-moderado: requiere integración con historial médico y sistema de notificaciones. | 8 – Tiene alto impacto en la salud de las mascotas y fidelización de usuarios. | 7 – Alta probabilidad de interés: dueños responsables valoran el cuidado preventivo. | 25 |
-|  |  |  |  |  |  |
+|¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?|7 – Varias plataformas similares permiten guardar elementos favoritos; es una práctica común  |2 – Bajo riesgo técnico, ya que no modifica el código existente  | 5 – Mejora la experiencia, pero no es una funcionalidad crítica. | 6 – Probable interés entre usuarios frecuentes o con clínicas de preferencia.|20 |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 
@@ -42,7 +51,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 |-----------|----------|
 | 1 | ¿Un Modo Oscuro mejoraría la experiencia? |
 | 2 | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas? |
-|  |  |
+| 3 | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas? |
 |  |  |
 |  |  |
 
@@ -59,6 +68,12 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Why | Porque muchos usuarios no llevan un control estricto del calendario de vacunación de sus mascotas, lo que puede afectar su salud. Un recordatorio automático podría ayudarles a no olvidar fechas importantes. |
 | What | Implementar una funcionalidad que permita registrar fechas de vacunación y enviar notificaciones previas al usuario (por ejemplo, 3 días antes, 1 día antes y el mismo día). |
 | Hypothesis | Se espera que, con los recordatorios activos, al menos el 60% de los usuarios registrados con mascotas vacunadas cumplan sus citas a tiempo durante el primer mes. |
+
+| Question | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas? |
+|--------------|--------------------------------------------------------------------------------|
+| Why | Porque al permitir que los usuarios marquen como favoritas las clínicas de su confianza, se facilitará el acceso a ellas, promoviendo agendamientos más rápidos y recurrentes. |
+| What | Habilitar un botón con ícono de estrella en el perfil de cada clínica para marcarla como favorita y mostrar una sección especial con acceso rápido en el inicio de la app. |
+| Hypothesis | Se espera que al menos el 40% de los usuarios que marquen una veterinaria como favorita agenden su siguiente cita con esa misma clínica en un plazo de 30 días. |
 
 # 8.2. Experiment Design
 ### 8.2.1. Experiment Cards
@@ -77,6 +92,13 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Hypothesis | Se espera que, al implementar los recordatorios, al menos el 60% de los usuarios con mascotas registradas completen sus vacunas programadas en la fecha estimada durante el primer mes. |
 | Null Hypothesis | La implementación de recordatorios no generará un cambio significativo en el cumplimiento de las fechas de vacunación programadas por los usuarios.|
 
+|                      | Hypothesis |
+|----------------------|------------|
+| Question        | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas? |
+| Belief          | Al permitir que los usuarios marquen veterinarias como favoritas, se reducirá el tiempo que tardan en buscarlas y aumentará la probabilidad de que repitan citas en esas mismas clínicas. |
+| Hypothesis       | Se espera que al menos el 40% de los usuarios que marquen una veterinaria como favorita agenden su siguiente cita con esa misma clínica en un plazo de 30 días. |
+| Null Hypothesis  | La opción de guardar veterinarias favoritas no influirá significativamente en la elección de clínica ni en el tiempo que toma agendar una cita. |
+
 ### 8.2.2. Measures
 
 | Question | ¿Un Modo Oscuro mejoraría la experiencia? |
@@ -86,6 +108,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Question | ¿Los recordatorios automáticos ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?  |
 |----------|-----------|
 | Measure | Medir la cantidad de vacunas registradas como "cumplidas a tiempo", comparando el comportamiento de los usuarios antes y después de habilitar los recordatorios. También se pueden usar encuestas de percepción sobre la utilidad del sistema.|
+
+| Question | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?  |
+|----------|-----------|
+| Measure | Medir la frecuencia con la que los usuarios agendan citas con clínicas marcadas como favoritas y el tiempo promedio que tardan en agendar una cita desde que ingresan a la app. Comparar esto con usuarios que no usan la función de favoritos.|
 
 ### 8.2.3. Conditions
 
@@ -98,6 +124,11 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 |----------|-----------|
 | Condición Experimental | 	El porcentaje de cumplimiento de vacunas a tiempo será igual o mayor al 60% entre los usuarios que recibieron recordatorios. |
 | Condición de Control | 	El porcentaje de cumplimiento de vacunas a tiempo se mantendrá igual o por debajo del comportamiento base (< 40%) en usuarios sin recordatorios. |
+
+| Question | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas? |
+|--------------|---------------------------------------------|
+| Condición Experimental | Al menos el 40% de los usuarios que guardaron una veterinaria como favorita agendarán su siguiente cita con la misma clínica en un plazo de 30 días. |
+| Condición de Control | No habrá una diferencia significativa en la elección de clínicas entre los usuarios que usan favoritos y los que no. |
 
 ### 8.2.4. Scale Calculations and Decisions.
 <table>
@@ -121,6 +152,13 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
     <td>X</td>
   </tr>
 </table>
+
+
+| **Scale Calculation** | **Decision** | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+|-----------------------|--------------|------------------|----------------|------------|----------------|
+| Creemos que, al permitir guardar veterinarias como favoritas, los usuarios agendarán con mayor rapidez y frecuencia con clínicas conocidas. Sabremos que esto es cierto cuando al menos el 40% de los usuarios que usen esta función reserven su siguiente cita con una clínica favorita en los próximos 30 días. | Se habilitará un botón con ícono de estrella en el perfil de cada clínica veterinaria para marcarla como favorita y se mostrará una sección de acceso rápido a esas clínicas en el inicio de la app. |  |  |  | **X** |
+
+
 ### 8.2.5. Methods Selection.
 
 | Herramienta | Google Analytics | Catchpoint | Amazon Redline13 | Lighthouse |
