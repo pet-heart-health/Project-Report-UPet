@@ -159,8 +159,30 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
     <td>Excelente</td>
   </tr>
   <tr>
-    <td>Creemos que, al añadir el modo oscuro, la comodidad visual de los usuarios aumentará en un 30%. Sabremos que esto es cierto cuando el tiempo de uso de la aplicación por parte del 50% de los usuarios aumente en un 30%.</td>
+    <td>Creemos que, al añadir recordatorios para vacunas, los dueños de mascotas cumplirán a tiempo con las vacunas de sus animales. Sabremos que esto es cierto cuando el porcentaje de cumplimiento de vacunas a tiempo será igual o mayor al 60% entre los usuarios que recibieron recordatorios.</td>
     <td>Implementaremos un botón en el menú lateral de la aplicación que, al presionarse, intercambiaré entre modos de color.</td>
+    <td></td>
+    <td></td>
+    <td>X</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td rowspan="2"><strong>Scale Calculation</strong></td>
+    <td rowspan="2"><strong>Decision</strong></td>
+    <td colspan="4"><strong>Factor</strong></td>
+  </tr>
+  <tr>
+    <td>Desfavorable</td>
+    <td>Aceptable</td>
+    <td>Ideal</td>
+    <td>Excelente</td>
+  </tr>
+  <tr>
+    <td>Creemos que, al permitir guardar veterinarias como favoritas, los usuarios agendarán con mayor rapidez y frecuencia con clínicas conocidas. Sabremos que esto es cierto cuando al menos el 40% de los usuarios que usen esta función reserven su siguiente cita con una clínica favorita en los próximos 30 días.</td>
+    <td>Se habilitará un botón con ícono de estrella en el perfil de cada clínica veterinaria para marcarla como favorita y se mostrará una sección de acceso rápido a esas clínicas en el inicio de la app.</td>
     <td></td>
     <td></td>
     <td></td>
@@ -168,18 +190,37 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
   </tr>
 </table>
 
-| **Scale Calculation**                                                                                                                                                                                                                                                                                             | **Decision**                                                                                                                                                                                         | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------- | --------- | ------------- |
-| Creemos que, al permitir guardar veterinarias como favoritas, los usuarios agendarán con mayor rapidez y frecuencia con clínicas conocidas. Sabremos que esto es cierto cuando al menos el 40% de los usuarios que usen esta función reserven su siguiente cita con una clínica favorita en los próximos 30 días. | Se habilitará un botón con ícono de estrella en el perfil de cada clínica veterinaria para marcarla como favorita y se mostrará una sección de acceso rápido a esas clínicas en el inicio de la app. |                  |               |           | **X**         |
+<table>
+  <tr>
+    <td rowspan="2"><strong>Scale Calculation</strong></td>
+    <td rowspan="2"><strong>Decision</strong></td>
+    <td colspan="4"><strong>Factor</strong></td>
+  </tr>
+  <tr>
+    <td>Desfavorable</td>
+    <td>Aceptable</td>
+    <td>Ideal</td>
+    <td>Excelente</td>
+  </tr>
+  <tr>
+    <td>Creemos que, al permitir guardar veterinarias como favoritas, los usuarios agendarán con mayor rapidez y frecuencia con clínicas conocidas. Sabremos que esto es cierto cuando al menos el 40% de los usuarios que usen esta función reserven su siguiente cita con una clínica favorita en los próximos 30 días.</td>
+    <td>Se habilitará un botón con ícono de estrella en el perfil de cada clínica veterinaria para marcarla como favorita y se mostrará una sección de acceso rápido a esas clínicas en el inicio de la app.</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>X</td>
+  </tr>
+</table>
+
 
 ### 8.2.5. Methods Selection.
 
 | Herramienta      | Google Analytics                                                                    | Catchpoint | Amazon Redline13 | Lighthouse |
 | ---------------- | ----------------------------------------------------------------------------------- | ---------- | ---------------- | ---------- |
-| Precio           | Plan gratis, y plan de pago en base a uso.                                          |            |                  |            |
-| Análisis         | Análisis de tráfico y uso de usuarios.                                              |            |                  |            |
-| Facilidad de Uso | Interfaz detallada, pero manejable.                                                 |            |                  |            |
-| Ventajas         | Amplia integración con otros servicios, y gran capacidad de generación de reportes. |            |                  |            |
+| Precio           | Plan gratis, y plan de pago en base a uso.                                          | Basado en suscripción, con pruebas gratuitas. | Gratuito con limitaciones. | Plan gratuito, disponible para ejecución local. |
+| Análisis         | Análisis de tráfico y uso de usuarios.                                              | Monitoreo exhaustivo de rendimiento y experiencia de usuario desde múltiples ubicaciones. | Análisis orientado a pruebas de carga y rendimiento de aplicaciones. | Análisis orientado a la experiencia de usuario, con métricas clave de rendimiento y accesibilidad. |
+| Facilidad de Uso | Interfaz detallada, pero manejable.                                                 | Interfaz avanzada, pero detallada y completa. | Información detallada y resumida sobre rendimiento. | Información resumida en valores clave que puntúan aspectos de la aplicación. |
+| Ventajas         | Amplia integración con otros servicios, y gran capacidad de generación de reportes. | Análisis en tiempo real desde diversas ubicaciones y dispositivos, ideal para empresas con usuarios globales. | Simulación de tráfico y pruebas de rendimiento bajo condiciones de carga. | Evaluación de accesibilidad, rendimiento y diseño con métricas claras para optimizar la experiencia del usuario. |
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 
@@ -189,7 +230,10 @@ Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas co
 
 Como se busca una optimización y mejora continua de la plataforma UPet, se monitorearán una serie de datos importantes durante el uso de la aplicación Web y aplicación Móvil por parte de los usuarios. Para eso, establecemos un plan compuesto por los siguientes pasos:
 
-1.
+1. Métricas de Uso: Se tomarán datos de uso de los usuarios de la aplicación, incluyendo dispositivo, ubicación, y tiempo de sesión.
+2. Encuestas: Se harán accesibles diversas encuestas para recopilar opiniones de los usuarios sobre la plataforma.
+3. Tasa de Retencion: Se evaluará el porcentaje de usuarios que siguen en la plataforma tras tiempo prolongado.
+4. Análisis Comparativo: Se compararán los datos en períodos distintos, para ver el estado actual de la plataforma.
 
 ## Capítulo IX: Bibliografía
 
