@@ -266,6 +266,11 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 
 Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación UPet para evaluar su desempeño y optimizar la experiencia de usuario:
+![Prueba Citas](../assets/lighthouse/appointments.png)
+![Prueba Clinicas](../assets/lighthouse/clinics.pngg)
+![Prueba Home](../assets/lighthouse/home.png)
+![Prueba Mascotas](../assets/lighthouse/pet-owner-pets.png)
+![Prueba Perfil](../assets/lighthouse/profile.png)
 
 ### 8.2.7. Web and Mobile Tracking Plan.
 
@@ -313,7 +318,7 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 - **Landing Page:** [Enlace al landing page](https://pet-heart-health.github.io/landing-page-upet/)
 - **Web Frontend:** [Enlace al proyecto web](https://frontend-app-upet.netlify.app)
 - **Aplicación Móvil:** [Enlace al proyecto móvil](URL_DEL_MOBILE)
-- **Backend:** [Enlace al backend](https://backend-app-upet-production.up.railway.app/docs#)
+- **Backend:** [Enlace al backend](https://web-production-4270c.up.railway.app/docs#)
 - **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
 - **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
 - **Vídeo TP:** [Enlace al vídeo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216558_upc_edu_pe/Eazd8BrgjJNBkK0j-dDMHiYBwBIH0VsMdtIp7s9Gd1zaLQ?e=h2Gugv)
