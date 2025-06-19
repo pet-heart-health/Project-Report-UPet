@@ -266,8 +266,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 
 Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación UPet para evaluar su desempeño y optimizar la experiencia de usuario:
+
+
 ![Prueba Citas](../assets/lighthouse/appointments.png)
-![Prueba Clinicas](../assets/lighthouse/clinics.pngg)
+![Prueba Clinicas](../assets/lighthouse/clinics.png)
 ![Prueba Home](../assets/lighthouse/home.png)
 ![Prueba Mascotas](../assets/lighthouse/pet-owner-pets.png)
 ![Prueba Perfil](../assets/lighthouse/profile.png)
