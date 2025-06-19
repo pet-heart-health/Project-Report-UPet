@@ -897,6 +897,90 @@ En esta sección, se presentan los requisitos definidos junto con el conjunto de
                 <td>EPIC-04</td>
             </tr>
             <tr>
+                <td>US-031</td>
+                <td>Compartir información</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder compartir información relevante sobre el perfil de mi mascota con veterinarios que no tienen acceso a la aplicación,
+                    <strong>para</strong> facilitar el intercambio de información y garantizar la atención adecuada de mi mascota incluso fuera de la red de la aplicación.
+                </td>
+                <td>
+                    <h5>Escenario 01:  Selección de información de perfil para el PDF</h5>
+                    <strong>Dado</strong> que el propietario está viendo el perfil de su mascota en la aplicación,
+                    <strong>cuando</strong> selecciona la opción para generar un PDF,
+                    <strong>Entonces</strong> se toma la información que se va incluir en el PDF.
+                    <br>
+                    <h5>Escenario 02: Generación de PDF</h5>
+                    <strong>Dado</strong> que el propietario de la mascota ha seleccionado la información deseada,
+                    <strong>cuando</strong> confirma la generación del PDF,
+                    <strong>Entonces</strong> la aplicación genera un archivo PDF bien formateado que contiene la información seleccionada.
+                    <br>
+                    <h5>Escenario 03: Descarga y compartición del PDF</h5>
+                    <strong>Dado</strong> que el propietario de la mascota ha generado el PDF,
+                    <strong>cuando</strong> selecciona la opción de “descargar historial”,
+                    <strong>Entonces</strong> el PDF se descarga en el dispositivo móvil del propietario.
+                </td>
+                <td>EPIC-04</td>
+            </tr>
+            <tr>
+                <td>US-032</td>
+                <td>Activar recordatorio</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota con una cita veterinaria programada,
+                    <strong>quiero</strong> poder activar un recordatorio en la aplicación,
+                    <strong>para</strong> recibir una notificación en la fecha y hora de la cita y asegurarme de no olvidarla.
+                </td>
+                <td>
+                    <h5>Escenario 01:  Recordatorio activado con éxito</h5>
+                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
+                    <strong>cuando</strong> activa el recordatorio seleccionando la opción correspondiente en la aplicación,
+                    <strong>Entonces</strong> la aplicación programa el recordatorio y muestra una confirmación al usuario.
+                    <br>
+                    <h5>Escenario 02: Error al activar el recordatorio</h5>
+                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
+                    <strong>cuando</strong>  intenta activar el recordatorio, pero la aplicación no puede programarlo debido a un error técnico,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje de error y sugiere al usuario intentarlo más tarde o contactar con soporte técnico.
+                    <br>
+                    <h5>Escenario 03: Fecha u hora incorrecta al activar el recordatorio</h5>
+                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
+                    <strong>cuando</strong> el usuario activa el recordatorio pero selecciona una fecha o hora incorrecta,
+                    <strong>Entonces</strong> la aplicación muestra un mensaje indicando que la fecha u hora seleccionada no son válidas y solicita al usuario que corrija la configuración del recordatorio.
+                </td>
+                <td>EPIC-04</td>
+            </tr>
+             <tr>
+            <td>US-033</td>
+                <td>Cancelar cita</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder cancelar una cita veterinaria previamente programada,
+                    <strong>para</strong> poder gestionar mejor mi agenda y evitar problemas de horarios.
+                </td>
+                <td>
+                    <h5>Escenario 01:  Cancelación de cita exitosa</h5>
+                    <strong>Dado</strong> el usuario tiene una cita veterinaria programada y está en la pantalla de activación de recordatorio,
+                    <strong>cuando</strong> activa el recordatorio seleccionando la opción correspondiente en la aplicación,
+                    <strong>Entonces</strong> la aplicación programa el recordatorio y muestra una confirmación al usuario.
+                </td>
+                <td>EPIC-03</td>
+            </tr>
+             <tr>
+            <td>US-034</td>
+                <td>Recordatorio de cita</td>
+                <td>
+                    <strong>Como</strong> propietario de mascota,
+                    <strong>quiero</strong> recibir recordatorios de las citas veterinarias previamente agendadas,
+                    <strong>para</strong> no olvidar la cita y organizarme mejor
+                </td>
+                <td>
+                    <h5>Escenario 01:  Recepción de recordatorio de cita</h5>
+                    <strong>Dado</strong> el propietario tiene la función de recibir recordatorios activada,
+                    <strong>cuando</strong> se acerca la fecha y hora de la cita veterinaria,
+                    <strong>Entonces</strong>  la aplicación envía un recordatorio con la fecha, hora y lugar de la cita.
+                </td>
+                <td>EPIC-04</td>
+            </tr>
+            <tr>
                 <td>TS-001</td>
                 <td>Endpoint Medical History</td>
                 <td>
@@ -1432,9 +1516,53 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
                  <td>TS-005</td>
                 <td>Implementar Seguridad al Iniciar Sesión</td>
                 <td>
-                    <strong>Como</strong> desarrollador frontend, 
-                    <strong>quiero</strong> una capa de seguridad al iniciar sesión
-                    <strong>para</strong> evitar que usuarios maliciosos entren a la aplicación.
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder compartir información relevante sobre el perfil de mi mascota con veterinarios que no tienen acceso a la aplicación,
+                    <strong>para</strong> facilitar el intercambio de información y garantizar la atención adecuada de mi mascota incluso fuera de la red de la aplicación.
+                </td>
+                <td>2</td>
+            </tr>
+              <tr>
+                <td>36</td>
+                 <td>US-031</td>
+                <td>Confirmar cita</td>
+                <td>
+                    <strong>Como</strong> propietario de mascota,
+                    <strong>quiero</strong> poder confirmar una cita veterinaria previamente agendada,
+                    <strong>para</strong> asegurarme de que la cita está programada y evitar confusiones.
+                </td>
+                <td>2</td>
+            </tr>
+               <tr>
+                <td>37</td>
+                 <td>US-032</td>
+                <td>Activar recordatorio</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota con una cita veterinaria programada,
+                    <strong>quiero</strong> poder activar un recordatorio en la aplicación,
+                    <strong>para</strong> recibir una notificación en la fecha y hora de la cita y asegurarme de no olvidarla.
+                </td>
+                <td>2</td>
+            </tr>
+               <tr>
+                <td>38</td>
+                 <td>US-033</td>
+                <td>Cancelar cita</td>
+                <td>
+                    <strong>Como</strong> propietario de una mascota,
+                    <strong>quiero</strong> poder cancelar una cita veterinaria previamente programada,
+                    <strong>para</strong> poder gestionar mejor mi agenda y evitar problemas de horarios.
+                </td>
+                <td>2</td>
+            </tr>
+               <tr>
+                <td>39</td>
+                 <td>US-034</td>
+                <td>Recordatorio de cita</td>
+                <td>
+                    <strong>Como</strong> propietario de mascota,
+                    <strong>quiero</strong> recibir recordatorios de las citas veterinarias previamente agendadas,
+                    <strong>para</strong> no olvidar la cita y organizarme mejor
                 </td>
                 <td>2</td>
             </tr>
