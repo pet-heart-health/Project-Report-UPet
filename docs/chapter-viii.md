@@ -55,8 +55,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                                                                                                     | 8 - Varias aplicaciones lo tienen, y el porcentaje de uso es notable.                                                                                                                                                  | 2 - Bajo riesgo, ya que es una funcionalidad sencilla de colores                                                                          | 5 - Mejora la experiencia, pero no es esencial.                                                                                                                       | 5 - Interés moderado en los usuarios.                                                                                                           | 20          |
 | ¿La implementación de recordatorios de vacunación aumentará el cumplimiento del calendario de salud de las mascotas?                                                                                          | 7 – Es una práctica común en apps de salud y organización, pero no tenemos datos específicos de nuestros usuarios aún.                                                                                                 | 3 – Riesgo bajo-moderado: requiere integración con historial médico y sistema de notificaciones.                                          | 8 – Tiene alto impacto en la salud de las mascotas y fidelización de usuarios.                                                                                        | 7 – Alta probabilidad de interés: dueños responsables valoran el cuidado preventivo.                                                            | 25          |
 | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?                                                                                   | 7 – Varias plataformas similares permiten guardar elementos favoritos; es una práctica común                                                                                                                           | 2 – Bajo riesgo técnico, ya que no modifica el código existente                                                                           | 5 – Mejora la experiencia, pero no es una funcionalidad crítica.                                                                                                      | 6 – Probable interés entre usuarios frecuentes o con clínicas de preferencia.                                                                   | 20          |
-| ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? | 6 – El uso de wearables en mascotas está creciendo (más del 30 % de adopción en EE. UU.; 65 % de veterinarios ven valor en la detección temprana) . Además, la telemedicina veterinaria ya es una práctica establecida | 4 – Requiere integración con sensores externos, validación de datos y configuración de canales remotos; implica nivel técnico medio‑alto. | 9 – Alta relevancia: permite detección precoz de enfermedades, reduce visitas innecesarias al veterinario y mejora la fidelización al ofrecer previsión y autonomía . | 8 – Los usuarios cada vez están más interesados en herramientas tecnológicas que les aporten control y tranquilidad (GPS, salud, teleconsultas) | 27          |
-|                                                                                                                                                                                                               |                                                                                                                                                                                                                        |                                                                                                                                           |                                                                                                                                                                       |
+| ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? | 6 – El uso de wearables en mascotas está creciendo (más del 30 % de adopción en EE. UU.; 65 % de veterinarios ven valor en la detección temprana) . Además, la telemedicina veterinaria ya es una práctica establecida | 4 – Requiere integración con sensores externos, validación de datos y configuración de canales remotos; implica nivel técnico medio‑alto. | 9 – Alta relevancia: permite detección precoz de enfermedades, reduce visitas innecesarias al veterinario y mejora la fidelización al ofrecer previsión y autonomía . | 8 – Los usuarios cada vez están más interesados en herramientas tecnológicas que les aporten control y tranquilidad (GPS, salud, teleconsultas) | 27          |                                 
 
 ### 8.1.4. Question Backlog
 
@@ -65,8 +64,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | 1         | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                   |
 | 2         | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?                                  |
 | 3         | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas? |
-|           |                                                                                                                             |
-|           |                                                                                                                             |
+| 3         | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |                                                                                                                         |
 
 ### 8.1.5. Experiment Cards
 
@@ -76,8 +74,8 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | What       | Implementar un botón que cambie entre ambos modos de color.                                                                                                             |
 | Hypothesis | Se espera que, al añadir el modo oscuro, el tiempo de uso de la aplicación por parte del 50% de los usuarios aumente en un 30%.                                         |
 
-| Question   | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?                                                                                                                     |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Question   | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?  |
+| ---------- | ------------------------------------------------------------------------------------------- |
 | Why        | Porque muchos usuarios no llevan un control estricto del calendario de vacunación de sus mascotas, lo que puede afectar su salud. Un recordatorio automático podría ayudarles a no olvidar fechas importantes. |
 | What       | Implementar una funcionalidad que permita registrar fechas de vacunación y enviar notificaciones previas al usuario (por ejemplo, 3 días antes, 1 día antes y el mismo día).                                   |
 | Hypothesis | Se espera que, con los recordatorios activos, al menos el 60% de los usuarios registrados con mascotas vacunadas cumplan sus citas a tiempo durante el primer mes.                                             |
@@ -87,6 +85,12 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Why        | Porque al permitir que los usuarios marquen como favoritas las clínicas de su confianza, se facilitará el acceso a ellas, promoviendo agendamientos más rápidos y recurrentes. |
 | What       | Habilitar un botón con ícono de estrella en el perfil de cada clínica para marcarla como favorita y mostrar una sección especial con acceso rápido en el inicio de la app.     |
 | Hypothesis | Se espera que al menos el 40% de los usuarios que marquen una veterinaria como favorita agenden su siguiente cita con esa misma clínica en un plazo de 30 días.                |
+
+| Question   | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios?                                                                                                                               |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Why        | Al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas. |
+| What       | Implementar integración IoT entre la plataforma y un dispositivo físico para las mascotas.                                                                                                             |
+| Hypothesis | Se espera que, al integrar datos de wearables, el número de citas con veterinarios aumente en un 20% al mes.                                         |
 
 # 8.2. Experiment Design
 
@@ -113,6 +117,13 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Hypothesis      | Se espera que al menos el 40% de los usuarios que marquen una veterinaria como favorita agenden su siguiente cita con esa misma clínica en un plazo de 30 días.                           |
 | Null Hypothesis | La opción de guardar veterinarias favoritas no influirá significativamente en la elección de clínica ni en el tiempo que toma agendar una cita.                                           |
 
+|                 | Hypothesis                                                                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Question        | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios?                                                                                                                               |
+| Belief          | Al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas. |
+| Hypothesis      | Se espera que, al integrar datos de wearables, el número de citas con veterinarios aumente en un 20% al mes.                                          |
+| Null Hypothesis | Al integrar datos de wearables, el número de citas con veterinarios no aumentará en gran medida.                                       |
+
 ### 8.2.2. Measures
 
 | Question | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                                                                                  |
@@ -126,6 +137,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Question | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?                                                                                                                     |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Measure  | Medir la frecuencia con la que los usuarios agendan citas con clínicas marcadas como favoritas y el tiempo promedio que tardan en agendar una cita desde que ingresan a la app. Comparar esto con usuarios que no usan la función de favoritos. |
+
+| Question | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios?                                                                                                                     |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Medir la frecuencia con la que los usuarios en promedio agendan citas con clínicas veterinarias, tras la integración de los datos con wearables. |
 
 ### 8.2.3. Conditions
 
@@ -143,6 +158,11 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | Al menos el 40% de los usuarios que guardaron una veterinaria como favorita agendarán su siguiente cita con la misma clínica en un plazo de 30 días. |
 | Condición de Control   | No habrá una diferencia significativa en la elección de clínicas entre los usuarios que usan favoritos y los que no.                                 |
+
+| Question               | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios?                          |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Condición Experimental | Al menos en 20% aumentará la cantidad promedio de citas agendadas al mes. |
+| Condición de Control   | No habrá una diferencia significativa en la cantidad de citas agendadas al mes.                                 |
 
 ### 8.2.4. Scale Calculations and Decisions.
 
@@ -212,6 +232,27 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td rowspan="2"><strong>Scale Calculation</strong></td>
+    <td rowspan="2"><strong>Decision</strong></td>
+    <td colspan="4"><strong>Factor</strong></td>
+  </tr>
+  <tr>
+    <td>Desfavorable</td>
+    <td>Aceptable</td>
+    <td>Ideal</td>
+    <td>Excelente</td>
+  </tr>
+  <tr>
+    <td>Creemos que, al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas. Sabremos que esto es cierto cuando la cantidad promedio de citas agendadas al mes aumente en al menos un 20% tras la integración de datos con wearables.</td>
+    <td>Implementar integración IoT entre la plataforma y un dispositivo físico para las mascotas.</td>
+    <td></td>
+    <td></td>
+    <td>X</td>
+    <td></td>
+  </tr>
+</table>
 
 ### 8.2.5. Methods Selection.
 
@@ -234,6 +275,19 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 2. Encuestas: Se harán accesibles diversas encuestas para recopilar opiniones de los usuarios sobre la plataforma.
 3. Tasa de Retencion: Se evaluará el porcentaje de usuarios que siguen en la plataforma tras tiempo prolongado.
 4. Análisis Comparativo: Se compararán los datos en períodos distintos, para ver el estado actual de la plataforma.
+
+### 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con Epic ID |
+|-----|--------------|-------------------|-------------------------------|------------|
+| UA01 | Implementar Modo Oscuro | Como veterinario, quiero cambiar a un modo oscuro para tener una experiencia visual más placentera. | Scenario 1: Cambiar a Modo Oscuro <br> **Given**  |------------|
+| UA02 | Dar recordatorios de vacunas | Como propietario de mascota, quiero ver recordatorios de vacunas para prevenir mejor la salud de mi mascota. |------------|
+| UA03 | Guardar veterinarias como favoritas | Como propietario de mascota, quiero guardar clínicas como favoritas para seleccionar más rápido las clínicas que frecuento. |-------------------------------|------------|
+| UA04 | Integrar datos de telemedicina o wearables | Como propietario de mascota, quiero usar datos de telemedicina para estar más conciente del estado médico de mi mascota. |-------------------------------|------------|
+
+### 8.3.2. To-Be Product Backlog
 
 ## Capítulo IX: Bibliografía
 
