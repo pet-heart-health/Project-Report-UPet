@@ -280,14 +280,27 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 
 ### 8.3.1. To-Be User Stories
 
+| Epic ID | Título | User Story relacionadas |
+|-----|--------------|-----------------------|
+| EP01 | Mejoras visuales | UA01 |
+| EP02 | Mejoras funcionales | UA02, UA03 |
+| EP03 | Adiciones Grandes | UA04 |
+
 | User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con Epic ID |
 |-----|--------------|-------------------|-------------------------------|------------|
-| UA01 | Implementar Modo Oscuro | Como veterinario, quiero cambiar a un modo oscuro para tener una experiencia visual más placentera. | Scenario 1: Cambiar a Modo Oscuro <br> **Given**  |------------|
-| UA02 | Dar recordatorios de vacunas | Como propietario de mascota, quiero ver recordatorios de vacunas para prevenir mejor la salud de mi mascota. |------------|
-| UA03 | Guardar veterinarias como favoritas | Como propietario de mascota, quiero guardar clínicas como favoritas para seleccionar más rápido las clínicas que frecuento. |-------------------------------|------------|
-| UA04 | Integrar datos de telemedicina o wearables | Como propietario de mascota, quiero usar datos de telemedicina para estar más conciente del estado médico de mi mascota. |-------------------------------|------------|
+| UA01 | Implementar Modo Oscuro | Como veterinario, quiero cambiar a un modo oscuro para tener una experiencia visual más placentera. | Scenario 1: Cambiar a Modo Oscuro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**When** seleccione el Modo Oscuro<br>**Then** los colores de la plataforma cambiarán a unos más oscuros.<br><br>Scenario 2: Cambiar a Modo Claro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**And** esté en el Modo Oscuro<br>**When** seleccione el Modo Claro<br>**Then** los colores de la plataforma cambiarán a unos más claros. | EP01 |
+| UA02 | Dar recordatorios de vacunas | Como propietario de mascota, quiero ver recordatorios de vacunas para prevenir mejor la salud de mi mascota. | Scenario 1: Recordatorio de Vacuna<br><br>**Given** el propietario registró una vacuna<br>**When** pase la cantidad de tiempo que indica la dosis<br>**Then** el usuario recibe una notificación de recordatorio.<br><br>Scenario 2: Recordatorio saltado.<br><br>**Given** el propietario registró una vacuna<br>**And** se acerque la fecha para otra dosis<br>**When** registre otra vacuna antes de la fecha<br>**Then** no se emite un recordatorio.| EP02 |
+| UA03 | Guardar veterinarias como favoritas | Como propietario de mascota, quiero guardar clínicas como favoritas para seleccionar más rápido las clínicas que frecuento. | Scenario 1: Marcar como favorito<br><br>**Given** el propietario está en la página de una clínica<br>**When** seleccione Marcar Favorito<br>**Then** la clínica es registrada como un favorito.<br><br>Scenario 2: Quitar Favorito<br><br>**Given** el propietario está en la página de una clínica<br>**And** esté marcada como favorita<br>**When** seleccione Quitar Favorito<br>**Then** la clínica es borrada de la lista de favoritos. | EP02 |
+| UA04 | Integrar datos de telemedicina o wearables | Como propietario de mascota, quiero usar datos de telemedicina para estar más conciente del estado médico de mi mascota. | Scenario 1: Empezar Rastreo<br><br>**Given** la mascota tiene perfil<br>**And** tiene un dispositivo de telemedicina<br>**When** seleccione Empezar Rastreo<br>**Then** los datos de telemedicina empiezan a enviarse a la plataforma.<br><br>Scenario 2: Revisar Datos<br><br>**Given** la mascota tiene un dispositivo de telemedicina<br>**And** esté rastreando datos<br>**When** visite el perfil de mascote<br>**Then** los datos registrados se mostrarán. | EP03 |
 
 ### 8.3.2. To-Be Product Backlog
+
+| #Orden | User Story ID | Título | Story Points (1 / 2 / 3 / 5 / 8 |
+|-----|-------|---------------------------|----------|
+| 1 | UA03 | Guardar veterinarias como favoritas | 3 |
+| 2 | UA04 | Integrar datos de telemedicina o wearables | 8 |
+| 3 | UA02 | Dar recordatorios de vacunas | 5 |
+| 4 | UA01 | Implementar Modo Oscuro | 1 |
 
 ## Capítulo IX: Bibliografía
 
