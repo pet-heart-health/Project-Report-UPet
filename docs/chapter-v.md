@@ -1267,6 +1267,135 @@ utilizando WebStorm y Visual Studio Code como entornos de desarrollo. Esto impli
  <!---------------------------------------------------------------------- -->
 </table>
 
+#### 5.2.1.3. Sprint Backlog 3.
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 3</strong> </td>
+  </tr>
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!---------------------------------------------------------------------- -->
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">US031</td>
+    <td rowspan="3">Compartir información</td>
+   <td>TA01</td>
+    <td>Añadir Botón</td>
+    <td>Agregar botón al Frontend.</td>
+    <td>1</td>
+    <td>Fabrizio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Reunir información</td>
+    <td>Obtener información de perfil.</td>
+    <td>3</td>
+    <td>Fabrizio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Generar PDF</td>
+    <td>Generar archivo PDF.</td>
+    <td>3</td>
+    <td>Fabrizio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">US032</td>
+    <td rowspan="3">Activar recordatorio</td>
+    <td>TA01</td>
+    <td>Agregar Sección</td>
+    <td>Agregar sección al Frontend</td>
+    <td>2</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+   <td>TA02</td>
+    <td>Implementar diseño</td>
+    <td>Agregar diseño al Frontend.</td>
+    <td>2</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Implementar endpoint</td>
+    <td>Implementar endpoint.</td>
+    <td>5</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">US033</td>
+    <td rowspan="3">Cancelar cita</td>
+    <td>TA01</td>
+    <td>Agregar botón</td>
+    <td>Agregar botón al Frontend</td>
+    <td>2</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+   <td>TA02</td>
+    <td>Implementar diseño</td>
+    <td>Agregar diseño al Frontend.</td>
+    <td>2</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Implementar endpoint</td>
+    <td>Implementar endpoint.</td>
+    <td>5</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <!--rowspan="number of rows for the tasks (2)" -->
+    <td rowspan="3">US034</td>
+    <td rowspan="3">Recordatorio de cita</td>
+    <td>TA01</td>
+    <td>Agregar Sección</td>
+    <td>Agregar sección al Frontend</td>
+    <td>2</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+   <td>TA02</td>
+    <td>Implementar diseño</td>
+    <td>Agregar diseño al Frontend.</td>
+    <td>2</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Implementar endpoint</td>
+    <td>Implementar endpoint.</td>
+    <td>5</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+</table>
+
 #### 5.2.2. Implemented Landing Page Evidence.
 Para la entrega de este Sprint, se completó con éxito el despliegue de la Landing page.
 **Landing Page desplegada:** https://pet-heart-health.github.io/landing-page-upet/
