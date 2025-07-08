@@ -292,25 +292,222 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 | EP02    | Mejoras funcionales | UA02, UA03              |
 | EP03    | Adiciones Grandes   | UA04                    |
 
-| User Story ID | Título                                     | Descripción                                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                           | Relacionado con Epic ID |
-| ------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| UA01          | Implementar Modo Oscuro                    | Como veterinario, quiero cambiar a un modo oscuro para tener una experiencia visual más placentera.                         | Scenario 1: Cambiar a Modo Oscuro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**When** seleccione el Modo Oscuro<br>**Then** los colores de la plataforma cambiarán a unos más oscuros.<br><br>Scenario 2: Cambiar a Modo Claro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**And** esté en el Modo Oscuro<br>**When** seleccione el Modo Claro<br>**Then** los colores de la plataforma cambiarán a unos más claros.       | EP01                    |
-| UA02          | Dar recordatorios de vacunas               | Como propietario de mascota, quiero ver recordatorios de vacunas para prevenir mejor la salud de mi mascota.                | Scenario 1: Recordatorio de Vacuna<br><br>**Given** el propietario registró una vacuna<br>**When** pase la cantidad de tiempo que indica la dosis<br>**Then** el usuario recibe una notificación de recordatorio.<br><br>Scenario 2: Recordatorio saltado.<br><br>**Given** el propietario registró una vacuna<br>**And** se acerque la fecha para otra dosis<br>**When** registre otra vacuna antes de la fecha<br>**Then** no se emite un recordatorio.         | EP02                    |
-| UA03          | Guardar veterinarias como favoritas        | Como propietario de mascota, quiero guardar clínicas como favoritas para seleccionar más rápido las clínicas que frecuento. | Scenario 1: Marcar como favorito<br><br>**Given** el propietario está en la página de una clínica<br>**When** seleccione Marcar Favorito<br>**Then** la clínica es registrada como un favorito.<br><br>Scenario 2: Quitar Favorito<br><br>**Given** el propietario está en la página de una clínica<br>**And** esté marcada como favorita<br>**When** seleccione Quitar Favorito<br>**Then** la clínica es borrada de la lista de favoritos.                      | EP02                    |
-| UA04          | Integrar datos de telemedicina o wearables | Como propietario de mascota, quiero usar datos de telemedicina para estar más conciente del estado médico de mi mascota.    | Scenario 1: Empezar Rastreo<br><br>**Given** la mascota tiene perfil<br>**And** tiene un dispositivo de telemedicina<br>**When** seleccione Empezar Rastreo<br>**Then** los datos de telemedicina empiezan a enviarse a la plataforma.<br><br>Scenario 2: Revisar Datos<br><br>**Given** la mascota tiene un dispositivo de telemedicina<br>**And** esté rastreando datos<br>**When** visite el perfil de mascote<br>**Then** los datos registrados se mostrarán. | EP03                    |
+| User Story ID | Título                              | Descripción                                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Relacionado con Epic ID |
+| ------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
+| UA01          | Implementar Modo Oscuro             | Como veterinario, quiero cambiar a un modo oscuro para tener una experiencia visual más placentera.                         | Scenario 1: Cambiar a Modo Oscuro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**When** seleccione el Modo Oscuro<br>**Then** los colores de la plataforma cambiarán a unos más oscuros.<br><br>Scenario 2: Cambiar a Modo Claro<br><br>**Given** el veterinario ha accedido a la plataforma<br>**And** esté en el Modo Oscuro<br>**When** seleccione el Modo Claro<br>**Then** los colores de la plataforma cambiarán a unos más claros.                                                                                                                                       | EP01                    |
+| UA02          | Dar recordatorios de vacunas        | Como propietario de mascota, quiero ver recordatorios de vacunas para prevenir mejor la salud de mi mascota.                | Scenario 1: Recordatorio de Vacuna<br><br>**Given** el propietario registró una vacuna<br>**When** pase la cantidad de tiempo que indica la dosis<br>**Then** el usuario recibe una notificación de recordatorio.<br><br>Scenario 2: Recordatorio saltado.<br><br>**Given** el propietario registró una vacuna<br>**And** se acerque la fecha para otra dosis<br>**When** registre otra vacuna antes de la fecha<br>**Then** no se emite un recordatorio.                                                                                                                                         | EP02                    |
+| UA03          | Guardar veterinarias como favoritas | Como propietario de mascota, quiero guardar clínicas como favoritas para seleccionar más rápido las clínicas que frecuento. | Scenario 1: Marcar como favorito<br><br>**Given** el propietario está en la página de una clínica<br>**When** seleccione Marcar Favorito<br>**Then** la clínica es registrada como un favorito.<br><br>Scenario 2: Quitar Favorito<br><br>**Given** el propietario está en la página de una clínica<br>**And** esté marcada como favorita<br>**When** seleccione Quitar Favorito<br>**Then** la clínica es borrada de la lista de favoritos.                                                                                                                                                      | EP02                    |
+| UA04          | Integrar cambio de idioma           | Como propietario de mascota, quiero cambiar el idioma de la aplicación para usarla en mi idioma preferido.                  | Scenario 1: Cambiar Idioma<br><br>**Given** el usuario ha accedido a la configuración de la aplicación<br>**And** está disponible la opción de cambio de idioma<br>**When** seleccione un nuevo idioma<br>**Then** la interfaz de la aplicación se mostrará en el idioma seleccionado.<br><br>Scenario 2: Detección Automática<br><br>**Given** el usuario utiliza la aplicación por primera vez<br>**And** tiene configurado un idioma en su dispositivo<br>**When** inicie la aplicación<br>**Then** la aplicación se mostrará automáticamente en el idioma del dispositivo si está disponible. | EP03                    |
 
 ### 8.3.2. To-Be Product Backlog
 
-| #Orden | User Story ID | Título                                     | Story Points (1 / 2 / 3 / 5 / 8 |
-| ------ | ------------- | ------------------------------------------ | ------------------------------- |
-| 1      | UA03          | Guardar veterinarias como favoritas        | 3                               |
-| 2      | UA04          | Integrar datos de telemedicina o wearables | 8                               |
-| 3      | UA02          | Dar recordatorios de vacunas               | 5                               |
-| 4      | UA01          | Implementar Modo Oscuro                    | 1                               |
+| #Orden | User Story ID | Título                              | Story Points (1 / 2 / 3 / 5 / 8 ) |
+| ------ | ------------- | ----------------------------------- | --------------------------------- |
+| 1      | UA03          | Guardar veterinarias como favoritas | 3                                 |
+| 2      | UA04          | Integrar cambio de idioma           | 3                                 |
+| 3      | UA02          | Dar recordatorios de vacunas        | 5                                 |
+| 4      | UA01          | Implementar Modo Oscuro             | 1                                 |
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="1">Sprint #</td>
+    <td colspan="7">Sprint 1</td>
+  </tr>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">WorkItem/Task</td>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Story Points)</td>
+    <td>Assigned to</td>
+    <td>Status</td>
+  </tr>
+  
+  <!-- UA03: Guardar veterinarias como favoritas -->
+  <tr>
+    <td rowspan="5">UA03</td>
+    <td rowspan="5">Guardar veterinarias como favoritas</td>
+    <td>TK01</td>
+    <td>Crear modelo de datos</td>
+    <td>Diseñar e implementar el modelo para almacenar clínicas favoritas</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK02</td>
+    <td>Implementar API</td>
+    <td>Desarrollar endpoints para marcar/desmarcar favoritos</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK03</td>
+    <td>Crear componente UI</td>
+    <td>Implementar botón de favorito y su funcionalidad</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK04</td>
+    <td>Listar favoritos</td>
+    <td>Crear sección para mostrar clínicas favoritas</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK05</td>
+    <td>Pruebas</td>
+    <td>Validar funcionalidad completa</td>
+    <td>1</td>
+    <td>Joseph Herrera</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- UA04: Integrar cambio de idioma -->
+  <tr>
+    <td rowspan="5">UA04</td>
+    <td rowspan="5">Integrar cambio de idioma</td>
+    <td>TK06</td>
+    <td>Configurar i18n</td>
+    <td>Implementar sistema base de internacionalización</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK07</td>
+    <td>Archivos de idioma</td>
+    <td>Crear traducciones para español e inglés</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK08</td>
+    <td>Selector de idioma</td>
+    <td>Implementar interfaz para seleccionar idioma</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK09</td>
+    <td>Detección automática</td>
+    <td>Detectar idioma del sistema y aplicarlo</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK10</td>
+    <td>Validación</td>
+    <td>Revisar que todas las pantallas muestren correctamente el idioma</td>
+    <td>1</td>
+    <td>Marcelo Rentería</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- UA02: Dar recordatorios de vacunas -->
+  <tr>
+    <td rowspan="6">UA02</td>
+    <td rowspan="6">Dar recordatorios de vacunas</td>
+    <td>TK11</td>
+    <td>Modelo de vacunas</td>
+    <td>Diseñar esquema de datos para vacunas y recordatorios</td>
+    <td>1</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK12</td>
+    <td>API de vacunas</td>
+    <td>Crear endpoints para gestión de vacunas</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK13</td>
+    <td>Sistema de notificaciones</td>
+    <td>Implementar servicio de envío de recordatorios</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK14</td>
+    <td>Interfaz de programación</td>
+    <td>Desarrollar UI para programar fechas de vacunas</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK15</td>
+    <td>Lógica de fechas</td>
+    <td>Implementar cálculo automático para próximas dosis</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK16</td>
+    <td>Pruebas</td>
+    <td>Validar recordatorios en diferentes escenarios</td>
+    <td>2</td>
+    <td>Fabricio Apaza</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- UA01: Implementar Modo Oscuro -->
+  <tr>
+    <td rowspan="4">UA01</td>
+    <td rowspan="4">Implementar Modo Oscuro</td>
+    <td>TK17</td>
+    <td>Sistema de temas</td>
+    <td>Crear estructura base para temas claro/oscuro</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK18</td>
+    <td>Paleta de colores</td>
+    <td>Definir colores para modo oscuro</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK19</td>
+    <td>Toggle de tema</td>
+    <td>Implementar botón para cambiar entre modos</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TK20</td>
+    <td>Persistencia</td>
+    <td>Almacenar preferencia de tema del usuario</td>
+    <td>1</td>
+    <td>Diego Flores</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ### 8.3.4. To-Be Validation Interviews
 
