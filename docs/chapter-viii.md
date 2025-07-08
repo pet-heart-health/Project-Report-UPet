@@ -699,6 +699,67 @@ Soporta tanto detección automática como selector manual (UA04)
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+1. Prototipo interactivo en Figma
+Se creó un prototipo funcional en Figma que refleja las pantallas clave de Upet, incluyendo:
+
+    - Selector de clínicas favoritas
+
+    - Programación de recordatorios de vacunas
+
+    - Cambio de idioma (autodetección y opción manual)
+
+    - Modo oscuro/claro
+
+Este prototipo fue iterado tras recibir feedback de al menos 10 usuarios en una fase temprana. Las sesiones de test permitieron ajustar: el posicionamiento de botones, etiquetas de interfaz y flujos de navegación, garantizando que cada funcionalidad se presentara de forma clara y accesible. El prototipo documenta cada versión (v0.1, v0.2, v0.3), evidenciando la evolución del diseño.
+
+2. Encuesta en Google Forms
+Se lanzó una encuesta de validación tras la primera ronda de tests con Figma. Algunos ejemplos de preguntas incluidas:
+
+    - “¿Qué tan intuitiva te resultó la sección de clínicas favoritas?” (escala de 1–5)
+
+    - “¿El recordatorio de vacuna fue claro en su propósito?”
+
+    - “¿Encontraste útil la opción de cambio de idioma automático/manual?”
+
+    - “¿Preferirías usar modo oscuro según la hora del día?”
+
+La encuesta recogió respuestas de 20 participantes, ofreciendo métricas cuantitativas como:
+
+- 85 % consideró “muy útil” la funcionalidad de favoritos
+
+- 90 % valoró los recordatorios de vacunas como “esenciales”
+
+- 75 % prefirió un selector de idioma complementado con detección automática
+
+Los resultados guiaron decisiones concretas: mover el botón de “favoritos” al menú principal, reforzar las confirmaciones visuales de recordatorio, y activar detección de tema según horario local.
+
+3. Mapa de afinidad (Affinity Mapping)
+Tras analizar transcripciones de entrevistas y comentarios de la encuesta, se construyó un mapa de afinidad digital (usando Figma o Miro). Se agruparon más de 150 insights en clusters como “Usabilidad del idioma”, “Frecuencia de recordatorios”, “Confianza en veterinarios”, y “Preferencias visuales”. Este artefacto organizó las decisiones del backlog y facilitó el consenso en reuniones de equipo.
+
+4. Sesión de Shareback con stakeholders
+Se organizó una “shareback session” en formato taller interno, donde se presentaron:
+
+    - El prototipo en Figma
+
+    - Resultados de la encuesta y visualización gráfica (barra y pastel)
+
+    - Mapa de afinidad destacando temas emergentes
+
+    - Testimonios (quotes) como:
+
+“Me pareció muy práctico acceder en un clic a mis clínicas favoritas.”
+“Valoro que la app sugiera el idioma sin que tenga que cambiarlo manualmente.”
+
+Los asistentes (incluyendo diseñadores, desarrolladores y product owner) votaron por priorizar ajustes en UI, como mover funciones clave a posiciones más visibles y simplificar la navegación de idioma.
+
+| Artefacto             | Propósito                                  | Impacto / Aprendizaje clave           |
+| --------------------- | ------------------------------------------ | ------------------------------------- |
+| Prototipo Figma       | Simular y validar flujos principales       | Mejora iterativa de UI                |
+| Encuesta Google Forms | Medir satisfacción y utilidad de funciones | Datos cuantitativos para decisiones   |
+| Mapa de afinidad      | Organizar insights cualitativos            | Trazabilidad entre feedback y backlog |
+| Sesión de shareback   | Compartir aprendizajes y consenso          | Alineación de equipo y prioridades    |
+
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
