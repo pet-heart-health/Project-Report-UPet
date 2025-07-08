@@ -511,7 +511,38 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+![landing](../assets/landing/landing1.png)
+
+![landing](../assets/landing/landing2.png)
+
+![landing](../assets/landing/landing3.png)
+
+![landing](../assets/landing/landing4.png)
+
+![landing](../assets/landing/landing5.png)
+
+![landing](../assets/landing/landing6.png)
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+- Cambio de idioma
+
+![frontend](../assets/frontend/front1.jpg)
+
+- Guardar veterinaria como favorito
+
+![frontend](../assets/frontend/front2.jpg)
+
+- Agregar recordatoroio de vacuna
+
+![frontend](../assets/frontend/front3.jpg)
+
+- Modo oscuro
+
+![frontend](../assets/frontend/front4.jpg)
+
+![frontend](../assets/frontend/front5.jpg)
+
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
