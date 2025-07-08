@@ -316,6 +316,22 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 
 #### 8.3.4.1. Diseño de Entrevistas
 
+1. Háblame de una ocasión en que usaste o no el modo oscuro en una app. ¿Qué te gustó o te molestó?
+
+2. ¿En qué situaciones te sería útil o incómodo usar el modo oscuro en nuestra app?
+
+3. Cuéntame cómo recuerdas las vacunas de tu mascota. ¿Alguna vez se te ha olvidado alguna y qué pasó?
+
+4. ¿Cómo reaccionas cuando recibes recordatorios de salud (como SMS o alertas)? ¿Qué te hace actuar o ignorarlos?
+
+5. Cuéntame cómo fue tu última experiencia agendando una cita. ¿Eligiste una clínica conocida o tuviste que buscar una nueva?
+
+6. ¿Qué te parecería tener acceso directo a tus clínicas favoritas desde el inicio de la app?
+
+7. ¿Has cambiado el idioma en otra app? ¿Cómo y por qué lo hiciste?
+
+8. ¿Preferirías que la app detecte tu idioma automáticamente o que tú lo elijas? ¿Por qué?
+
 #### 8.3.4.2. Registro de Entrevistas
 
 ## Capítulo IX: Bibliografía
