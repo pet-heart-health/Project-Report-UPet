@@ -651,7 +651,49 @@ Entrevistas: Propietarios de mascotas
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+Edad: 18–55 años (media 28), con 60 % entre 20–30 años.
+
+70 % dueños de perro, 30 % perros + gatos.
+
+80 % reside en Lima metropolitana (Chosica, Ate, San Isidro, Surco).
+
+1. Recordatorios de vacunas
+18/20 participantes dijeron que es "muy útil" o "crucial".
+
+“Olvidé dosis por trabajo”, replicado en 16 testimonios.
+Interpretación:
+Es una necesidad real y frecuente. Justifica la priorización en el backlog (UA02).
+
+2. Clínicas favoritas
+15/20 mencionaron querer acceso rápido a clínicas preferidas.
+
+“Marcar y acceder rápidamente” citado por 12 participantes.
+Interpretación:
+Alta demanda, valida la historia UA03.
+
+3. Modo oscuro
+9/20 lo usan frecuentemente en apps; 6/20 totalmente indiferentes.
+
+Comentario notable: “útil en la noche o con poca luz”.
+Interpretación:
+Tiene impacto moderado y rápida implementación (Story Points = 1).
+
+4. Cambio de idioma
+12/20 prefieren elección manual, 5/20 lo aceptarían automático + manual.
+
+“Elijo manualmente, pero estaría bien que lo sugiera al inicio”.
+Interpretación:
+Soporta tanto detección automática como selector manual (UA04)
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Tema                      | Menciones | Impacto | Viabilidad | Prioridad  |
+| ------------------------- | --------- | ------- | ---------- | ---------- |
+| Recordatorios vacunas     | 18/20     | Alto    | Alta       | ⭐ Muy alta |
+| Clínicas favoritas        | 15/20     | Alto    | Alta       | ⭐ Muy alta |
+| Cambio de idioma          | 17/20     | Medio   | Alta       | ⭐ Alta     |
+| Modo oscuro               | 9/20      | Medio   | Alta       | ⭐ Media    |
+
 
 ## 8.5. Continuous Learning
 
