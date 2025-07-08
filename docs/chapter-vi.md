@@ -79,3 +79,80 @@ Usando Selenium IDE, hemos probado el funcionamiento de las pantallas principale
 
 **Registrar Cuenta**
 ![Registrar Cuenta](../assets/cst-9.png)
+
+### 6.3.2. Registro de Entrevistas.
+
+Entrevista Segmento Dueño de Mascotas
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado</th>
+                <th>Karen Mora</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Randy Rengifo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>33 </td>
+            </tr>
+            <tr>
+                <td>Pais</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td><img src="https://i.postimg.cc/xC9GNYR5/image.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                    Karen nos indica que el diseño a la aplicacion es muy intuitivo y completa, Tambien menciona que si en un futuro se pueda implementar para el monitero de la glucosa de la mascota.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 08:28:28  </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://drive.google.com/file/d/1G4MbjdGH8B0AXOwp2vBNSZ6iA7ldb3D3/view?usp=sharing</td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado</th>
+                <th>Julio Reyes</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Enzo Trujillo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>20 </td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Los Olivos</td>
+            </tr>
+            <tr>
+                <td><img src="https://i.postimg.cc/7LtGVBTn/image.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                   El entrevistado expresó que el prototipo de IoT para monitoreo de signos vitales fue bien recibido. También destacó que la gestión de citas veterinarias era muy eficiente y rápida.
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 02:24 </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://youtu.be/qJxjZNYhkA4</td>
+            </tr>
+        </tbody>
+</table>
