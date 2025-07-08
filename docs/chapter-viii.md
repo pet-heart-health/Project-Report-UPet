@@ -541,6 +541,81 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 
 #### 8.3.4.2. Registro de Entrevistas
 
+Entrevistas: Propietarios de mascotas
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 1</th>
+                <th>Silvana Taboada</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Fabricio Apaza</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad del entrevistado</td>
+                <td>20 </td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Ate</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.postimg.cc/FFZfcPh7/Captura-de-pantalla-2025-07-08-102734.png" alt="Foto de la entrevista"></td>
+                <td><strong>Resumen:</strong><br>
+                    El entrevistado, Silvana, de 20 años, exploró la aplicación Upet como parte de una entrevista de validación y tuvo una experiencia bastante positiva. Le pareció una app organizada, fácil de usar y con funciones útiles como el registro de mascotas, historial médico, agendamiento de citas y notificaciones. Destacó que le gustaría poder acceder rápidamente a sus clínicas favoritas y comentó que, en ocasiones, ha olvidado vacunas por estar ocupada, por lo que valora mucho los recordatorios. También mencionó que prefiere elegir el idioma de la app, aunque le parecería práctico que se detecte automáticamente. Un punto importante que señaló fue la confianza en los veterinarios: le gustaría ver más información sobre ellos, ya que si son nuevos en la plataforma no le generan tanta seguridad. En general, le gustó la propuesta y dijo que definitivamente descargaría la aplicación.</td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 22:00 minutos</td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201922146_upc_edu_pe/EVev-Nbsy91NgmV9WCpNCw4BQyeSIshTpireV2Jc12bkww?e=8vVKrq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td>
+            </tr>
+        </tbody>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>Entrevistado 2</th>
+                <th>Betsabé López</th>
+            </tr>
+            <tr>
+                <th>Entrevistador</th>
+                <th>Diego Flores</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Edad</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Distrito</td>
+                <td>Chosica</td>
+            </tr>
+            <tr>
+                <td><img width="300" src="https://i.postimg.cc/5jdVR3Nr/Captura-de-pantalla-2025-07-08-104347.png" alt="imagen-2024-09-06-005207237"></td>
+                <td><strong>Resumen:</strong><br>
+                El entrevistado, Betsabé López, es una estudiante de 17 años que vive en Chosica y convive actualmente con un perro y un gato. Relata experiencias previas con varias mascotas y destaca la importancia de poder gestionar su bienestar, especialmente ante situaciones de salud o extravío. Utiliza actualmente Instagram y WhatsApp para buscar y comunicarse con veterinarias, pero considera muy útil una aplicación que le permita centralizar información médica, recibir alertas sobre campañas y promociones, y comunicarse directamente con profesionales. También se muestra interesada en integrar la app con dispositivos IoT, como collares con GPS o comederos inteligentes, siempre que se consideren aspectos como el costo, la privacidad y la adaptación del animal. Su testimonio aporta información valiosa para definir funcionalidades clave de la aplicación, enfocadas en la salud, seguridad y seguimiento de las mascotas de manera accesible y práctica.         
+                </td>
+            </tr>
+            <tr>
+                <td>Timing de la entrevista</td>
+                <td> 17:55 minutos </td>
+            </tr>
+            <tr>
+                <td>URL de la entrevista</td>
+                <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u201922146_upc_edu_pe/EWQg8ETyw4FJsrC9irBZ5XUBQ6b3uB0jBviIqnCECI6uwA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=cq6gdx</td>
+            </tr>
+        </tbody>
+</table>
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
