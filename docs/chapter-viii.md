@@ -26,7 +26,7 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 
 - _Frecuencia de citas en la misma clínica_: No se sabe cuántos usuarios repiten de clínica veterinaria en sus citas, ni si realmente necesitan una opción de “favoritos”
 
-- _Integración con telemedicina o wearables_: Falta saber si los usuarios desean integrar información de dispositivos inteligentes (como collares con GPS o wearables de salud) o consultas remotas con veterinarios, y hasta qué punto esto influiría en su satisfacción y uso frecuente .
+- _Cambio de idioma_: Falta información sobre si los usuarios requieren que la aplicación esté disponible en múltiples idiomas, especialmente considerando que muchos dueños de mascotas pueden preferir usar la aplicación en su idioma nativo para una mejor comprensión de términos médicos veterinarios.
 
 **Ideas:**
 
@@ -50,21 +50,22 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 
 ### 8.1.3. Experiment-Ready Questions
 
+
 | Question                                                                                                                                                                                                      | Confidence                                                                                                                                                                                                             | Risk                                                                                                                                      | Impact                                                                                                                                                                | Interest                                                                                                                                        | Total Score |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                                                                                                     | 8 - Varias aplicaciones lo tienen, y el porcentaje de uso es notable.                                                                                                                                                  | 2 - Bajo riesgo, ya que es una funcionalidad sencilla de colores                                                                          | 5 - Mejora la experiencia, pero no es esencial.                                                                                                                       | 5 - Interés moderado en los usuarios.                                                                                                           | 20          |
 | ¿La implementación de recordatorios de vacunación aumentará el cumplimiento del calendario de salud de las mascotas?                                                                                          | 7 – Es una práctica común en apps de salud y organización, pero no tenemos datos específicos de nuestros usuarios aún.                                                                                                 | 3 – Riesgo bajo-moderado: requiere integración con historial médico y sistema de notificaciones.                                          | 8 – Tiene alto impacto en la salud de las mascotas y fidelización de usuarios.                                                                                        | 7 – Alta probabilidad de interés: dueños responsables valoran el cuidado preventivo.                                                            | 25          |
 | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?                                                                                   | 7 – Varias plataformas similares permiten guardar elementos favoritos; es una práctica común                                                                                                                           | 2 – Bajo riesgo técnico, ya que no modifica el código existente                                                                           | 5 – Mejora la experiencia, pero no es una funcionalidad crítica.                                                                                                      | 6 – Probable interés entre usuarios frecuentes o con clínicas de preferencia.                                                                   | 20          |
-| ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? | 6 – El uso de wearables en mascotas está creciendo (más del 30 % de adopción en EE. UU.; 65 % de veterinarios ven valor en la detección temprana) . Además, la telemedicina veterinaria ya es una práctica establecida | 4 – Requiere integración con sensores externos, validación de datos y configuración de canales remotos; implica nivel técnico medio‑alto. | 9 – Alta relevancia: permite detección precoz de enfermedades, reduce visitas innecesarias al veterinario y mejora la fidelización al ofrecer previsión y autonomía . | 8 – Los usuarios cada vez están más interesados en herramientas tecnológicas que les aporten control y tranquilidad (GPS, salud, teleconsultas) | 27          |
+| ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                                                                     | 6 – Es una práctica común en aplicaciones globales, especialmente importante en contextos médicos donde la comprensión precisa es crucial                                                                              | 2 – Bajo riesgo técnico: implementación estándar de i18n                                                                                 | 7 – Alto impacto en accesibilidad y comprensión de términos médicos veterinarios, especialmente para usuarios no nativos del idioma principal                        | 8 – Alto interés: usuarios valoran poder usar apps en su idioma preferido para mejor comprensión                                              | 23          |
 
 ### 8.1.4. Question Backlog
 
-| Prioridad | Pregunta                                                                                                                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| 1         | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                                                                                                     |
-| 2         | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?                                                                                                                    |
-| 3         | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?                                                                                   |
-| 3         | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |     |
+| Prioridad | Pregunta                                                                                                                                                                      |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | ¿Un Modo Oscuro mejoraría la experiencia?                                                                                                                                     |
+| 2         | ¿Los recordatorios ayudarán a que los dueños de mascotas cumplan a tiempo con las vacunas?                                                                                    |
+| 3         | ¿Permitir guardar veterinarias como favoritas mejora la rapidez para agendar y refuerza la relación con clínicas conocidas?                                                   |
+| 4         | ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                                     |
 
 ### 8.1.5. Experiment Cards
 
@@ -86,11 +87,11 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | What       | Habilitar un botón con ícono de estrella en el perfil de cada clínica para marcarla como favorita y mostrar una sección especial con acceso rápido en el inicio de la app.     |
 | Hypothesis | Se espera que al menos el 40% de los usuarios que marquen una veterinaria como favorita agenden su siguiente cita con esa misma clínica en un plazo de 30 días.                |
 
-| Question   | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Why        | Al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas.                                                                                      |
-| What       | Implementar integración IoT entre la plataforma y un dispositivo físico para las mascotas.                                                                                                                    |
-| Hypothesis | Se espera que, al integrar datos de wearables, el número de citas con veterinarios aumente en un 20% al mes.                                                                                                  |
+| Question   | ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                                     |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Why        | Muchos usuarios prefieren usar aplicaciones en su idioma nativo para mejor comprensión, especialmente en contextos médicos donde la precisión en la comunicación es crucial. |
+| What       | Implementar sistema de internacionalización (i18n) con soporte para múltiples idiomas y detección automática del idioma del dispositivo.                                      |
+| Hypothesis | Se espera que al menos el 70% de los usuarios que cambien el idioma a su preferido muestren mayor tiempo de uso y satisfacción con la aplicación.                            |
 
 # 8.2. Experiment Design
 
@@ -119,10 +120,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 
 |                 | Hypothesis                                                                                                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Question        | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |
-| Belief          | Al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas.                                                                                      |
-| Hypothesis      | Se espera que, al integrar datos de wearables, el número de citas con veterinarios aumente en un 20% al mes.                                                                                                  |
-| Null Hypothesis | Al integrar datos de wearables, el número de citas con veterinarios no aumentará en gran medida.                                                                                                              |
+| Question        | ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                                            |
+| Belief          | Los usuarios valoran poder usar aplicaciones en su idioma preferido, especialmente en contextos médicos donde la comprensión precisa es fundamental.                                |
+| Hypothesis      | Se espera que al menos el 70% de los usuarios que cambien el idioma a su preferido muestren mayor tiempo de uso y satisfacción con la aplicación.                                   |
+| Null Hypothesis | La implementación de cambio de idioma no generará un cambio significativo en el tiempo de uso ni en la satisfacción de los usuarios.                                                |
 
 ### 8.2.2. Measures
 
@@ -138,9 +139,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Measure  | Medir la frecuencia con la que los usuarios agendan citas con clínicas marcadas como favoritas y el tiempo promedio que tardan en agendar una cita desde que ingresan a la app. Comparar esto con usuarios que no usan la función de favoritos. |
 
-| Question | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Measure  | Medir la frecuencia con la que los usuarios en promedio agendan citas con clínicas veterinarias, tras la integración de los datos con wearables.                                                              |
+
+| Question | ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                                            |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Medir el tiempo de sesión promedio y puntuación de satisfacción (mediante encuestas) de usuarios que utilizan la aplicación en diferentes idiomas, comparando antes y después del cambio. |
 
 ### 8.2.3. Conditions
 
@@ -159,10 +161,10 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
 | Condición Experimental | Al menos el 40% de los usuarios que guardaron una veterinaria como favorita agendarán su siguiente cita con la misma clínica en un plazo de 30 días. |
 | Condición de Control   | No habrá una diferencia significativa en la elección de clínicas entre los usuarios que usan favoritos y los que no.                                 |
 
-| Question               | ¿La integración de datos de wearables (actividad, ritmo cardíaco, ubicación) y/o consultas remotas con veterinarios mejora la detección temprana de problemas de salud y el vínculo usuario-app-veterinarios? |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Condición Experimental | Al menos en 20% aumentará la cantidad promedio de citas agendadas al mes.                                                                                                                                     |
-| Condición de Control   | No habrá una diferencia significativa en la cantidad de citas agendadas al mes.                                                                                                                               |
+| Question               | ¿Implementar cambio de idioma mejorará la accesibilidad y satisfacción de usuarios que prefieren usar la aplicación en su idioma nativo?                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Condición Experimental | Al menos el 70% de los usuarios que cambien a su idioma preferido mostrarán mayor satisfacción y tiempo de uso que aquellos que usan el idioma por defecto. |
+| Condición de Control   | No habrá diferencia significativa en satisfacción y tiempo de uso entre usuarios que usan diferentes idiomas.                                               |
 
 ### 8.2.4. Scale Calculations and Decisions.
 
@@ -245,8 +247,8 @@ La aplicación actual se centra en ofrecer una plataforma para facilitar el cont
     <td>Excelente</td>
   </tr>
   <tr>
-    <td>Creemos que, al integrar datos de wearables, la detección temprana de problemas de salud sería más fácil para los dueños de mascotas. Sabremos que esto es cierto cuando la cantidad promedio de citas agendadas al mes aumente en al menos un 20% tras la integración de datos con wearables.</td>
-    <td>Implementar integración IoT entre la plataforma y un dispositivo físico para las mascotas.</td>
+    <td>Creemos que, al implementar cambio de idioma, los usuarios tendrán mejor comprensión y satisfacción con la aplicación. Sabremos que esto es cierto cuando al menos el 70% de los usuarios que cambien a su idioma preferido muestren mayor satisfacción y tiempo de uso.</td>
+    <td>Implementar sistema de internacionalización (i18n) con selector de idioma y detección automática del idioma del dispositivo.</td>
     <td></td>
     <td></td>
     <td>X</td>
