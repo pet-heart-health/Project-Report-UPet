@@ -548,6 +548,8 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+![mobile](../assets/to-be-mobile.png)
+
 #### 8.3.3.5. Implemented To-Be RESTfulAPI and/or Serverless Backend Evidence
 
 ![backend](../assets/backend/backend1.png)
@@ -559,6 +561,12 @@ Como se busca una optimización y mejora continua de la plataforma UPet, se moni
 ![backend](../assets/backend/backend4.png)
 
 #### 8.3.3.6. Team Collaboration Insights
+
+![backend](../assets/insights_e_m.png)
+
+![backend](../assets/insights_e_f.png)
+
+![backend](../assets/insights_e_b.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -769,11 +777,6 @@ Los asistentes (incluyendo diseñadores, desarrolladores y product owner) votaro
 | Mapa de afinidad      | Organizar insights cualitativos            | Trazabilidad entre feedback y backlog |
 | Sesión de shareback   | Compartir aprendizajes y consenso          | Alineación de equipo y prioridades    |
 
-
-## 8.6. To-Be Software Platform Pre-launch
-
-### 8.6.1. About-the-Product Intro Video
-
 ## Capítulo IX: Bibliografía
 
 1. **Tull Soriano, Luis Federico.** _Prototipo de monitor de signos vitales en pacientes veterinarios de especie canina utilizando IoT._ Universidad Nacional Pedro Henríquez Ureña, 2021. [https://repositorio.unphu.edu.do/handle/123456789/3485](https://repositorio.unphu.edu.do/handle/123456789/3485)
@@ -789,3 +792,4 @@ Los asistentes (incluyendo diseñadores, desarrolladores y product owner) votaro
 - **Mockups:** [Enlace a los mockups](https://www.figma.com/design/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=0-1&node-type=canvas&t=WLj5vcz6RIZRcTvT-0)
 - **Prototipo:** [Enlace a los mockups](https://www.figma.com/proto/HG5VxSXVvjfVC0BGdiWywi/IOT---Mobile-Application?node-id=64-5609&node-type=canvas&t=WLj5vcz6RIZRcTvT-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=64%3A5606&show-proto-sidebar=1)
 - **Vídeo TP:** [Enlace al vídeo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216558_upc_edu_pe/Eazd8BrgjJNBkK0j-dDMHiYBwBIH0VsMdtIp7s9Gd1zaLQ?e=h2Gugv)
+- **Vídeo TF:** [Enlace al vídeo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216558_upc_edu_pe/EbkQv9nZEXhGg1oj8AHajikByW0He1eyTAJO6TFfwMGZHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rzIt2C)
