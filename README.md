@@ -57,6 +57,15 @@ Abril, 2025.
      - Experimentos<br>
      - Capítulo 5 al 8<br>
     </tr>
+    <tr>
+        <td colspan="3">4ta</td>
+    <td colspan="3">08/7/2024</td>
+    <td colspan="10">Héctor Marcelo Rentería Puga, Josehp Piero Herrera del Pino, Fabricio Apaza Morales, Diego Flores Avalos.</td>
+    <td colspan="5">
+     - Cuarta versión<br>
+     - Experimentos<br>
+     - Capítulo 8<br>
+    </tr>
   </table>
 
 ## Índice:
@@ -165,7 +174,8 @@ Capítulo VI: Product Verification & Validation<br>
 6.1.1. Core Entities Unit Tests.<br>
 6.1.2. Core Integration Tests.<br>
 6.1.3. Core Behavior-Driven Development<br>
-6.1.4. Core System Tests.](https://github.com/pet-heart-health/Project-Report-UPet/blob/chapter-vi/docs/chapter-vi.md)
+6.1.4. Core System Tests.<br>
+6.3.2. Registro de Entrevistas.](https://github.com/pet-heart-health/Project-Report-UPet/blob/chapter-vi/docs/chapter-vi.md)
 
 
 [Capítulo VII: DevOps Practices<br>
@@ -203,7 +213,21 @@ Capítulo VIII: Experiment-Driven Development<br>
 8.2.7. Web and Mobile Tracking Plan.<br>
 8.3. Experimentation<br>
 8.3.1. To-Be User Stories.<br>
-8.3.2. To-Be Product Backlog](https://github.com/pet-heart-health/Project-Report-UPet/blob/chapter-viii/docs/chapter-viii.md)
+8.3.2. To-Be Product Backlog<br>
+8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle<br>
+8.3.3.1. To-Be Sprint Backlogs<br>
+8.3.3.2. Implemented To-Be Landing Page Evidence<br>
+8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+8.3.3.5. Implemented To-Be RESTfulAPI and/or Serverless Backend Evidence<br>
+8.3.3.6. Team Collaboration Insights<br>
+8.3.4. To-Be Validation Interviews<br>
+8.3.4.1. Diseño de Entrevistas<br>
+8.4. Experiment Aftermath & Analysis<br>
+8.4.1. Analysis and Interpretation of Results<br>
+8.4.2. Re-scored and Re-prioritized Question Backlog<br>
+8.5. Continuous Learning<br>
+8.5.1. Shareback Session Artifacts: Learning Workflow](https://github.com/pet-heart-health/Project-Report-UPet/blob/chapter-viii/docs/chapter-viii.md)
 
 ## Project Report Collaboration Insights
 
@@ -222,6 +246,7 @@ Se divieron las siguientes ramas para la colaboración en el proyecto:
 - chapter-v
 - chapter-vi
 - chapter-vii
+- chapter-viii
 
 A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primera entrega. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
 
